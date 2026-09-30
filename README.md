@@ -19,7 +19,13 @@ python3 -m http.server 4173 --bind 127.0.0.1
 3. 如果首次推送早于 Pages 设置，在 **Actions → Publish itinerary to GitHub Pages → Run workflow** 手动启动一次。
 4. 成功后在 Pages 设置或 Actions 部署记录中打开实际发布地址。
 
-配置依照 [GitHub Pages 官方说明](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。工作流只发布 `index.html`、`styles.css`、`app.js`、`data.js` 和 `assets/`；相对路径兼容仓库子路径。后续推送网站改动到 `main` 会触发此工作流；首次发布需按上述步骤配置 Pages。
+配置依照 [GitHub Pages 官方说明](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。工作流只发布 `index.html`、`styles.css`、`app.js`、`data.js`、`locales.js` 和 `assets/`；相对路径兼容仓库子路径。后续推送网站改动到 `main` 会触发此工作流；首次发布需按上述步骤配置 Pages。
+
+## 语言与手机布局
+
+右上角可切换中文、English、日本語，默认为中文，选择保存在本机浏览器中。切换保留当前日期、页面、已展开的详情和阅读位置。行程、预订、地图页面与导出的CSV文字使用所选语言；给司机看的日文地址、地图链接及原始图片不变。
+
+手机端隐藏每日标题下的标签，页面顶部不显示品牌标题。日期栏可横向滑动，页面标签和日期栏随阅读置顶；每日动线可横向滚动，行程时间置于通栏卡片上方。
 
 ## 内容维护
 
@@ -32,7 +38,8 @@ python3 -m http.server 4173 --bind 127.0.0.1
 每日住宿卡片：入住日和退房日默认展开，续住日默认折叠；“预订资料”页始终完整显示住宿卡片。
 
 - `data.js`：日期、活动、餐饮、航班、酒店、待确认项以及来源。
-- `app.js`：日期导航、详情展开、截图弹窗和地图 CSV 下载。
+- `app.js`：日期导航、语言切换、详情展开、截图弹窗和地图 CSV 下载。
+- `locales.js`：中文原文对应的英文、日文文案。新增行程内容时同步补充翻译；地图查询、地址、截图保持原值。
 - `styles.css`：手机与电脑布局。
 - `assets/bookings/`：机票、酒店和餐厅预订截图；隐藏订单号及个人信息。
 - `assets/guides/`：用户提供的攻略图片；10/12 浅草行程附景点路线图和小吃攻略图，起点为浅草文化观光中心；抹茶店和小吃以用户 Google Maps 收藏为准。银座行程附购物攻略图及 LOFT 等候选店铺地图。
