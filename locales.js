@@ -2099,5 +2099,135 @@ window.TRIP_TRANSLATIONS = {
   "有乐町": [
     "Yurakucho",
     "有楽町"
+  ],
+
+  "海味 · 青山店官网与地址": [
+    "Umi · Aoyama official website and address",
+    "海味 · 青山店公式サイト・住所"
+  ],
+  "海味 · 食べログ店铺资料": [
+    "Umi · Tabelog restaurant information",
+    "海味 · 食べログ店舗情報"
+  ],
+  "明治神宫、代代木公园、原宿、表参道，海味晚餐后去涩谷。": [
+    "Meiji Jingu, Yoyogi Park, Harajuku and Omotesando; Shibuya after dinner at Umi.",
+    "明治神宮、代々木公園、原宿、表参道。海味で夕食後、渋谷へ。"
+  ],
+  "17:00 海味已预订": [
+    "17:00 Umi confirmed",
+    "17:00 海味予約済み"
+  ],
+  "饭后涩谷夜景": [
+    "Shibuya night views after dinner",
+    "夕食後に渋谷の夜景"
+  ],
+  "表参道 / Cat Street": [
+    "Omotesando / Cat Street",
+    "表参道 / キャットストリート"
+  ],
+  "海味 17:00": [
+    "Umi 17:00",
+    "海味 17:00"
+  ],
+  "表参道 / Cat Street · 购物与咖啡": [
+    "Omotesando / Cat Street · shopping and coffee",
+    "表参道 / キャットストリート · 買い物・カフェ"
+  ],
+  "午餐后逛原宿、Cat Street 与表参道，约 16:15 结束购物，前往南青山海味。": [
+    "Shop in Harajuku, Cat Street and Omotesando after lunch. Finish around 16:15 and head to Umi in Minami-Aoyama.",
+    "昼食後は原宿、キャットストリート、表参道を散策。16:15頃に買い物を終え、南青山の海味へ。"
+  ],
+  "表参道 → 南青山海味": [
+    "Omotesando → Umi, Minami-Aoyama",
+    "表参道 → 南青山・海味"
+  ],
+  "从表参道站一带步行约 15–20 分钟；从表参道 Hills 约 20–25 分钟。预留 30 分钟，约 16:45 到店。": [
+    "About 15–20 minutes on foot from Omotesando Station, or 20–25 minutes from Omotesando Hills. Allow 30 minutes and arrive around 16:45.",
+    "表参道駅周辺から徒歩約15〜20分、表参道ヒルズから約20〜25分。30分確保し、16:45頃に到着。"
+  ],
+  "海味 · 南青山寿司 Omakase": [
+    "Umi · sushi omakase in Minami-Aoyama",
+    "海味 · 南青山の鮨おまかせ"
+  ],
+  "10/11 17:00，两人，Omakase Course；用餐时间 2 小时。地址：東京都港区南青山3-2-8 三南ビル1F。": [
+    "Oct 11, 17:00, two guests, Omakase Course; two-hour seating. Address: 東京都港区南青山3-2-8 三南ビル1F.",
+    "10/11 17:00、2名、おまかせコース。滞在時間2時間。住所：東京都港区南青山3-2-8 三南ビル1F。"
+  ],
+  "海味 · 10/11 17:00 两人预约确认": [
+    "Umi · Oct 11, 17:00 reservation for two",
+    "海味 · 10/11 17:00 2名の予約確認"
+  ],
+  "海味 · 套餐与两小时用餐确认": [
+    "Umi · course and two-hour seating confirmation",
+    "海味 · コース・2時間滞在の確認"
+  ],
+  "Omakase Course ¥44,800 / 人（含税），另加 10% 服务费。两人餐费加服务费约 ¥98,560；酒水另计。": [
+    "Omakase Course: ¥44,800 per person including tax, plus a 10% service charge. Food and service for two: about ¥98,560; drinks extra.",
+    "おまかせコース：1名¥44,800（税込）、サービス料10%別。2名の料理・サービス料合計は約¥98,560。飲み物別。"
+  ],
+  "通过食べログ预约。到店出示确认邮件或预约记录；餐饮费用当天在餐厅支付。": [
+    "Booked through Tabelog. Show your confirmation email or reservation record on arrival; pay for food and drinks at the restaurant on the day.",
+    "食べログで予約済み。来店時は確認メールまたは予約記録を提示。料理・飲み物代は当日店舗で支払い。"
+  ],
+  "海味 → 涩谷": [
+    "Umi → Shibuya",
+    "海味 → 渋谷"
+  ],
+  "步行约 5–8 分钟至外苑前站，乘银座线往涩谷方向，2 站到涩谷；含出站步行约 20–30 分钟。": [
+    "Walk about 5–8 minutes to Gaiemmae Station, then take the Ginza Line toward Shibuya for two stops. About 20–30 minutes including walking out of the station.",
+    "外苑前駅まで徒歩約5〜8分。銀座線の渋谷方面に乗り、2駅で渋谷へ。駅からの徒歩を含め約20〜30分。"
+  ],
+  "海味步行至外苑前站。": [
+    "Walk from Umi to Gaiemmae Station.",
+    "海味から外苑前駅へ徒歩。"
+  ],
+  "乘银座线往涩谷方向，经表参道到涩谷。": [
+    "Take the Ginza Line toward Shibuya, via Omotesando.",
+    "銀座線の渋谷方面に乗り、表参道を経て渋谷へ。"
+  ],
+  "出站后步行前往涩谷十字路口与八公像。": [
+    "Walk from the station to Shibuya Crossing and Hachiko.",
+    "駅を出て渋谷スクランブル交差点とハチ公像へ。"
+  ],
+  "JR 山手线到新宿，再步行至歌舞伎町，全程约 25–35 分钟。": [
+    "Take the JR Yamanote Line to Shinjuku, then walk to Kabukicho. About 25–35 minutes in total.",
+    "JR山手線で新宿へ。その後、歌舞伎町まで徒歩。全体で約25〜35分。"
+  ],
+  "涩谷打卡后 / 酒吧后": [
+    "After Shibuya sightseeing / drinks",
+    "渋谷散策後 / バーの後"
+  ],
+  "17:00 海味 · 两人寿司 Omakase · 已预订": [
+    "17:00 Umi · sushi omakase for two · confirmed",
+    "17:00 海味 · 2名の鮨おまかせ · 予約済み"
+  ],
+  "确定午餐餐厅": [
+    "Choose a lunch restaurant",
+    "昼食の店を決める"
+  ],
+  "海味、京丹波晚餐已预订": [
+    "Umi and Kyotanba dinners confirmed",
+    "海味・京丹波の夕食予約済み"
+  ],
+  "，已隐藏个人信息和预约编号": [
+    ", personal information and reservation number hidden",
+    "（個人情報・予約番号は非表示）"
+  ],
+  "约 19:30–20:00": [
+    "Around 19:30–20:00",
+    "19:30〜20:00頃"
+  ],
+  "约 21:15 起 · 可选": [
+    "From around 21:15 · optional",
+    "21:15頃〜 · 任意"
+  ],
+  "19:00–约 19:30": [
+    "19:00–around 19:30",
+    "19:00〜19:30頃"
+  ],
+  "约 20:40–21:15 · 可选": [
+    "Around 20:40–21:15 · optional",
+    "20:40〜21:15頃 · 任意"
   ]
+
 };

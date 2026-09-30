@@ -1,6 +1,6 @@
 // Public trip data only. Booking identifiers and original documents stay in .private/.
 window.TRIP = {
-  updated: '2026-09-29',
+  updated: '2026-09-30',
   itineraryVersion: 'word-provisional',
   sources: {
     meiji: {title:'明治神宫官方开放时间', url:'https://www.meijijingu.or.jp/en/opening/'},
@@ -11,6 +11,8 @@ window.TRIP = {
     tsukiji: {title:'筑地市场官方营业说明', url:'https://www.tsukiji.or.jp/calendar/'},
     yakitoriOptions: {title:'10/12 烧鸟候选 · 照片、套餐与两人余位', url:'assets/guides/yakitori-oct12/'},
     kyotanba: {title:'银座京丹波 · OMAKASE 套餐与预约', url:'https://omakase.in/r/ju354312'},
+    umi: {title:'海味 · 青山店官网与地址', url:'https://sushi-umi.co.jp/shop/aoyama/'},
+    umiTabelog: {title:'海味 · 食べログ店铺资料', url:'https://tabelog.com/tokyo/A1306/A130603/13001179/'},
     aramaki: {title:'新まき · OMAKASE 预约与店铺资料', url:'https://omakase.in/r/wz508015'},
     takahashi: {title:'高はし · TableCheck 预约日历', url:'https://www.tablecheck.com/ja/shops/yakitoritakahashi/reserve?start_date=2026-10-12&num_people=2'},
     tower: {title:'东京塔官方开放时间', url:'https://ticket.tokyotower.co.jp/'},
@@ -45,7 +47,7 @@ window.TRIP = {
         {name:'FamilyMart · 日本桥本町二丁目店',kind:'便利店 · 备用',walk:'约 5–7 分钟',hours:'24 小时营业',address:'東京都中央区日本橋本町二丁目6番7号',query:'ファミリーマート 日本橋本町二丁目店 東京都中央区日本橋本町2-6-7',detail:'便当、饭团、炸鸡、饮料。',sourceUrl:'https://store.family.co.jp/points/59147',sourceTitle:'FamilyMart 官方门店资料',status:'备用'},
         {name:'なか卯 · 日本桥本石町店',kind:'简餐 · 亲子丼 / 乌冬',walk:'约 7–9 分钟',hours:'04:00–次日 03:00 · 03:00–04:00 休息',address:'東京都中央区日本橋本石町3-2-3 日本橋オリーブビル',query:'なか卯 日本橋本石町店 東京都中央区日本橋本石町3-2-3',detail:'亲子丼、乌冬；堂食或外带。',sourceUrl:'https://maps.nakau.co.jp/jp/detail/2555.html',sourceTitle:'なか卯官方门店资料',status:'备用'}
       ]}],meals:{lunch:'机上用餐',dinner:'日本桥いちり寿喜烧 · Walk-in；附近简餐 / 便利店备用'},todo:['落实包车接机']},
-    {date:'2026-10-11',city:'东京',group:'东京',title:'明治神宫，原宿逛到涩谷',subtitle:'明治神宫、代代木公园、原宿、表参道与涩谷夜景。',hotel:'tokyo',tags:['预计 07:00 酒店出发','17:30 起涩谷夜景','东京第 2 晚'],route:['原宿早餐','明治神宫','代代木公园','原宿','表参道','Cat Street','涩谷路口 / 八公像','Scramble Square 12F','晚餐','歌舞伎町 / 酒吧（待定）'],events:[
+    {date:'2026-10-11',city:'东京',group:'东京',title:'明治神宫，原宿逛到涩谷',subtitle:'明治神宫、代代木公园、原宿、表参道，海味晚餐后去涩谷。',hotel:'tokyo',tags:['预计 07:00 酒店出发','17:00 海味已预订','饭后涩谷夜景','东京第 2 晚'],route:['原宿早餐','明治神宫','代代木公园','原宿','表参道 / Cat Street','海味 17:00','涩谷路口 / 八公像','Scramble Square 12F','歌舞伎町 / 酒吧（待定）'],events:[
       {time:'07:00–约 07:45',title:'酒店 → 原宿 / 明治神宫前',status:'预计',type:'交通',detail:'地铁全程约 40–50 分钟，含步行和换乘；预计 07:40–07:50 抵达原宿一侧。',steps:['从酒店进入三越前站，乘半藏门线往涩谷方向至表参道。','换乘千代田线往代代木上原方向，1 站到明治神宫前。','从 2 号出口一侧出站，步行至原宿站周边早餐店。'],origin:'Mitsui Garden Hotel Nihonbashi Premier Tokyo 東京都中央区日本橋室町3-4-4',place:'Harajuku Station Tokyo'},
       {time:'约 07:45–08:30',title:'原宿 · 咖啡与早餐',status:'待选',type:'餐饮',detail:'早到可吃 Doutor；猿田彦 08:00 开门。',options:[
         {name:'Doutor Coffee · 原宿店',kind:'最早开门 · 三明治与咖啡',walk:'约 2–4 分钟',origin:'Harajuku Station Tokyo',originLabel:'原宿站',hours:'周日 06:45–21:00 · 早餐套餐至 10:30',address:'東京都渋谷区神宮前1-13-18 第2大英ビル',query:'ドトールコーヒーショップ 原宿店 神宮前1-13-18',detail:'连锁咖啡店，适合到原宿后直接吃一顿简单早餐。',sourceUrl:'https://shop.doutor.co.jp/doutor/spot/detail?code=1010451',sourceTitle:'Doutor 官方门店资料',status:'候选'},
@@ -59,14 +61,15 @@ window.TRIP = {
         {name:'AFURI · 原宿店',kind:'拉面 · 原宿站旁',walk:'约 3–5 分钟 · 竹下口一侧',origin:'Harajuku Station Tokyo',originLabel:'原宿站',hours:'10:00–23:00 · 年中无休 · 汤售完可能提前结束',address:'東京都渋谷区千駄ヶ谷3-63-1 グランデフォレスタ1F',query:'AFURI 原宿 千駄ヶ谷3-63-1',detail:'若中午仍在原宿站、竹下通附近，可选这家拉面。门店仅接受无现金支付。',sourceUrl:'https://afuri.com/findus/',sourceTitle:'AFURI 官方门店资料',status:'候选'},
         {name:'やさい家めい · 表参道 Hills 店',kind:'日式御膳 · 商场楼内',walk:'约 5 分钟至商场 · 另计上楼',origin:'Omotesando Station Tokyo',originLabel:'表参道站',hours:'周日午餐 11:00–16:00 · 最后点单 15:30',address:'東京都渋谷区神宮前4-12-10 表参道ヒルズ本館3F',query:'やさい家めい 表参道ヒルズ店 神宮前4-12-10',detail:'在表参道 Hills 本馆 3F，若已逛到这栋商场，可直接上楼。以蔬菜、发酵料理和日式御膳为主；周末菜单见官网。',sourceUrl:'https://yasaiya-mei.com/1647/',sourceTitle:'店铺官网 · 周末午餐菜单',status:'候选'}
       ]},
-      {time:'13:15–16:30',title:'表参道 · 购物与咖啡',status:'预计',type:'游逛',detail:'午餐后继续逛表参道、原宿周边的小店，喝咖啡、休息。原宿站到表参道站纯步行约 15–20 分钟。',places:['Omotesando Tokyo','Harajuku Tokyo']},
-      {time:'16:30–17:30',title:'表参道 → Cat Street → 涩谷',status:'预计',type:'交通',detail:'沿 Cat Street 边走边逛，约 17:30 到涩谷路口。纯步行约 25–35 分钟，预留 1 小时。',origin:'Omotesando Hills Tokyo',place:'Shibuya Scramble Crossing Tokyo',travelMode:'walking',places:['Cat Street Shibuya','Shibuya Scramble Crossing Tokyo']},
-      {time:'17:30–18:00',title:'涩谷路口与忠犬八公像 · 打卡',status:'预计',type:'景点',detail:'拍十字路口夜景，再去涩谷站八公口旁的忠犬八公像；两处步行约 2–3 分钟。',places:['Shibuya Scramble Crossing Tokyo','Hachiko Memorial Statue Shibuya Tokyo']},
-      {time:'18:00–18:40',title:'Shibuya Scramble Square · 12 楼夜景',status:'预计',type:'景点',detail:'从八公像步行到大楼、上 12 楼约 10–15 分钟。餐厅层公共窗边可俯瞰涩谷路口，免费，无需预约；留约 20–25 分钟拍照。餐厅层营业 11:00–23:00。',place:'Shibuya Scramble Square Tokyo 渋谷2-24-12',source:'scrambleSquare',extraSource:'scrambleSquareView'},
-      {time:'暂留 18:45–20:45',title:'寿司 + 酒肴 omakase',status:'待定',type:'餐饮',detail:'暂留 2 小时用餐；餐厅、到店交通和实际预约时间待定。'},
-      {time:'约 20:45–21:20 · 可选',title:'涩谷 → 新宿歌舞伎町',status:'待定',type:'交通',detail:'若晚餐在涩谷：JR 山手线到新宿，再步行至歌舞伎町，全程约 25–35 分钟。',origin:'Shibuya Station Tokyo',place:'Kabukicho Shinjuku Tokyo'},
-      {time:'约 21:20–22:00 · 可选',title:'歌舞伎町 / 酒吧',status:'待定',type:'游逛',detail:'候选：新宿歌舞伎町、Golden Gai。',places:['Kabukicho Shinjuku Tokyo','Shinjuku Golden Gai Tokyo']},
-      {time:'晚饭后 / 酒吧后',title:'返回日本桥酒店',status:'预计',type:'交通',detail:'涩谷出发：银座线直达三越前，含步行约 35–45 分钟。若去歌舞伎町：步行至新宿三丁目，丸之内线到赤坂见附换银座线至三越前，全程约 45–55 分钟。',origin:'Shibuya Station Tokyo',place:'Mitsui Garden Hotel Nihonbashi Premier Tokyo 東京都中央区日本橋室町3-4-4'}],meals:{breakfast:'原宿咖啡早餐 · Doutor / 猿田彦待选',lunch:'原宿 / 表参道附近 · 待定',dinner:'寿司 + 酒肴 omakase · 待预约'},todo:['确定午餐和晚餐餐厅']},
+      {time:'13:15–16:15',title:'表参道 / Cat Street · 购物与咖啡',status:'预计',type:'游逛',detail:'午餐后逛原宿、Cat Street 与表参道，约 16:15 结束购物，前往南青山海味。',places:['Omotesando Tokyo','Harajuku Tokyo','Cat Street Shibuya']},
+      {time:'16:15–16:45',title:'表参道 → 南青山海味',status:'预计',type:'交通',detail:'从表参道站一带步行约 15–20 分钟；从表参道 Hills 约 20–25 分钟。预留 30 分钟，约 16:45 到店。',origin:'Omotesando Hills Tokyo',place:'海味 東京都港区南青山3-2-8 三南ビル1F',travelMode:'walking'},
+      {time:'17:00–19:00',title:'海味 · 南青山寿司 Omakase',status:'已预订',type:'餐饮',detail:'10/11 17:00，两人，Omakase Course；用餐时间 2 小时。地址：東京都港区南青山3-2-8 三南ビル1F。',confirmation:{images:[{image:'restaurant-umi-confirmation',title:'海味 · 10/11 17:00 两人预约确认'},{image:'restaurant-umi-details',title:'海味 · 套餐与两小时用餐确认'}],title:'海味 · 10/11 17:00 两人预约确认',price:'Omakase Course ¥44,800 / 人（含税），另加 10% 服务费。两人餐费加服务费约 ¥98,560；酒水另计。',note:'通过食べログ预约。到店出示确认邮件或预约记录；餐饮费用当天在餐厅支付。'},place:'海味 東京都港区南青山3-2-8 三南ビル1F',source:'umi',extraSource:'umiTabelog'},
+      {time:'19:00–约 19:30',title:'海味 → 涩谷',status:'预计',type:'交通',detail:'步行约 5–8 分钟至外苑前站，乘银座线往涩谷方向，2 站到涩谷；含出站步行约 20–30 分钟。',steps:['海味步行至外苑前站。','乘银座线往涩谷方向，经表参道到涩谷。','出站后步行前往涩谷十字路口与八公像。'],origin:'海味 東京都港区南青山3-2-8 三南ビル1F',place:'Shibuya Scramble Crossing Tokyo'},
+      {time:'约 19:30–20:00',title:'涩谷路口与忠犬八公像 · 打卡',status:'预计',type:'景点',detail:'拍十字路口夜景，再去涩谷站八公口旁的忠犬八公像；两处步行约 2–3 分钟。',places:['Shibuya Scramble Crossing Tokyo','Hachiko Memorial Statue Shibuya Tokyo']},
+      {time:'20:00–20:40',title:'Shibuya Scramble Square · 12 楼夜景',status:'预计',type:'景点',detail:'从八公像步行到大楼、上 12 楼约 10–15 分钟。餐厅层公共窗边可俯瞰涩谷路口，免费，无需预约；留约 20–25 分钟拍照。餐厅层营业 11:00–23:00。',place:'Shibuya Scramble Square Tokyo 渋谷2-24-12',source:'scrambleSquare',extraSource:'scrambleSquareView'},
+      {time:'约 20:40–21:15 · 可选',title:'涩谷 → 新宿歌舞伎町',status:'待定',type:'交通',detail:'JR 山手线到新宿，再步行至歌舞伎町，全程约 25–35 分钟。',origin:'Shibuya Station Tokyo',place:'Kabukicho Shinjuku Tokyo'},
+      {time:'约 21:15 起 · 可选',title:'歌舞伎町 / 酒吧',status:'待定',type:'游逛',detail:'候选：新宿歌舞伎町、Golden Gai。',places:['Kabukicho Shinjuku Tokyo','Shinjuku Golden Gai Tokyo']},
+      {time:'涩谷打卡后 / 酒吧后',title:'返回日本桥酒店',status:'预计',type:'交通',detail:'涩谷出发：银座线直达三越前，含步行约 35–45 分钟。若去歌舞伎町：步行至新宿三丁目，丸之内线到赤坂见附换银座线至三越前，全程约 45–55 分钟。',origin:'Shibuya Station Tokyo',place:'Mitsui Garden Hotel Nihonbashi Premier Tokyo 東京都中央区日本橋室町3-4-4'}],meals:{breakfast:'原宿咖啡早餐 · Doutor / 猿田彦待选',lunch:'原宿 / 表参道附近 · 待定',dinner:'17:00 海味 · 两人寿司 Omakase · 已预订'},todo:['确定午餐餐厅']},
     {date:'2026-10-12',city:'东京',group:'东京',title:'筑地海胆饭，东京经典一日',subtitle:'筑地、浅草、银座，烧鸟晚餐与东京塔夜景。',hotel:'tokyo',tags:['07:00 酒店出发','09:00 筑地出发','东京第 3 晚'],route:['筑地场外市场','浅草','银座','酒店放东西（可选）','京丹波 19:30','东京塔'],events:[
       {time:'07:00 出发',title:'酒店 → 筑地场外市场',status:'预计',type:'交通',detail:'出租车约 10–20 分钟；地铁全程约 25–35 分钟，预计 07:30–07:40 到うに虎。',steps:['步行约 8–10 分钟至日本桥站，乘都营浅草线往西马込 / 羽田机场方向，2 站到东银座。','东银座 5 / 6 号出口，步行约 5–8 分钟到市场及うに虎。'],origin:'Mitsui Garden Hotel Nihonbashi Premier Tokyo 東京都中央区日本橋室町3-4-4',place:'うに虎 本店 東京都中央区築地4-10-5'},
       {time:'约 07:30–09:00',title:'うに虎海胆饭 → 筑地场外市场',status:'拟定',type:'餐饮',detail:'先吃海胆饭，再逛市场。Unitora Nakadori：官网现称うに虎本店，07:00–17:00，无固定休息日。地址：東京都中央区築地4-10-5 MIHIROビル1F。10/12 为假日，部分市场店铺休息。',places:['うに虎 本店 東京都中央区築地4-10-5','Tsukiji Outer Market Tokyo'],source:'unitora',extraSource:'tsukiji'},
