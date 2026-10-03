@@ -104,10 +104,6 @@ window.TRIP_TRANSLATIONS = {
     "Superior twin · two 120cm beds · non-smoking",
     "スーペリアツイン · 120cmベッド2台 · 禁煙"
   ],
-  "乌丸御池站 5 号出口步行约 3 分钟。京都站乘地铁乌丸线至乌丸御池；从京都站到酒店规划预留 20–30 分钟，含换乘与步行。": [
-    "About 3 minutes on foot from Karasuma Oike Station exit 5. Take the Karasuma subway line from Kyoto Station; allow 20–30 minutes including transfers and walking.",
-    "烏丸御池駅5番出口から徒歩約3分。京都駅から地下鉄烏丸線で烏丸御池へ。乗り換え・徒歩込みで20〜30分を確保。"
-  ],
   "10/9 23:59（酒店当地时间）": [
     "Oct 9, 23:59 (hotel local time)",
     "10/9 23:59（ホテル現地時間）"
@@ -2100,7 +2096,6 @@ window.TRIP_TRANSLATIONS = {
     "Yurakucho",
     "有楽町"
   ],
-
   "海味 · 青山店官网与地址": [
     "Umi · Aoyama official website and address",
     "海味 · 青山店公式サイト・住所"
@@ -2228,6 +2223,453 @@ window.TRIP_TRANSLATIONS = {
   "约 20:40–21:15 · 可选": [
     "Around 20:40–21:15 · optional",
     "20:40〜21:15頃 · 任意"
-  ]
-
+  ],
+  "根津美术馆 · 开放时间与门票": [
+    "Nezu Museum · hours and tickets",
+    "根津美術館 · 開館時間・チケット"
+  ],
+  "11:00 午餐": [
+    "11:00 lunch",
+    "11:00 昼食"
+  ],
+  "原宿 / Cat Street / 表参道": [
+    "Harajuku / Cat Street / Omotesando",
+    "原宿 / キャットストリート / 表参道"
+  ],
+  "根津美术馆（待定）": [
+    "Nezu Museum (optional)",
+    "根津美術館（未定）"
+  ],
+  "12:00–16:15 · 可提前结束": [
+    "12:00–16:15 · may finish earlier",
+    "12:00〜16:15 · 早めに終了可"
+  ],
+  "原宿 / Cat Street / 表参道 · 购物与咖啡": [
+    "Harajuku / Cat Street / Omotesando · shopping and coffee",
+    "原宿 / キャットストリート / 表参道 · 買い物・カフェ"
+  ],
+  "午餐后一路逛原宿、竹下通、Cat Street 与表参道。如果约 15:15 结束购物，可去根津美术馆；否则继续逛至 16:15，直接前往海味。": [
+    "After lunch, shop in Harajuku, Takeshita Street, Cat Street and Omotesando. If you finish around 15:15, visit the Nezu Museum; otherwise keep shopping until 16:15 and head straight to Umi.",
+    "昼食後は原宿、竹下通り、キャットストリート、表参道で買い物。15:15頃に終われば根津美術館へ。そうでなければ16:15まで散策し、そのまま海味へ。"
+  ],
+  "15:15–15:30 · 可选": [
+    "15:15–15:30 · optional",
+    "15:15〜15:30 · 任意"
+  ],
+  "表参道 → 根津美术馆": [
+    "Omotesando → Nezu Museum",
+    "表参道 → 根津美術館"
+  ],
+  "表参道站一带步行约 8–12 分钟，预留 15 分钟。": [
+    "About 8–12 minutes on foot from Omotesando Station; allow 15 minutes.",
+    "表参道駅周辺から徒歩約8〜12分。15分確保。"
+  ],
+  "15:30–16:30 · 可选": [
+    "15:30–16:30 · optional",
+    "15:30〜16:30 · 任意"
+  ],
+  "根津美术馆 · 展览与庭园": [
+    "Nezu Museum · exhibition and garden",
+    "根津美術館 · 展示・庭園"
+  ],
+  "下午购物结束早就去，预留约 1 小时。开放 10:00–17:00，最晚 16:30 入馆；门票待购买。": [
+    "Visit if shopping finishes early; allow about one hour. Open 10:00–17:00, last admission 16:30. Tickets not yet purchased.",
+    "午後の買い物が早く終われば訪問。約1時間確保。開館10:00〜17:00、最終入館16:30。チケット未購入。"
+  ],
+  "16:15 / 16:30 出发": [
+    "Depart 16:15 / 16:30",
+    "16:15 / 16:30 出発"
+  ],
+  "表参道 / 根津美术馆 → 海味": [
+    "Omotesando / Nezu Museum → Umi",
+    "表参道 / 根津美術館 → 海味"
+  ],
+  "直接去：16:15 从表参道一带出发，步行约 15–25 分钟，约 16:45 到店。去美术馆：16:30 离馆，步行约 15–20 分钟，约 16:50 到店。": [
+    "Direct: leave Omotesando around 16:15, walk about 15–25 minutes and arrive around 16:45. Via the museum: leave at 16:30, walk about 15–20 minutes and arrive around 16:50.",
+    "直接向かう場合：16:15に表参道周辺を出発。徒歩約15〜25分、16:45頃到着。美術館からの場合：16:30退館。徒歩約15〜20分、16:50頃到着。"
+  ],
+  "原宿 → 竹下通 → Cat Street → 表参道。下午自由逛街，之后步行前往海味。": [
+    "Harajuku → Takeshita Street → Cat Street → Omotesando. Browse at your own pace, then walk to Umi.",
+    "原宿 → 竹下通り → キャットストリート → 表参道。午後は自由に買い物し、その後は徒歩で海味へ。"
+  ],
+  "购物结束早可去 · ": [
+    "If shopping finishes early · ",
+    "買い物が早く終われば · "
+  ],
+  "根津美术馆 · 待定": [
+    "Nezu Museum · optional",
+    "根津美術館 · 未定"
+  ],
+  "15:30–16:30 · 约 1 小时": [
+    "15:30–16:30 · about one hour",
+    "15:30〜16:30 · 約1時間"
+  ],
+  "购物结束早就去。从表参道站一带步行约 8–12 分钟；16:30 离馆后步行约 15–20 分钟到海味。": [
+    "Visit if shopping finishes early. About 8–12 minutes on foot from Omotesando Station; leave at 16:30 and walk about 15–20 minutes to Umi.",
+    "買い物が早く終われば訪問。表参道駅周辺から徒歩約8〜12分。16:30に退館し、海味まで徒歩約15〜20分。"
+  ],
+  "开放 10:00–17:00，最晚 16:30 入馆；门票待购买。": [
+    "Open 10:00–17:00, last admission 16:30. Tickets not yet purchased.",
+    "開館10:00〜17:00、最終入館16:30。チケット未購入。"
+  ],
+  "两人，Omakase Course，用餐时间 2 小时。约 16:45–16:50 到店；表参道步行约 15–25 分钟，根津美术馆步行约 15–20 分钟。": [
+    "Two guests, Omakase Course, two-hour seating. Arrive around 16:45–16:50; about 15–25 minutes on foot from Omotesando or 15–20 minutes from the Nezu Museum.",
+    "2名、おまかせコース、滞在時間2時間。16:45〜16:50頃に到着。表参道から徒歩約15〜25分、根津美術館から約15〜20分。"
+  ],
+  "牛かつもと村 · 原宿店": [
+    "Gyukatsu Motomura · Harajuku",
+    "牛かつもと村 · 原宿店"
+  ],
+  "炸牛排 · 石板自烤": [
+    "Beef cutlet · finish on a hot stone",
+    "牛かつ · 石板で仕上げ"
+  ],
+  "约 4–6 分钟": [
+    "About 4–6 minutes",
+    "約4〜6分"
+  ],
+  "11:00–22:00 · 最后点单 21:30 · 无固定休息日": [
+    "11:00–22:00 · last order 21:30 · no regular closing day",
+    "11:00〜22:00 · L.O.21:30 · 定休日なし"
+  ],
+  "薄衣炸牛排，端上来后在小石板上烤到喜欢的熟度。想吃一顿有特色的日式套餐可选这家；热门店，可能需要排队。": [
+    "Thinly breaded beef cutlet, finished to your preferred doneness on a small hot stone. A distinctive Japanese set meal; this popular restaurant may have a queue.",
+    "薄衣の牛かつを小さな石板で好みの焼き加減に。特色のある和定食。人気店のため行列の可能性あり。"
+  ],
+  "もと村官方门店与菜单": [
+    "Motomura official store and menu",
+    "もと村 公式店舗・メニュー"
+  ],
+  "拉面 · 柚子盐味汤底": [
+    "Ramen · yuzu shio broth",
+    "ラーメン · 柚子塩スープ"
+  ],
+  "主打柚子盐味拉面，汤底清爽。适合晚上 17:00 吃海味之前，午餐只吃一碗面。门店仅接受无现金支付。": [
+    "Known for refreshing yuzu shio ramen. A bowl of noodles suits lunch before the 17:00 Umi dinner. Cashless payment only.",
+    "爽やかな柚子塩ラーメンが定番。17:00の海味の前に、一杯の麺で昼食を。完全キャッシュレス。"
+  ],
+  "まい泉 · 青山本店": [
+    "Maisen · Aoyama main store",
+    "まい泉 · 青山本店"
+  ],
+  "炸猪排 · 菲力 / 里脊套餐": [
+    "Tonkatsu · fillet / loin set",
+    "とんかつ · ヒレ / ロース定食"
+  ],
+  "约 3–5 分钟 · A2 出口": [
+    "About 3–5 minutes · exit A2",
+    "約3〜5分 · A2出口"
+  ],
+  "11:00–22:00 · 最后点单 21:00 · 周日营业": [
+    "11:00–22:00 · last order 21:00 · open Sunday",
+    "11:00〜22:00 · L.O.21:00 · 日曜営業"
+  ],
+  "以柔软的炸猪排出名，可选菲力或里脊套餐。若午餐时想先往表参道走，可选这里；从原宿站步行约 15–20 分钟。": [
+    "Known for tender tonkatsu, with fillet or loin sets. Choose this if heading toward Omotesando for lunch; about 15–20 minutes on foot from Harajuku Station.",
+    "柔らかいとんかつが名物。ヒレまたはロース定食。昼食時に表参道へ向かうなら候補に。原宿駅から徒歩約15〜20分。"
+  ],
+  "まい泉官方门店与菜单": [
+    "Maisen official store and menu",
+    "まい泉 公式店舗・メニュー"
+  ],
+  "HENRY’S BURGER · 原宿店": [
+    "HENRY’S BURGER · Harajuku",
+    "HENRY’S BURGER · 原宿店"
+  ],
+  "汉堡 · 和牛肉饼": [
+    "Burger · wagyu patty",
+    "ハンバーガー · 和牛パティ"
+  ],
+  "约 5–7 分钟 · 7 号出口": [
+    "About 5–7 minutes · exit 7",
+    "約5〜7分 · 7番出口"
+  ],
+  "11:00–20:00 · 周日营业": [
+    "11:00–20:00 · open Sunday",
+    "11:00〜20:00 · 日曜営業"
+  ],
+  "粗绞和牛肉饼汉堡，搭配薯条和饮料。想换口味可选这里；晚餐较早，建议单层肉饼。": [
+    "Coarsely ground wagyu burger with fries and a drink. A change of cuisine; choose a single patty before the early dinner.",
+    "粗挽き和牛バーガーにポテトとドリンク。気分を変えたいときに。夕食が早いためシングルがおすすめ。"
+  ],
+  "Google Maps · 门店与营业时间": [
+    "Google Maps · store and opening hours",
+    "Google Maps · 店舗・営業時間"
+  ],
+  "JR 官方时刻表 · Nozomi 15": [
+    "JR official timetable · Nozomi 15",
+    "JR公式時刻表 · のぞみ15号"
+  ],
+  "SmartEX · 新干线官方购票": [
+    "SmartEX · official Shinkansen booking",
+    "SmartEX · 新幹線公式予約"
+  ],
+  "JR 东海 · 东京站入口与站内地图": [
+    "JR Central · Tokyo Station entrances and map",
+    "JR東海 · 東京駅入口・構内図"
+  ],
+  "乌丸御池站 · 电梯与出口": [
+    "Karasuma Oike Station · elevators and exits",
+    "烏丸御池駅 · エレベーター・出口"
+  ],
+  "08:12 Nozomi · 待购票": [
+    "08:12 Nozomi · tickets not booked",
+    "08:12 のぞみ · 未購入"
+  ],
+  "约 11:00 到酒店": [
+    "Hotel arrival around 11:00",
+    "ホテル到着は11:00頃"
+  ],
+  "07:00 东京酒店退房": [
+    "07:00 Tokyo hotel checkout",
+    "07:00 東京ホテルをチェックアウト"
+  ],
+  "东京站 08:12": [
+    "Tokyo Station 08:12",
+    "東京駅 08:12"
+  ],
+  "东京酒店 · 退房": [
+    "Tokyo hotel · checkout",
+    "東京ホテル · チェックアウト"
+  ],
+  "请前台叫车，目的地：東京駅 日本橋口（東海道・山陽新幹線）。": [
+    "Ask reception for a taxi to Tokyo Station Nihonbashi entrance for the Tokaido–Sanyo Shinkansen.",
+    "フロントでタクシーを依頼。行き先は東京駅日本橋口（東海道・山陽新幹線）。"
+  ],
+  "认准「東海道・山陽新幹線」标识，从日本桥口的新干线改札进站；按车票或电子屏找到站台。": [
+    "Follow Tokaido–Sanyo Shinkansen signs and enter through the Nihonbashi Shinkansen gate. Find the platform on your ticket or departure display.",
+    "「東海道・山陽新幹線」の案内に従い、日本橋口の新幹線改札から入場。きっぷや発車案内でホームを確認。"
+  ],
+  "早餐、饮料在上车前买好，08:00 前到站台等车。若需现场取票，建议再提前 10–15 分钟。": [
+    "Buy breakfast and drinks before boarding; reach the platform by 08:00. Allow another 10–15 minutes if collecting tickets at the station.",
+    "乗車前に朝食と飲み物を購入し、08:00までにホームへ。駅で発券が必要なら、さらに10〜15分早めに。"
+  ],
+  "Nozomi 15 · 东京 → 京都": [
+    "Nozomi 15 · Tokyo → Kyoto",
+    "のぞみ15号 · 東京 → 京都"
+  ],
+  "候选：のぞみ15号，N700S，直达京都；车程 2 小时 11 分钟。08:12 东京发车，10:23 京都到达。": [
+    "Proposed Nozomi 15, N700S, direct to Kyoto in 2 hours 11 minutes. Departs Tokyo 08:12, arrives Kyoto 10:23.",
+    "候補：のぞみ15号、N700S、京都まで直通2時間11分。東京08:12発、京都10:23着。"
+  ],
+  "预订 10/13 东京 → 京都、Nozomi 15、两人指定席；尚未查询余位。": [
+    "Book October 13, Tokyo → Kyoto, Nozomi 15, reserved seats for two. Availability has not been checked.",
+    "10/13 東京→京都、のぞみ15号、2名指定席を予約。空席は未確認。"
+  ],
+  "中途停品川、新横滨、名古屋，无需换乘；10:23 在京都下车。": [
+    "Stops at Shinagawa, Shin-Yokohama and Nagoya; no transfers. Get off at Kyoto at 10:23.",
+    "品川・新横浜・名古屋に停車。乗換不要、10:23京都で下車。"
+  ],
+  "若行李长＋宽＋高超过 160cm、且不超过 250cm，购票时选「特大荷物スペースつき座席」。该行李位不另加价。": [
+    "For luggage whose length + width + height exceeds 160 cm and is no more than 250 cm, book a seat with an oversized baggage area. No extra charge for that luggage space.",
+    "荷物の3辺合計が160cm超250cm以内なら、予約時に「特大荷物スペースつき座席」を選択。荷物スペースの追加料金なし。"
+  ],
+  "京都站 → 京都三条酒店": [
+    "Kyoto Station → Kyoto Sanjo hotel",
+    "京都駅 → 京都三条ホテル"
+  ],
+  "出租车：出站后跟随「タクシー」标识，到正规出租车候车区；给司机看酒店日文地址：京都市中京区三条通東洞院東入菱屋町45番1。": [
+    "Taxi: after exiting, follow taxi signs to the official taxi rank. Show the driver: 京都市中京区三条通東洞院東入菱屋町45番1。",
+    "タクシー：出場後「タクシー」の案内に従って乗り場へ。運転手に京都市中京区三条通東洞院東入菱屋町45番1を提示。"
+  ],
+  "地铁：跟随「地下鉄 烏丸線」标识，乘往国际会馆方向的列车；京都 → 五条 → 四条 → 乌丸御池，3 站约 6 分钟。": [
+    "Subway: follow Karasuma Line signs and board toward Kokusaikaikan. Kyoto → Gojo → Shijo → Karasuma Oike, three stops in about six minutes.",
+    "地下鉄烏丸線の案内に従い、国際会館方面へ。京都→五条→四条→烏丸御池、3駅約6分。"
+  ],
+  "乌丸御池站 5 号出口到酒店步行约 3 分钟。带行李可走 3-2 号出口电梯，地面步行约 5–8 分钟到酒店。": [
+    "About three minutes on foot from Karasuma Oike exit 5. With luggage, use the elevator at exit 3-2, then walk about 5–8 minutes to the hotel.",
+    "烏丸御池駅5番出口から徒歩約3分。荷物があるなら3-2番出口のエレベーターを利用し、地上を約5〜8分歩く。"
+  ],
+  "京都酒店 · 寄存行李": [
+    "Kyoto hotel · leave luggage",
+    "京都ホテル · 荷物預け"
+  ],
+  "到前台办理行李寄存；15:00 起入住，傍晚回来拿行李和房卡。": [
+    "Leave luggage at reception. Check-in starts at 15:00; return in the evening for luggage and room keys.",
+    "フロントに荷物を預ける。チェックインは15:00から。夕方に戻り荷物とルームキーを受け取る。"
+  ],
+  "东京站便当 / 三明治 · 车上吃": [
+    "Tokyo Station bento / sandwich · eat on the train",
+    "東京駅の駅弁 / サンドイッチ · 車内で食べる"
+  ],
+  "07:10 前完成退房，带走行李。早餐可在东京站买，车上吃。": [
+    "Check out with luggage by 07:10. Buy breakfast at Tokyo Station and eat on the train.",
+    "07:10までにチェックアウトして荷物を持って出発。東京駅で朝食を買い、車内で食べる。"
+  ],
+  "日本桥酒店 → 东京站 · JR 总武快速线": [
+    "Nihonbashi hotel → Tokyo Station · JR Sobu Rapid Line",
+    "日本橋ホテル → 東京駅 · JR総武快速線"
+  ],
+  "酒店地下通道到新日本桥站，JR 总武快速线东京方向 1 站约 2 分钟。候选 07:22 → 07:24；含步行、候车和新干线换乘预留约 35–45 分钟。": [
+    "Take the underground passage to Shin-Nihombashi, then the JR Sobu Rapid Line toward Tokyo: one stop, about 2 minutes. Proposed local train 07:22 → 07:24; allow about 35–45 minutes including walking, waiting and the Shinkansen transfer.",
+    "地下通路で新日本橋駅へ。JR総武快速線の東京方面に乗り、1駅約2分。候補は07:22→07:24。徒歩・待ち時間・新幹線乗換を含め約35〜45分。"
+  ],
+  "10:23–约 11:05": [
+    "10:23–about 11:05",
+    "10:23〜11:05頃"
+  ],
+  "地铁乌丸线往国际会馆方向，京都 → 乌丸御池，3 站约 6 分钟。含出站、候车、电梯与步行约 30–40 分钟，预计 10:55–11:05 到酒店。": [
+    "Take the Karasuma subway line toward Kokusaikaikan, Kyoto → Karasuma Oike: three stops, about 6 minutes. Allow about 30–40 minutes including station exit, waiting, elevators and walking; hotel arrival around 10:55–11:05.",
+    "地下鉄烏丸線の国際会館方面へ。京都→烏丸御池、3駅約6分。出場・待ち時間・エレベーター・徒歩込みで約30〜40分、ホテル到着は10:55〜11:05頃。"
+  ],
+  "约 11:05–11:20": [
+    "About 11:05–11:20",
+    "11:05〜11:20頃"
+  ],
+  "京都站乘地铁乌丸线至乌丸御池，3 站约 6 分钟；带行李从 3-2 号出口乘电梯，步行约 5–8 分钟。新干线下车至酒店预留约 30–40 分钟。": [
+    "From Kyoto Station, take the Karasuma subway line to Karasuma Oike: three stops, about 6 minutes. With luggage, use the elevator at exit 3-2, then walk about 5–8 minutes. Allow about 30–40 minutes from the Shinkansen arrival to the hotel.",
+    "京都駅から地下鉄烏丸線で烏丸御池へ、3駅約6分。荷物がある場合は3-2番出口のエレベーターを使い、徒歩約5〜8分。新幹線下車からホテルまで約30〜40分を確保。"
+  ],
+  "07:10 从酒店出发，经地下通道前往 JR 新日本桥站；用 Suica / PASMO 进站，找「総武線快速・東京方面」站台。": [
+    "Leave the hotel at 07:10 via the underground passage to JR Shin-Nihombashi. Enter with Suica / PASMO and follow Sobu Rapid Line signs toward Tokyo.",
+    "07:10ホテル出発。地下通路でJR新日本橋駅へ。Suica / PASMOで入場し、「総武線快速・東京方面」のホームへ。"
+  ],
+  "候选 07:22 发车，07:24 到东京站，1 站直达。错过后乘下一班东京方向列车。": [
+    "Proposed train departs 07:22 and arrives Tokyo 07:24, one stop without transfers. If missed, take the next train toward Tokyo.",
+    "候補は07:22発、07:24東京着。乗換なしで1駅。乗り遅れたら次の東京方面の列車へ。"
+  ],
+  "东京站下车后跟随「東海道・山陽新幹線」标识；地下站台到新干线站台预留 20–25 分钟，08:00 前到站台。": [
+    "At Tokyo, follow Tokaido–Sanyo Shinkansen signs. Allow 20–25 minutes from the underground platform to the Shinkansen platform; arrive by 08:00.",
+    "東京駅で「東海道・山陽新幹線」の案内に従う。地下ホームから新幹線ホームまで20〜25分を確保し、08:00までに到着。"
+  ],
+  "换乘闸机：先扫 Smart EX 的 QR-Ticket，再刷刚才进站用的 Suica / PASMO，拿走座位信息纸条。JR 这段车费另从 IC 卡扣除；两人各用自己的乘车码和 IC 卡。": [
+    "At the transfer gate, scan the Smart EX QR-Ticket, then touch the same Suica / PASMO used to enter. Collect the seat information slip. The JR local fare is charged separately to the IC card; each person uses their own QR-Ticket and IC card.",
+    "乗換改札ではSmart EXのQRチケットをかざし、入場時と同じSuica / PASMOをタッチ。座席情報の紙を受け取る。在来線運賃はICカードから別途引き去り。各自のQRチケット・ICカードを使用。"
+  ],
+  "10:23 京都站下车，出新干线区域后跟随「地下鉄・烏丸線」标识，到地铁站台预留约 10–15 分钟。": [
+    "Arrive Kyoto at 10:23. Leave the Shinkansen area and follow Subway / Karasuma Line signs; allow about 10–15 minutes to reach the subway platform.",
+    "10:23京都駅着。新幹線エリアを出て「地下鉄・烏丸線」の案内に従う。地下鉄ホームまで約10〜15分を確保。"
+  ],
+  "刷 Suica / PASMO 进地铁站，乘「国際会館方面」列车；京都 → 五条 → 四条 → 乌丸御池，3 站约 6 分钟，无需换乘。": [
+    "Enter the subway with Suica / PASMO and board toward Kokusaikaikan: Kyoto → Gojo → Shijo → Karasuma Oike, three stops in about 6 minutes, no transfer.",
+    "Suica / PASMOで地下鉄に入場し、国際会館方面に乗車。京都→五条→四条→烏丸御池、乗換なしで3駅約6分。"
+  ],
+  "乌丸御池站走北改札口，乘 3-2 号出口电梯到地面，再步行约 5–8 分钟到酒店。": [
+    "At Karasuma Oike, use the north ticket gate and the elevator at exit 3-2, then walk about 5–8 minutes to the hotel.",
+    "烏丸御池駅の北改札口から3-2番出口のエレベーターで地上へ。ホテルまで徒歩約5〜8分。"
+  ],
+  "JR 官方时刻表 · 新日本桥 → 东京": [
+    "JR official timetable · Shin-Nihombashi → Tokyo",
+    "JR公式時刻表 · 新日本橋 → 東京"
+  ],
+  "Smart EX · QR 乘车与换乘指引": [
+    "Smart EX · QR boarding and transfers",
+    "Smart EX · QR乗車・乗換案内"
+  ],
+  "07:00–07:10": [
+    "07:00–07:10",
+    "07:00〜07:10"
+  ],
+  "07:10–08:00": [
+    "07:10–08:00",
+    "07:10〜08:00"
+  ],
+  "08:18 Nozomi 331 · 已预订": [
+    "08:18 Nozomi 331 · booked",
+    "08:18 のぞみ331号 · 予約済み"
+  ],
+  "东京站 08:18": [
+    "Tokyo Station 08:18",
+    "東京駅 08:18"
+  ],
+  "Nozomi 331 · 东京 → 京都": [
+    "Nozomi 331 · Tokyo → Kyoto",
+    "のぞみ331号 · 東京 → 京都"
+  ],
+  "10/13 08:18 东京出发，10:29 到京都，直达 2 小时 11 分钟。两人普通车指定席：5 号车厢，18D、18E。": [
+    "October 13: departs Tokyo 08:18, arrives Kyoto 10:29, direct in 2 hours 11 minutes. Two ordinary reserved seats: car 5, 18D and 18E.",
+    "10/13 東京08:18発、京都10:29着。直通2時間11分。普通車指定席2名：5号車18D・18E。"
+  ],
+  "08:00 前到新干线站台，核对电子屏上的「のぞみ331号 / NOZOMI 331」，到 5 号车厢候车位置等车。": [
+    "Reach the Shinkansen platform by 08:00. Check the departure display for NOZOMI 331 and wait at the car 5 boarding position.",
+    "08:00までに新幹線ホームへ。「のぞみ331号 / NOZOMI 331」を発車案内で確認し、5号車の乗車位置で待つ。"
+  ],
+  "上车找到第 18 排 D、E 座位；E 靠窗，D 靠过道。放好行李后可吃早餐。": [
+    "Board and find row 18, seats D and E. E is the window seat, D the aisle. Store luggage, then have breakfast.",
+    "18列D・E席へ。Eは窓側、Dは通路側。荷物を置いてから朝食を食べられる。"
+  ],
+  "10:29 在京都站下车；用各自的 Smart EX QR-Ticket 出站，再前往地铁乌丸线。": [
+    "Get off at Kyoto at 10:29. Exit using each passenger’s Smart EX QR-Ticket, then head to the Karasuma subway line.",
+    "10:29京都駅で下車。各自のSmart EX QRチケットで出場し、地下鉄烏丸線へ。"
+  ],
+  "车票详情与预约确认": [
+    "Ticket details and booking confirmation",
+    "きっぷ詳細・予約確認"
+  ],
+  "Nozomi 331 · 10/13 两人车票确认": [
+    "Nozomi 331 · October 13 tickets for two",
+    "のぞみ331号 · 10/13 2名の予約確認"
+  ],
+  "Smart EX 两人合计 ¥27,940，平均 ¥13,970 / 人。": [
+    "Smart EX total for two: ¥27,940, or ¥13,970 per person.",
+    "Smart EX 2名合計27,940円、1名あたり13,970円。"
+  ],
+  "已确认：2026/10/13，Nozomi 331，东京 08:18 → 京都 10:29；N700 系列 16 节编组，普通车指定席，5 号车厢 18D、18E。乘车使用 Smart EX 的 QR-Ticket。": [
+    "Confirmed: October 13, 2026, Nozomi 331, Tokyo 08:18 → Kyoto 10:29; N700 series, 16 cars, ordinary reserved seats, car 5 seats 18D and 18E. Board with Smart EX QR-Tickets.",
+    "予約確定：2026/10/13 のぞみ331号、東京08:18→京都10:29。N700系16両編成、普通車指定席、5号車18D・18E。乗車時はSmart EX QRチケットを使用。"
+  ],
+  "查看车票确认信息": [
+    "View ticket confirmation details",
+    "きっぷ予約情報を見る"
+  ],
+  "10:29–约 11:10": [
+    "10:29–about 11:10",
+    "10:29〜11:10頃"
+  ],
+  "地铁乌丸线往国际会馆方向，京都 → 乌丸御池，3 站约 6 分钟。含出站、候车、电梯与步行约 30–40 分钟，预计 11:00–11:10 到酒店。": [
+    "Take the Karasuma subway line toward Kokusaikaikan, Kyoto → Karasuma Oike: three stops, about 6 minutes. Allow about 30–40 minutes including station exit, waiting, elevators and walking; hotel arrival around 11:00–11:10.",
+    "地下鉄烏丸線の国際会館方面へ。京都→烏丸御池、3駅約6分。出場・待ち時間・エレベーター・徒歩込みで約30〜40分、ホテル到着は11:00〜11:10頃。"
+  ],
+  "10:29 京都站下车，出新干线区域后跟随「地下鉄・烏丸線」标识，到地铁站台预留约 10–15 分钟。": [
+    "Arrive Kyoto at 10:29. Leave the Shinkansen area and follow Subway / Karasuma Line signs; allow about 10–15 minutes to reach the subway platform.",
+    "10:29京都駅着。新幹線エリアを出て「地下鉄・烏丸線」の案内に従う。地下鉄ホームまで約10〜15分を確保。"
+  ],
+  "约 11:10–11:25": [
+    "About 11:10–11:25",
+    "11:10〜11:25頃"
+  ],
+  "新干线": [
+    "Shinkansen",
+    "新幹線"
+  ],
+  "08:18–10:29": [
+    "08:18–10:29",
+    "08:18〜10:29"
+  ],
+  "两人普通车指定席 · 5 号车厢 18D、18E（D 过道，E 靠窗）。": ["Two ordinary reserved seats · car 5, 18D and 18E (D aisle, E window).", "普通車指定席2名 · 5号車18D・18E（D通路側、E窓側）。"],
+  "酒店出发，经地下通道走到新日本桥站": ["Leave the hotel and walk through the underground passage to Shin-Nihombashi Station.", "ホテル出発。地下通路で新日本橋駅へ。"],
+  "JR 总武快速线 → 东京站，1 站，车程约 2 分钟（候选班次）": ["JR Sobu Rapid Line → Tokyo Station: one stop, about 2 minutes on the train (proposed departure).", "JR総武快速線 → 東京駅。1駅、乗車約2分（候補の便）。"],
+  "07:24 后": ["After 07:24", "07:24以降"],
+  "东京站内步行换乘新干线，预留 20–25 分钟": ["Walk within Tokyo Station to the Shinkansen; allow 20–25 minutes for the transfer.", "東京駅構内を徒歩で新幹線へ。乗換に20〜25分を確保。"],
+  "08:00 前": ["By 08:00", "08:00まで"],
+  "到新干线 5 号车厢候车位置，等 08:18 发车": ["Reach the car 5 boarding position and wait for the 08:18 departure.", "新幹線5号車の乗車位置へ。08:18の発車まで待つ。"],
+  "东京站发车 · Nozomi 331": ["Departs Tokyo Station · Nozomi 331", "東京駅発 · のぞみ331号"],
+  "京都站到达 · 全程直达，2 小时 11 分钟": ["Arrives Kyoto Station · direct, 2 hours 11 minutes", "京都駅着 · 直通2時間11分"],
+  "10:29–11:00": ["10:29–11:00", "10:29〜11:00"],
+  "京都站下新干线，出站后转地铁；步行换乘约 10–15 分钟": ["Leave the Shinkansen at Kyoto and head to the subway; allow about 10–15 minutes to walk and transfer.", "京都駅で新幹線を降り、出場して地下鉄へ。徒歩乗換約10〜15分。"],
+  "地铁约 6 分钟": ["Subway ~6 min", "地下鉄約6分"],
+  "乌丸线往国际会馆方向 → 乌丸御池，3 站直达": ["Karasuma Line toward Kokusaikaikan → Karasuma Oike, three stops without a transfer.", "烏丸線の国際会館方面 → 烏丸御池、乗換なしで3駅。"],
+  "步行约 5–8 分钟": ["Walk ~5–8 min", "徒歩約5〜8分"],
+  "乌丸御池北改札口 → 3-2 号出口电梯 → 酒店": ["Karasuma Oike north ticket gate → exit 3-2 elevator → hotel.", "烏丸御池の北改札口 → 3-2番出口のエレベーター → ホテル。"],
+  "预计到京都三条酒店，寄存行李": ["Estimated arrival at the Kyoto Sanjo hotel; leave luggage at reception.", "京都三条のホテル到着予定。荷物を預ける。"],
+  "11:00–11:15": ["11:00–11:15", "11:00〜11:15"],
+  "JR 1 站约 2 分钟，08:00 前到新干线站台。": ["One JR stop, about 2 minutes on the train; reach the Shinkansen platform by 08:00.", "JRで1駅約2分。08:00までに新幹線ホームへ。"],
+  "直达 2 小时 11 分钟，两人普通车指定席。": ["Direct in 2 hours 11 minutes; two ordinary reserved seats.", "直通2時間11分、普通車指定席2名。"],
+  "乌丸线 3 站直达，预计 11:00 到酒店。": ["Three stops on the Karasuma Line without a transfer; estimated hotel arrival 11:00.", "烏丸線で乗換なし3駅。ホテル到着予定11:00。"],
+  "上车找到 5 号车厢 18D、18E；E 靠窗，D 靠过道。放好行李后可吃早餐。": ["Find car 5, seats 18D and 18E; E is the window seat and D the aisle. Store luggage, then have breakfast.", "5号車18D・18Eへ。Eは窓側、Dは通路側。荷物を置いてから朝食を食べられる。"],
+  "寄存行李，锦市场午饭，再去奥嵯峨与岚山。": ["Leave luggage, have lunch at Nishiki Market, then visit Oku-Saga and Arashiyama.", "荷物を預け、錦市場で昼食。その後、奥嵯峨・嵐山へ。"],
+  "锦市场午饭": ["Nishiki Market lunch", "錦市場で昼食"],
+  "打车约 40–50 分钟": ["Taxi ~40–50 min", "タクシー約40〜50分"],
+  "11:15–12:45": ["11:15–12:45", "11:15〜12:45"],
+  "锦市场 · 午饭逛吃": ["Nishiki Market · lunch and snacks", "錦市場 · 昼食と散策"],
+  "酒店步行约 10–15 分钟。玉子烧、鲷鱼烧等小吃；花道鳗鱼饭待定。": ["About 10–15 minutes on foot from the hotel. Dashimaki tamago, taiyaki and other snacks; eel rice at Hanamichi is an option.", "ホテルから徒歩約10〜15分。だし巻き・たい焼きなど。花道のうなぎご飯は未定。"],
+  "12:45–约 13:30": ["12:45–about 13:30", "12:45〜13:30頃"],
+  "锦市场 → 爱宕念佛寺 · 打车": ["Nishiki Market → Otagi Nenbutsuji · taxi", "錦市場 → 愛宕念仏寺 · タクシー"],
+  "车程约 40–50 分钟，预计 13:30 到达。": ["About 40–50 minutes by taxi; estimated arrival 13:30.", "車で約40〜50分、13:30到着予定。"],
+  "12:45 左右从锦市场走到附近可停车的道路，叫出租车。": ["Around 12:45, walk from Nishiki Market to a nearby street where taxis can stop and get a taxi.", "12:45頃、錦市場からタクシーが停車できる近くの道路へ出て乗車。"],
+  "给司机看目的地：愛宕念仏寺，京都市右京区嵯峨鳥居本深谷町2-5。": ["Show the driver: 愛宕念仏寺, 京都市右京区嵯峨鳥居本深谷町2-5.", "運転手に目的地を見せる：愛宕念仏寺、京都市右京区嵯峨鳥居本深谷町2-5。"],
+  "车程约 40–50 分钟，预计 13:30 到寺院入口。": ["About 40–50 minutes by taxi; estimated arrival at the temple entrance 13:30.", "車で約40〜50分、寺院入口に13:30到着予定。"],
+  "约 13:30 起": ["From about 13:30", "13:30頃から"],
+  "先逛爱宕念佛寺，再沿嵯峨鸟居本往山下走；后续寺院与岚山停留点待细化。": ["Visit Otagi Nenbutsuji, then walk downhill through Saga Toriimoto; later temple visits and Arashiyama stops remain to be planned.", "愛宕念仏寺を訪れ、嵯峨鳥居本を下る。その後の寺院・嵐山の立ち寄り先は今後調整。"],
+  "锦市场逛吃 · 玉子烧、鲷鱼烧等；花道鳗鱼饭待定": ["Nishiki Market lunch and snacks · dashimaki tamago, taiyaki, etc.; Hanamichi eel rice optional", "錦市場で昼食 · だし巻き・たい焼きなど。花道のうなぎご飯は未定"]
 };
