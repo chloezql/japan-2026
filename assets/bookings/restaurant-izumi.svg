@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="730" viewBox="0 0 1000 730">
+  <rect width="1000" height="730" fill="#fff"/>
+  <g font-family="Arial, 'Hiragino Sans', sans-serif" fill="#193940">
+    <text x="60" y="80" font-size="35" font-weight="700">Reservation confirmed / 予約確定</text>
+    <text x="60" y="132" font-size="28">和ごころ泉 / Wagokoro Izumi</text>
+    <text x="60" y="205" font-size="21" fill="#60747a">Date / 日時</text>
+    <text x="340" y="205" font-size="26">October 13, 2026 (Tue) · 19:00 JST</text>
+    <path d="M60 230 H940" stroke="#e2e9eb"/>
+    <text x="60" y="280" font-size="21" fill="#60747a">Party / 人数</text>
+    <text x="340" y="280" font-size="26">2 guests / 2名</text>
+    <path d="M60 305 H940" stroke="#e2e9eb"/>
+    <text x="60" y="355" font-size="21" fill="#60747a">Seats / 席種</text>
+    <text x="340" y="355" font-size="26">Counter / カウンター</text>
+    <path d="M60 380 H940" stroke="#e2e9eb"/>
+    <text x="60" y="430" font-size="21" fill="#60747a">Course / コース</text>
+    <text x="340" y="430" font-size="26">夜のおまかせコース①</text>
+    <path d="M60 455 H940" stroke="#e2e9eb"/>
+    <text x="60" y="505" font-size="21" fill="#60747a">Payment / 支払</text>
+    <text x="340" y="505" font-size="24">Course prepaid / コース事前支払済み</text>
+    <path d="M60 530 H940" stroke="#e2e9eb"/>
+    <text x="60" y="580" font-size="21" fill="#60747a">Arrival / 来店</text>
+    <text x="340" y="580" font-size="26">18:55 · 5 minutes early / 5分前</text>
+    <text x="60" y="678" font-size="18" fill="#60747a">Details transcribed from the supplied confirmation email.</text>
+  </g>
+</svg>

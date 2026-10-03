@@ -97,3 +97,5 @@ html[lang="en"] h1{letter-spacing:-.025em}
   .event-card{padding:14px}
   .view-tabs a{font-size:.75rem}
 }
+
+.route-stops{list-style:none;margin:0;padding:0}.route-stops>li{padding:18px 0;border-top:1px solid var(--line)}.route-stops>li:first-child{border-top:0}.route-stop-heading{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px}.route-stop-heading>span{font-size:.75rem;font-weight:600;color:var(--muted);font-variant-numeric:tabular-nums}.route-stop-heading h4{font-size:.9rem;margin:0}.route-stops>li>p{font-size:.875rem;color:var(--muted);margin:8px 0 0}.route-stops .guide-details{margin-top:10px}.route-stops .guide-details p{font-size:.875rem}
