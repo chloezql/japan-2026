@@ -2798,5 +2798,858 @@ window.TRIP_TRANSLATIONS = {
   "避免浓香水及明显的衣物柔顺剂气味。": ["Avoid strong perfume or fabric-softener scents.", "強い香水・柔軟剤の香りは控える。"],
   "19:00 · 和ごころ泉 · 已预订": ["19:00 · Wagokoro Izumi · Booked", "19:00・和ごころ泉・予約済み"],
   "海味、京丹波、和ごころ泉、弘晚餐已预订": ["Umi, Kyotanba, Wagokoro Izumi and Hiro dinners booked", "海味・京丹波・和ごころ泉・弘の夕食予約済み"],
-  "从天龙寺步行约 5–10 分钟；桥边与桂川拍照约 20 分钟。": ["Walk about 5–10 minutes from Tenryu-ji; spend about 20 minutes taking photos by the bridge and Katsura River.", "天龍寺から徒歩約5〜10分。渡月橋・桂川で約20分撮影。"]
+  "从天龙寺步行约 5–10 分钟；桥边与桂川拍照约 20 分钟。": ["Walk about 5–10 minutes from Tenryu-ji; spend about 20 minutes taking photos by the bridge and Katsura River.", "天龍寺から徒歩約5〜10分。渡月橋・桂川で約20分撮影。"],
+  "庭园 08:45–17:30（17:15 停止入场）；博物馆 09:00–17:00（16:45 停止入场）。": ["Garden 08:45–17:30, last entry 17:15; museum 09:00–17:00, last entry 16:45.", "庭園8:45〜17:30（受付17:15まで）、ミュージアム9:00〜17:00（受付16:45まで）。"],
+  "成人 ¥700，含庭园与博物馆，现场购票。凤凰堂内部另加 ¥300／人，09:10 起现场登记；有空位且不耽误午餐再参加。": ["¥700 per adult for the garden and museum; buy on site. Phoenix Hall interior costs an extra ¥300; registration opens at 09:10. Join only if seats and lunch timing allow.", "大人700円、庭園・ミュージアム込み。当日購入。鳳凰堂内部は別途300円、9:10から現地受付。昼食に間に合う空きがあれば参加。"],
+  "官方开放时间与门票": ["Official hours and tickets", "公式の開門時間・料金"],
+  "免费。开门 05:00–16:00；授与所 09:00–15:50。": ["Free. Gates 05:00–16:00; amulets 09:00–15:50.", "無料。開門5:00〜16:00、授与所9:00〜15:50。"],
+  "10 月大佛殿 07:30–17:30；成人 ¥800，现场现金购票，无需预约。": ["In October, the Great Buddha Hall opens 07:30–17:30. Adults ¥800, cash tickets on site; no reservation.", "10月の大仏殿は7:30〜17:30。大人800円、現地で現金購入。予約不要。"],
+  "10/15 日落约 17:23。一重目约爬 20–30 分钟；这次不登三重目山顶。": ["Sunset on Oct 15 is around 17:23. First terrace ascent takes 20–30 minutes; the third summit is not included.", "10/15の日没は17:23頃。一重目まで約20〜30分。今回は三重目山頂には登らない。"],
+  "成人 ¥150，入口现场购票；北入口 09:00–16:30，南入口 09:00–17:00。16:15 左右到北入口。": ["Adults ¥150, buy at the gate. North entry 09:00–16:30; south entry 09:00–17:00. Reach the north gate around 16:15.", "大人150円、入口で購入。北ゲート9:00〜16:30、南ゲート9:00〜17:00。16:15頃に北ゲート着。"],
+  "17:00 后从南北入口之间的出口专用门离山。17:30 开始下山，约 17:55 出口；带手机照明。雨天不登山，日落取消。": ["After 17:00, leave via the exit-only gate between the north and south entrances. Descend at 17:30 and exit around 17:55; have a phone light. Skip the hill in rain.", "17:00以降は南北ゲート間の出口専用ゲートから下山。17:30下山開始、17:55頃に出口。スマホの照明を用意。雨天は登山・夕日鑑賞を中止。"],
+  "若草山官方步道与出口地图": ["Official Wakakusayama trail and exit map", "若草山公式登山道・出口マップ"],
+  "10 月奈良日落时间": ["Nara sunset times in October", "10月の奈良の日没時刻"],
+  "宇治抹茶，奈良看鹿与日落": ["Uji matcha, Nara deer and sunset", "宇治の抹茶、奈良の鹿と夕日"],
+  "08:00 酒店出发": ["08:00 hotel departure", "8:00ホテル出発"],
+  "17:23 奈良日落": ["17:23 Nara sunset", "17:23奈良の日没"],
+  "京都酒店 → 宇治 · 地铁 + JR 奈良线": ["Kyoto hotel → Uji · Subway + JR Nara Line", "京都ホテル → 宇治・地下鉄＋JR奈良線"],
+  "门到门约 50–60 分钟，宇治站步行至平等院。": ["Allow 50–60 minutes door to door; walk from Uji Station to Byodoin.", "ホテルから約50〜60分。宇治駅から平等院へ徒歩。"],
+  "08:00 出发，步行约 5–8 分钟到乌丸御池站；乘乌丸线往竹田方向到京都站，3 站约 6 分钟。": ["Leave at 08:00; walk 5–8 minutes to Karasuma Oike. Take the Karasuma Line toward Takeda to Kyoto, three stops, about six minutes.", "8:00出発、烏丸御池駅まで徒歩5〜8分。烏丸線・竹田方面で京都駅へ、3駅約6分。"],
+  "京都站转 JR 奈良线，预留约 10–15 分钟；选停靠宇治的みやこ路快速，车程约 20–25 分钟，不用预约。": ["Allow 10–15 minutes to transfer to the JR Nara Line. Take a Miyakoji Rapid stopping at Uji, around 20–25 minutes; no reservation.", "京都駅でJR奈良線に乗換、約10〜15分。宇治停車のみやこ路快速で約20〜25分。予約不要。"],
+  "约 08:45–08:50 到 JR 宇治站，再步行约 10–15 分钟到平等院。": ["Reach JR Uji around 08:45–08:50, then walk 10–15 minutes to Byodoin.", "8:45〜8:50頃JR宇治駅着。平等院まで徒歩10〜15分。"],
+  "宇治 · 平等院、宇治川与神社": ["Uji · Byodoin, river and shrines", "宇治・平等院、宇治川と神社"],
+  "平等院 → 橘桥 / 朝雾桥 → 宇治神社 → 宇治上神社 → 宇治桥。": ["Byodoin → Tachibana / Asagiri bridges → Uji Shrine → Ujigami Shrine → Uji Bridge.", "平等院 → 橘橋・朝霧橋 → 宇治神社 → 宇治上神社 → 宇治橋。"],
+  "庭园、凤凰堂外观与博物馆，约 1 小时。": ["Garden, Phoenix Hall exterior and museum, about one hour.", "庭園・鳳凰堂外観・ミュージアム、約1時間。"],
+  "宇治川 · 橘桥与朝雾桥": ["Uji River · Tachibana and Asagiri bridges", "宇治川・橘橋と朝霧橋"],
+  "从平等院步行过河，沿河拍照。": ["Walk across the river from Byodoin and take riverside photos.", "平等院から川を渡り、川沿いで撮影。"],
+  "参拜、兔子御守；约 20 分钟。境内免费。": ["Visit and browse rabbit amulets, around 20 minutes. Grounds are free.", "参拝・うさぎのお守り、約20分。境内無料。"],
+  "授与所至 16:30，无需预约。": ["Amulets available until 16:30; no reservation.", "授与所は16:30まで。予約不要。"],
+  "从宇治神社步行约 5 分钟；参拜约 15 分钟。": ["Five-minute walk from Uji Shrine; about 15 minutes to visit.", "宇治神社から徒歩約5分。参拝約15分。"],
+  "沿河回到西岸，步行至平等院表参道午餐。": ["Return to the west bank and walk to lunch on Byodoin Omotesando.", "川沿いに西岸へ戻り、平等院表参道で昼食。"],
+  "宇治 / 奈良攻略截图 ①": ["Uji / Nara guide screenshot ①", "宇治・奈良の参考画像①"],
+  "用户提供的宇治与奈良一日游攻略": ["User-provided Uji and Nara day-trip guide", "ユーザー提供の宇治・奈良日帰りガイド"],
+  "宇治 / 奈良攻略截图 ②": ["Uji / Nara guide screenshot ②", "宇治・奈良の参考画像②"],
+  "宇治步行路线与奈良景点攻略": ["Uji walking route and Nara sightseeing guide", "宇治の散策ルート・奈良観光ガイド"],
+  "宇治午餐 · 抹茶拉面（候选）": ["Uji lunch · Matcha ramen (option)", "宇治の昼食・抹茶ラーメン（候補）"],
+  "田中九商店 平等院店，现场候位；用餐和排队共留 45 分钟。": ["Tanaka Kyushoten Byodoin branch, walk-in; allow 45 minutes for waiting and eating.", "田中九商店 平等院店。当日来店、待ち時間と食事で45分。"],
+  "10:30–17:30，周三休息；10/15 周四可安排。不接受预约。": ["10:30–17:30, closed Wednesdays; Oct 15 is Thursday. No reservations.", "10:30〜17:30、水曜定休。10/15は木曜。予約不可。"],
+  "抹茶面有盐味 / 酱油汤底，也有抹茶饺子。若排队影响 13:00 出发，就改附近简餐。": ["Matcha noodles with salt or soy broth; matcha gyoza also offered. Switch to a nearby quick meal if the queue affects the 13:00 departure.", "抹茶麺は塩・醤油味、抹茶餃子もあり。13:00出発に影響する行列なら近くの軽食へ。"],
+  "店铺营业与预约资料": ["Restaurant hours and reservation information", "店舗の営業時間・予約情報"],
+  "宇治 · 抹茶甜点与茶叶伴手礼": ["Uji · Matcha sweets and tea souvenirs", "宇治・抹茶スイーツとお茶のお土産"],
+  "沿表参道买抹茶甜点，再往 JR 宇治站走；中村藤吉 / 伊藤久右卫门二选一。": ["Buy matcha sweets on Omotesando and head toward JR Uji; choose Nakamura Tokichi or Itoh Kyuemon.", "表参道で抹茶スイーツを買い、JR宇治駅へ。中村藤吉・伊藤久右衛門のどちらか。"],
+  "中村藤吉本店": ["Nakamura Tokichi main store", "中村藤吉本店"],
+  "茶叶、外带甜点；咖啡厅不预约，排队短才坐下来吃。": ["Tea and takeaway sweets. The café takes no reservations; sit down only if the queue is short.", "お茶・持ち帰りスイーツ。カフェは予約不可、待ち時間が短ければ利用。"],
+  "10:00–17:30；咖啡厅最后点单 16:30，取号至 16:00。": ["10:00–17:30; café last orders 16:30, queue registration until 16:00.", "10:00〜17:30、カフェL.O.16:30、受付16:00まで。"],
+  "伊藤久右卫门 · JR 宇治站前店": ["Itoh Kyuemon · JR Uji Station branch", "伊藤久右衛門・JR宇治駅前店"],
+  "靠近回程车站，抹茶芭菲、茶叶；午餐若没吃拉面，也可选抹茶荞麦面。": ["Near the station; matcha parfaits and tea. Matcha soba is a lunch backup if ramen is skipped.", "駅近。抹茶パフェ・お茶。ラーメンを食べなければ抹茶そばも昼食候補。"],
+  "10:00–18:00，最后点单 17:30。": ["10:00–18:00, last orders 17:30.", "10:00〜18:00、L.O.17:30。"],
+  "宇治 → 奈良 · JR 奈良线": ["Uji → Nara · JR Nara Line", "宇治 → 奈良・JR奈良線"],
+  "约 13:00 乘快速，车程约 30–40 分钟；奈良站换公交去公园。": ["Take a rapid around 13:00, about 30–40 minutes; transfer to a bus at Nara Station for the park.", "13:00頃の快速で約30〜40分。奈良駅からバスで公園へ。"],
+  "12:45 左右往 JR 宇治站，留 10–15 分钟步行、候车。": ["Head to JR Uji around 12:45; allow 10–15 minutes to walk and wait.", "12:45頃にJR宇治駅へ。徒歩・待ち時間10〜15分。"],
+  "乘 JR 奈良线みやこ路快速，往奈良方向，直达 JR 奈良站；不坐往京都方向的车。": ["Take a JR Nara Line Miyakoji Rapid toward Nara, direct to JR Nara Station.", "JR奈良線みやこ路快速・奈良方面でJR奈良駅へ直通。京都方面には乗らない。"],
+  "出站后乘开往奈良公园的公交，到「东大寺大佛殿・春日大社前」，车程约 10–15 分钟；不等车则步行约 30 分钟。": ["Take a park-bound bus to Todaiji Daibutsuden / Kasugataisha-mae, about 10–15 minutes. Walking instead takes around 30 minutes.", "公園方面バスで「東大寺大仏殿・春日大社前」へ、約10〜15分。徒歩なら約30分。"],
+  "奈良 · 小鹿、东大寺与二月堂": ["Nara · Deer, Todaiji and Nigatsudo", "奈良・鹿、東大寺と二月堂"],
+  "奈良公园 → 东大寺大佛殿 → 二月堂 → 若草山北入口。": ["Nara Park → Todaiji Great Buddha Hall → Nigatsudo → Wakakusayama north gate.", "奈良公園 → 東大寺大仏殿 → 二月堂 → 若草山北ゲート。"],
+  "看鹿、喂鹿与拍照，慢慢走向东大寺；只喂鹿仙贝。": ["Meet, feed and photograph deer while walking toward Todaiji; feed only deer crackers.", "鹿と触れ合い・撮影しながら東大寺へ。餌は鹿せんべいのみ。"],
+  "东大寺 · 大佛殿": ["Todaiji · Great Buddha Hall", "東大寺・大仏殿"],
+  "南大门到大佛殿参观，约 50 分钟。": ["Visit from Nandaimon Gate to the Great Buddha Hall, about 50 minutes.", "南大門から大仏殿を参拝、約50分。"],
+  "从大佛殿步行约 10 分钟；登平台看奈良市景，约 15 分钟。": ["Walk about 10 minutes from the Great Buddha Hall; enjoy city views from the terrace for 15 minutes.", "大仏殿から徒歩約10分。舞台から奈良を眺める、約15分。"],
+  "步行至若草山北入口": ["Walk to Wakakusayama north gate", "若草山北ゲートへ徒歩"],
+  "步行约 10–15 分钟，到入口买票后开始登山。": ["Walk 10–15 minutes; buy a ticket at the gate before the ascent.", "徒歩約10〜15分。入口で購入して登山開始。"],
+  "春日大社为备选：宇治提前结束才加入，最晚 16:15 仍需到若草山。否则保留现有三站。": ["Kasuga Taisha is optional if Uji finishes early; still reach Wakakusayama by 16:15. Otherwise keep the three planned stops.", "宇治を早く終えた場合のみ春日大社を追加。16:15までに若草山へ。通常は予定の3か所。"],
+  "春日大社境内参拜免费，10 月 06:30–17:30；特别参拜 09:00–16:00，¥700／人。": ["Kasuga Taisha general grounds are free, 06:30–17:30 in October. Special worship 09:00–16:00, ¥700 per person.", "春日大社の一般参拝は無料、10月は6:30〜17:30。特別参拝9:00〜16:00、700円。"],
+  "若草山 · 一重目看日落": ["Wakakusayama · Sunset at the first terrace", "若草山・一重目で夕日"],
+  "约 16:45 到一重目，17:23 左右日落；17:30 下山，17:55 左右离山。": ["Reach the first terrace around 16:45; sunset around 17:23. Descend at 17:30 and exit around 17:55.", "16:45頃一重目着、17:23頃日没。17:30下山、17:55頃に出口。"],
+  "若草山 → 奈良市区": ["Wakakusayama → Central Nara", "若草山 → 奈良市街"],
+  "步行约 35–45 分钟回东向商店街；累了可在公园附近坐公交。": ["Walk 35–45 minutes to Higashimuki shopping street; take a bus from near the park if tired.", "東向商店街まで徒歩約35〜45分。疲れたら公園付近からバス。"],
+  "经奈良公园返回近铁奈良站 / 东向商店街，途中可在「东大寺大佛殿・春日大社前」乘公交。": ["Return through Nara Park to Kintetsu Nara / Higashimuki; a bus is available from Todaiji Daibutsuden / Kasugataisha-mae.", "奈良公園を通って近鉄奈良駅・東向商店街へ。「東大寺大仏殿・春日大社前」からバスも可。"],
+  "晚餐 · 随当天心情选": ["Dinner · Choose on the day", "夕食・当日の気分で選ぶ"],
+  "近铁奈良站 / 东向商店街附近找饭，不预约；也可直接回京都再吃。": ["Find dinner near Kintetsu Nara / Higashimuki without a reservation, or return to Kyoto first.", "近鉄奈良駅・東向商店街付近で予約せず夕食。先に京都へ戻って食べても可。"],
+  "奈良 → 京都酒店": ["Nara → Kyoto hotel", "奈良 → 京都ホテル"],
+  "从晚餐区出发，公共交通约 75–90 分钟到酒店。": ["Allow 75–90 minutes from the dinner area to the hotel by public transport.", "夕食エリアからホテルまで公共交通で約75〜90分。"],
+  "东向商店街附近就从近铁奈良站出发，经大和西大寺换乘往京都的急行，车程约 50–60 分钟；特急需另买特急券。": ["From Higashimuki, use Kintetsu Nara; change at Yamato-Saidaiji to a Kyoto-bound express, about 50–60 minutes. Limited express requires a separate ticket.", "東向商店街からは近鉄奈良駅へ。大和西大寺で京都方面急行に乗換、約50〜60分。特急は別途特急券が必要。"],
+  "若在 JR 奈良站附近吃，则乘 JR 奈良线快速回京都，车程约 45–55 分钟。": ["If dining near JR Nara, take a JR Nara Line rapid to Kyoto, around 45–55 minutes.", "JR奈良駅付近で食べた場合はJR奈良線快速で京都へ、約45〜55分。"],
+  "京都站转乌丸线往国际会馆方向，3 站到乌丸御池，再步行约 5–8 分钟回酒店。": ["At Kyoto, take the Karasuma Line toward Kokusaikaikan, three stops to Karasuma Oike, then walk 5–8 minutes.", "京都駅から烏丸線・国際会館方面で烏丸御池へ3駅、徒歩5〜8分でホテル。"],
+  "酒店 / 附近简餐": ["Hotel / nearby quick breakfast", "ホテル・近くで軽食"],
+  "宇治抹茶拉面（候选）+ 抹茶甜点": ["Uji matcha ramen (option) + matcha sweets", "宇治の抹茶ラーメン（候補）＋抹茶スイーツ"],
+  "奈良现场选店 / 回京都吃 · 不预约": ["Choose in Nara / eat in Kyoto · No reservation", "奈良で当日選ぶ・京都へ戻って夕食、予約なし"],
+  "这次先按外观拍照排时间；外观免费。登塔待定，需额外留约 60–90 分钟。": ["Plan exterior photos for now, free. Going up is optional and needs another 60–90 minutes.", "今回は無料の外観撮影。展望台は未定、別途約60〜90分必要。"],
+  "普通展望台 09:00–21:45（最后入场 21:15），成人 ¥1,500。实行时段预约制，可官网在线购票；现场也需选入场时段。": ["Main observatory 09:00–21:45, last entry 21:15; adults ¥1,500. Timed-entry booking applies online and on site.", "一般展望台9:00〜21:45（最終入場21:15）、大人1,500円。時間指定予約制。公式オンライン購入、現地購入も時間指定。"],
+  "大阪南区，18:00 螃蟹宴": ["South Osaka, crab dinner at 18:00", "大阪ミナミ、18:00かに料理"],
+  "10:00 寄存行李": ["10:00 luggage drop", "10:00荷物預け"],
+  "18:00 蟹料理 · 待预订": ["18:00 crab dinner · To book", "18:00かに料理・予約未定"],
+  "黑门市场": ["Kuromon Market", "黒門市場"],
+  "橘子街": ["Orange Street", "オレンジストリート"],
+  "京都酒店退房": ["Check out of the Kyoto hotel", "京都ホテルをチェックアウト"],
+  "早餐后带齐行李，到前台退房。": ["After breakfast, collect luggage and check out at reception.", "朝食後、荷物を揃えてフロントでチェックアウト。"],
+  "京都酒店 → 大阪酒店 · 地铁 + JR 新快速": ["Kyoto hotel → Osaka hotel · Subway + JR Special Rapid", "京都ホテル → 大阪ホテル・地下鉄＋JR新快速"],
+  "门到门约 70–80 分钟；JR 京都站 → 大阪站约 30 分钟，直达梅田。": ["Allow 70–80 minutes door to door. JR Kyoto → Osaka takes about 30 minutes, direct to Umeda.", "ホテル間は約70〜80分。JR京都駅 → 大阪駅は約30分、梅田へ直通。"],
+  "08:45 酒店出发，走约 5–8 分钟到乌丸御池站；从 3-2 号出口电梯下站，乘乌丸线往竹田方向到京都站，约 6 分钟。": ["Leave at 08:45; walk 5–8 minutes to Karasuma Oike and use exit 3-2 elevator. Take the Karasuma Line toward Takeda to Kyoto, about six minutes.", "8:45ホテル出発、徒歩5〜8分で烏丸御池駅。3-2番出口のエレベーターを利用。烏丸線・竹田方面で京都駅へ約6分。"],
+  "京都站换 JR 京都线，预留 10–15 分钟；约 09:15 乘往大阪 / 三宫 / 姬路方向的「新快速」，大阪站下车，约 29–30 分钟。": ["Allow 10–15 minutes to transfer to the JR Kyoto Line. Around 09:15, take a Special Rapid toward Osaka / Sannomiya / Himeji and get off at Osaka, about 29–30 minutes.", "JR京都線へ乗換、10〜15分確保。9:15頃に大阪・三ノ宮・姫路方面の新快速、大阪駅まで約29〜30分。"],
+  "普通车不用预约，可刷 IC 卡；不要在新大阪提前下车。行李放身边或座位前，不占通道；这段不保证有座位。": ["Ordinary cars need no reservation; use an IC card. Stay on past Shin-Osaka. Keep luggage beside you or in front of your seat, clear of aisles; seats are not guaranteed.", "普通車は予約不要、ICカード可。新大阪で降りず大阪駅まで乗車。荷物は手元・座席前に置き、通路を空ける。着席は確約なし。"],
+  "大阪站从 3F「连络桥口」出站，步行约 3–5 分钟到酒店 2F 入口，再乘电梯到 9F 前台。": ["Leave through Osaka Station’s 3F Bridge Gate; walk 3–5 minutes to the hotel 2F entrance and take the lift to 9F reception.", "大阪駅3F「連絡橋口」からホテル2F入口まで徒歩約3〜5分。エレベーターで9Fフロントへ。"],
+  "大阪酒店 · 寄存行李": ["Osaka hotel · Drop luggage", "大阪ホテル・荷物預け"],
+  "到 9F 前台寄存行李，晚饭后回来入住；15:00 起可入住。": ["Drop luggage at 9F reception; return after dinner to check in. Check-in starts at 15:00.", "9Fフロントに荷物を預け、夕食後に戻ってチェックイン。15:00から入室可。"],
+  "梅田酒店 → 通天阁": ["Umeda hotel → Tsutenkaku", "梅田ホテル → 通天閣"],
+  "御堂筋线直达动物园前，含步行约 35–40 分钟。": ["Midosuji Line direct to Dobutsuen-mae; 35–40 minutes including walks.", "御堂筋線で動物園前へ直通、徒歩込み約35〜40分。"],
+  "从酒店步行约 8–10 分钟到御堂筋线梅田站，乘往天王寺 / 中百舌鸟方向的车，到动物园前，车程约 20–25 分钟。": ["Walk 8–10 minutes to Midosuji Line Umeda; take a train toward Tennoji / Nakamozu to Dobutsuen-mae, about 20–25 minutes.", "徒歩8〜10分で御堂筋線梅田駅。天王寺・なかもず方面で動物園前へ、約20〜25分。"],
+  "动物园前站出站，穿过新世界，步行约 8–10 分钟到通天阁。": ["Leave Dobutsuen-mae and walk through Shinsekai to Tsutenkaku, around 8–10 minutes.", "動物園前駅から新世界を通り通天閣へ徒歩約8〜10分。"],
+  "通天阁 / 新世界 → 难波八阪神社": ["Tsutenkaku / Shinsekai → Namba Yasaka Shrine", "通天閣・新世界 → 難波八阪神社"],
+  "通天阁外观拍照，再步行去狮子头神社。": ["Photograph Tsutenkaku outside, then walk to the lion-head shrine.", "通天閣の外観撮影後、獅子殿の神社へ徒歩。"],
+  "通天阁与新世界": ["Tsutenkaku and Shinsekai", "通天閣と新世界"],
+  "塔下街景、外观打卡；饿了可买少量章鱼烧，13:00 再吃午餐。": ["Street views and exterior photos. Have a small takoyaki snack if hungry; lunch is at 13:00.", "街並み・外観撮影。空腹ならたこ焼きを少量、昼食は13:00。"],
+  "步行 → 难波八阪神社": ["Walk → Namba Yasaka Shrine", "徒歩 → 難波八阪神社"],
+  "步行约 25–30 分钟。": ["Walk around 25–30 minutes.", "徒歩約25〜30分。"],
+  "狮子殿与境内拍照，约 25 分钟。": ["Lion-head hall and grounds photos, around 25 minutes.", "獅子殿・境内で撮影、約25分。"],
+  "06:00–17:00，免费，无需预约。": ["06:00–17:00, free; no reservation.", "6:00〜17:00、無料、予約不要。"],
+  "步行到黑门市场 · 午餐逛吃": ["Walk to Kuromon Market · Lunch", "黒門市場へ徒歩・昼食"],
+  "步行约 20–25 分钟，13:00–14:00 吃午餐；海鲜饭 / 寿司为主，再加小吃。": ["Walk 20–25 minutes; lunch 13:00–14:00, seafood rice or sushi plus snacks.", "徒歩約20〜25分、13:00〜14:00昼食。海鮮丼・寿司と軽食。"],
+  "黑门三平 · 海鲜丼 / 寿司": ["Kuromon Sanpei · Seafood rice / sushi", "黒門三平・海鮮丼／寿司"],
+  "可买寿司、刺身或海鲜丼在店内吃，适合坐下来吃午餐。": ["Choose sushi, sashimi or seafood rice and use the eat-in area; convenient for a seated lunch.", "寿司・刺身・海鮮丼を購入してイートインで昼食。"],
+  "08:00–20:00；店内用餐与等位约留 45–60 分钟。": ["08:00–20:00; allow 45–60 minutes for lunch and waiting.", "8:00〜20:00。食事・待ち時間に45〜60分。"],
+  "まぐろや黑银 · 黑门本店": ["Maguroya Kurogin · Kuromon main store", "まぐろや黒銀・黒門本店"],
+  "主打金枪鱼，可选赤身 / 中腹等刺身、寿司或丼饭。": ["Tuna specialist; choose lean or medium-fatty sashimi, sushi or rice bowls.", "まぐろ専門店。赤身・中トロ等の刺身、寿司・丼。"],
+  "普通寿司 / 丼饭现场购买；葱鲔锅需另预约，这次不排锅套餐。": ["Buy regular sushi or rice bowls on site. Negima hotpot requires a separate reservation and is not planned.", "通常の寿司・丼は現地購入。ねぎま鍋は予約制、今回は鍋コースなし。"],
+  "道顿堀 → 心斋桥 → 橘子街": ["Dotonbori → Shinsaibashi → Orange Street", "道頓堀 → 心斎橋 → オレンジストリート"],
+  "按这个顺序逛街，17:30 左右回心斋桥晚餐区。": ["Shop in this order; return toward the Shinsaibashi dinner area around 17:30.", "この順で買い物。17:30頃に心斎橋の夕食エリアへ戻る。"],
+  "从黑门市场步行约 10–15 分钟；戎桥、格力高广告牌拍照约 30 分钟。": ["Walk 10–15 minutes from Kuromon; about 30 minutes for Ebisubashi and Glico photos.", "黒門市場から徒歩約10〜15分。戎橋・グリコ看板で約30分撮影。"],
+  "沿心斋桥筋北上逛街，约 1 小时。": ["Browse north along Shinsaibashi-suji, about one hour.", "心斎橋筋を北へ散策、約1時間。"],
+  "从心斋桥步行约 10–15 分钟到堀江，逛 Orange Street 的服装与小店。": ["Walk 10–15 minutes to Horie and browse Orange Street clothing and boutiques.", "心斎橋から堀江へ徒歩約10〜15分。オレンジストリートの服・雑貨店へ。"],
+  "返回心斋桥晚餐区": ["Return to Shinsaibashi for dinner", "心斎橋の夕食エリアへ戻る"],
+  "步行约 15–20 分钟；留约 30 分钟找餐厅和等入座。": ["Walk about 15–20 minutes; leave 30 minutes to find the restaurant and be seated.", "徒歩約15〜20分。店探し・入店まで約30分確保。"],
+  "心斋桥附近 · 螃蟹宴": ["Near Shinsaibashi · Crab dinner", "心斎橋付近・かに料理"],
+  "18:00 可安排；餐厅与套餐待定，尚未预约。": ["18:00 fits the plan; restaurant and course undecided, not booked.", "18:00で予定可能。店・コースは未定、未予約。"],
+  "晚饭前不回梅田取行李。若登通天阁或购物超时，优先缩短心斋桥 / 橘子街，17:30 结束逛街。": ["Keep luggage at the hotel until after dinner. If tower entry or shopping runs long, shorten Shinsaibashi / Orange Street and finish shopping by 17:30.", "夕食前に梅田へ荷物を取りに戻らない。通天閣・買い物が延びたら心斎橋・橘通りを短縮し17:30までに終了。"],
+  "心斋桥餐厅地图": ["Shinsaibashi restaurant map", "心斎橋の飲食店地図"],
+  "晚餐后 → 梅田酒店入住": ["After dinner → Umeda hotel check-in", "夕食後 → 梅田ホテルにチェックイン"],
+  "御堂筋线回梅田，取行李办理入住。": ["Take the Midosuji Line back to Umeda; collect luggage and check in.", "御堂筋線で梅田へ戻り、荷物を受け取ってチェックイン。"],
+  "心斋桥站乘御堂筋线往江坂 / 千里中央方向，到梅田约 12–15 分钟。步行约 8–10 分钟回酒店，前台取行李。": ["Take the Midosuji Line toward Esaka / Senri-Chuo from Shinsaibashi to Umeda, about 12–15 minutes. Walk 8–10 minutes to the hotel and collect luggage.", "心斎橋から御堂筋線・江坂／千里中央方面で梅田へ約12〜15分。徒歩8〜10分でホテル、フロントで荷物受取。"],
+  "13:00 黑门市场 · 海鲜饭 / 寿司与小吃": ["13:00 Kuromon Market · Seafood rice / sushi and snacks", "13:00黒門市場・海鮮丼／寿司と軽食"],
+  "18:00 心斋桥附近螃蟹宴 · 待预订": ["18:00 crab dinner near Shinsaibashi · To book", "18:00心斎橋付近のかに料理・未予約"],
+  "确定螃蟹宴餐厅并预约 18:00": ["Choose a crab restaurant and book 18:00", "かに料理店を決めて18:00を予約"],
+  "公园、护城河与天守阁外观免费。天守阁入内待定：09:00–18:00（17:30 停止入场），成人 ¥1,200；现场或官网购票。": ["Park, moats and castle exterior are free. Tower interior optional: 09:00–18:00, last entry 17:30; adults ¥1,200, tickets on site or official website.", "公園・堀・天守閣外観は無料。天守閣入館は未定：9:00〜18:00（最終17:30）、大人1,200円、現地・公式サイトで購入。"],
+  "若入天守阁，在上午这段里留约 1 小时，缩短公园散步；中午仍在大阪城附近吃饭。": ["If entering the tower, allow an hour within the morning block and shorten the park walk; keep lunch near the castle.", "天守閣に入るなら午前枠で約1時間、公園散策を短縮。昼食は大阪城付近。"],
+  "JO-TERRACE 午餐": ["JO-TERRACE lunch", "JO-TERRACEで昼食"],
+  "友都八喜 / 百货（备选）": ["Yodobashi / department stores (options)", "ヨドバシ・百貨店（候補）"],
+  "梅田酒店 → 大阪城公园": ["Umeda hotel → Osaka Castle Park", "梅田ホテル → 大阪城公園"],
+  "JR 大阪环状线到森之宫，含步行约 30–35 分钟。": ["JR Osaka Loop Line to Morinomiya, about 30–35 minutes including walks.", "JR大阪環状線で森ノ宮へ、徒歩込み約30〜35分。"],
+  "步行约 5–10 分钟到 JR 大阪站，乘大阪环状线外环「京桥・鹤桥方面」，森之宫站下车，约 15 分钟。": ["Walk 5–10 minutes to JR Osaka; take the outer Loop Line toward Kyobashi / Tsuruhashi to Morinomiya, about 15 minutes.", "JR大阪駅まで徒歩5〜10分。環状線外回り・京橋／鶴橋方面で森ノ宮へ約15分。"],
+  "森之宫站出站后步行约 5 分钟进入公园，再往护城河和天守阁方向走。": ["Walk five minutes from Morinomiya into the park, then toward the moats and castle.", "森ノ宮駅から徒歩約5分で公園へ。堀・天守閣方面へ歩く。"],
+  "大阪城公园 · 护城河与天守阁": ["Osaka Castle Park · Moats and tower", "大阪城公園・堀と天守閣"],
+  "从森之宫侧进，经过护城河、天守阁外观，再往大阪城公园站一侧走。入天守阁待定。": ["Enter from Morinomiya, see the moats and tower exterior, then head toward Osakajokoen Station. Tower entry optional.", "森ノ宮側から堀・天守閣外観を見て、大阪城公園駅側へ。天守閣入館は未定。"],
+  "JO-TERRACE · 大阪城附近午餐": ["JO-TERRACE · Lunch near Osaka Castle", "JO-TERRACE・大阪城付近で昼食"],
+  "从天守阁步行约 15–20 分钟；12:00–13:00 吃午餐，选一家。": ["Walk 15–20 minutes from the tower; lunch 12:00–13:00, choose one restaurant.", "天守閣から徒歩約15〜20分。12:00〜13:00昼食、1店を選ぶ。"],
+  "名代 千房 · 大阪烧": ["Chibo · Okonomiyaki", "名代 千房・お好み焼き"],
+  "想吃大阪特色就选大阪烧 / 炒面，约 45–60 分钟。": ["Choose Osaka-style okonomiyaki or fried noodles, around 45–60 minutes.", "大阪らしいお好み焼き・焼そば、約45〜60分。"],
+  "周六 11:00–20:00，最后点单 19:00。": ["Saturday 11:00–20:00, last orders 19:00.", "土曜11:00〜20:00、L.O.19:00。"],
+  "さち福や · 日式定食": ["Sachifukuya · Japanese set meals", "さち福や・定食"],
+  "烤鱼、炸物等定食，适合简单吃一顿，约 40–50 分钟。": ["Grilled fish or fried-food set meals, around 40–50 minutes.", "焼魚・揚げ物等の定食、約40〜50分。"],
+  "11:00–21:00，最后点单 20:30。": ["11:00–21:00, last orders 20:30.", "11:00〜21:00、L.O.20:30。"],
+  "大阪城公园站 → 梅田": ["Osakajokoen Station → Umeda", "大阪城公園駅 → 梅田"],
+  "午餐区步行约 3–5 分钟到车站，JR 回大阪站约 10 分钟。": ["Walk 3–5 minutes from lunch to the station; JR to Osaka takes around ten minutes.", "昼食エリアから駅へ徒歩3〜5分、JRで大阪駅まで約10分。"],
+  "乘大阪环状线内环「大阪・樱之宫方面」，经京桥、樱之宫、天满到大阪站。": ["Take the inner Osaka Loop Line toward Osaka / Sakuranomiya, via Kyobashi, Sakuranomiya and Temma to Osaka.", "大阪環状線内回り・大阪／桜ノ宮方面。京橋・桜ノ宮・天満を経て大阪駅へ。"],
+  "梅田购物 · 商场自由选": ["Umeda shopping · Choose your malls", "梅田で買い物・施設を自由に選ぶ"],
+  "主要逛 Grand Front、LUCUA；百货、HEP FIVE 与友都八喜作为备选。": ["Focus on Grand Front and LUCUA; department stores, HEP FIVE and Yodobashi are optional.", "グランフロント・ルクア中心。百貨店・HEP FIVE・ヨドバシは候補。"],
+  "大阪站北侧，服饰、户外品牌与生活用品；约 1.5 小时。": ["North of Osaka Station; clothing, outdoor brands and lifestyle shops, around 1.5 hours.", "大阪駅北側。服・アウトドア・生活雑貨、約1.5時間。"],
+  "商店 11:00–21:00。": ["Shops 11:00–21:00.", "物販11:00〜21:00。"],
+  "商场官网与营业时间": ["Mall website and opening hours", "商業施設の公式サイト・営業時間"],
+  "LUCUA / LUCUA 1100": ["LUCUA / LUCUA 1100", "ルクア・ルクア イーレ"],
+  "从 Grand Front 步行约 5 分钟，逛服装与杂货；约 1.5 小时。": ["Walk about five minutes from Grand Front; clothing and accessories, around 1.5 hours.", "グランフロントから徒歩約5分。服・雑貨、約1.5時間。"],
+  "商店 10:30–20:30。": ["Shops 10:30–20:30.", "物販10:30〜20:30。"],
+  "后半段 · 从下面选店": ["Second half · Pick from the options below", "後半・下の候補から選ぶ"],
+  "按购物清单挑 1–2 家，累了可先回酒店放东西休息。": ["Choose one or two shops from your shopping list; return to the hotel to drop purchases and rest if needed.", "買い物リストで1〜2か所選ぶ。疲れたらホテルに荷物を置いて休憩。"],
+  "阪急百货 · 梅田本店": ["Hankyu Department Store · Umeda", "阪急うめだ本店"],
+  "百货、美妆与伴手礼。": ["Department store, cosmetics and gifts.", "百貨店・コスメ・お土産。"],
+  "百货 10:00–20:00。": ["Department store 10:00–20:00.", "百貨店10:00〜20:00。"],
+  "大丸百货 · 梅田店": ["Daimaru · Umeda", "大丸梅田店"],
+  "大阪站南侧；作为百货购物备选。": ["South side of Osaka Station; department-store shopping option.", "大阪駅南側。百貨店の候補。"],
+  "10:00–20:00；部分楼层改装中，先看楼层目录。": ["10:00–20:00; some floors are under renovation, check the directory first.", "10:00〜20:00。一部フロア改装中、館内案内を先に確認。"],
+  "友都八喜 · 梅田": ["Yodobashi Camera · Umeda", "ヨドバシカメラ・梅田"],
+  "酒店同栋附近，电子产品、相机、玩具；买完方便回酒店。": ["By the hotel; electronics, cameras and toys, easy to return with purchases.", "ホテルと同じ建物付近。家電・カメラ・玩具、購入後に戻りやすい。"],
+  "09:30–22:00。": ["09:30–22:00.", "9:30〜22:00。"],
+  "年轻服饰与动漫周边；摩天轮另购票，是否乘坐待定。": ["Youth fashion and anime merchandise; Ferris wheel tickets sold separately, ride optional.", "若者向けファッション・アニメグッズ。観覧車は別途購入、乗車未定。"],
+  "梅田购物攻略截图": ["Umeda shopping guide screenshot", "梅田ショッピングの参考画像"],
+  "用户提供的梅田商场购物攻略": ["User-provided Umeda mall shopping guide", "ユーザー提供の梅田ショッピングガイド"],
+  "梅田晚餐 · 待定": ["Umeda dinner · Undecided", "梅田の夕食・未定"],
+  "梅田附近吃晚饭；饭后回酒店整理行李。": ["Dinner around Umeda; return to the hotel to pack.", "梅田付近で夕食。食後ホテルで荷造り。"],
+  "12:00 JO-TERRACE · 大阪烧 / 定食": ["12:00 JO-TERRACE · Okonomiyaki / set meals", "12:00 JO-TERRACE・お好み焼き／定食"],
+  "18:30 梅田附近 · 待定": ["18:30 near Umeda · Undecided", "18:30梅田付近・未定"],
+  "候选 HARUKA 13：大阪 09:19 → 关西机场约 10:04，车程 45 分钟；当前按周末官方时刻参考，车票尚未预订。": ["Candidate HARUKA 13: Osaka 09:19 → Kansai Airport around 10:04, 45 minutes. Based on the official weekend timetable; not booked.", "候補はるか13号：大阪9:19 → 関西空港10:04頃、45分。公式の休日ダイヤを参考、未予約。"],
+  "建议普通车指定席，有行李区；不能只刷 IC 卡乘坐，需有效 HARUKA 车票 / 特急券。": ["Choose an ordinary reserved seat; luggage areas available. An IC card alone is insufficient: a valid HARUKA / limited-express ticket is required.", "普通車指定席がおすすめ、荷物置場あり。ICカードだけでは乗車不可、有効なはるか乗車券・特急券が必要。"],
+  "符合短期滞在资格可网上买 HARUKA 单程优惠票：大阪 → 机场 ¥1,800／人，含普通车指定席。到大阪后提前取票，别留到出发早上。": ["Eligible temporary visitors can buy the HARUKA one-way discount ticket online: Osaka → airport ¥1,800 per adult, ordinary reserved seat included. Collect it in Osaka before departure morning.", "短期滞在等の資格を満たす場合、ネットではるか片道割引きっぷを購入可。大阪→空港は大人1,800円、普通車指定席込み。大阪到着後に事前受取。"],
+  "JR 西日本 · HARUKA 购票": ["JR West · HARUKA tickets", "JR西日本・はるかきっぷ"],
+  "JR 官方周末班次参考": ["JR official weekend timetable reference", "JR公式休日ダイヤの参考"],
+  "约 10:20 到 T1": ["T1 around 10:20", "10:20頃T1到着"],
+  "HARUKA 直达": ["HARUKA direct", "はるか直通"],
+  "早餐、整理行李与退房": ["Breakfast, luggage and check-out", "朝食・荷物整理・チェックアウト"],
+  "07:30–08:15 早餐，08:30–08:45 到前台退房。": ["Breakfast 07:30–08:15; check out at reception 08:30–08:45.", "7:30〜8:15朝食、8:30〜8:45フロントでチェックアウト。"],
+  "酒店 → 大阪站地下 HARUKA 站台": ["Hotel → Underground HARUKA platform at Osaka Station", "ホテル → 大阪駅地下のはるかホーム"],
+  "带行李步行、找入口和下到站台约 20–25 分钟。": ["Allow 20–25 minutes with luggage to find the entrance and descend to the platform.", "荷物を持って入口・ホームまで約20〜25分。"],
+  "08:45 从 9F 前台出发，乘电梯离开酒店，向 JR 大阪站「うめきた地下口」走；酒店地面至地下口约 6 分钟。": ["Leave 9F reception at 08:45, take the lift down and walk to JR Osaka’s Umekita Underground Gate; ground-level hotel to gate is around six minutes.", "8:45に9Fフロント出発、エレベーターで下りJR大阪駅「うめきた地下口」へ。ホテル地上から地下口まで約6分。"],
+  "带已取好的 HARUKA 车票进站，跟随「关西机场」指示到地下 21 号站台；09:10 前到车厢候车位置。": ["Enter with your collected HARUKA ticket; follow Kansai Airport signs to underground platform 21. Reach your boarding position by 09:10.", "受取済みのはるかきっぷで入場。「関西空港」表示で地下21番のりばへ、9:10までに乗車位置へ。"],
+  "HARUKA 13 · 大阪 → 关西机场（候选）": ["HARUKA 13 · Osaka → Kansai Airport (candidate)", "はるか13号・大阪 → 関西空港（候補）"],
+  "约 45 分钟直达，普通车指定席待购买。": ["Direct, about 45 minutes; ordinary reserved seats to buy.", "直通約45分、普通車指定席は未購入。"],
+  "机场站 → T1 国际出发柜台": ["Airport station → T1 international counters", "空港駅 → T1国際線カウンター"],
+  "步行约 10–15 分钟到 T1 4F；比 14:00 航班提前约 3 小时 40 分钟。": ["Walk 10–15 minutes to T1 4F; around 3 hours 40 minutes before the 14:00 flight.", "T1の4Fまで徒歩約10〜15分。14:00便より約3時間40分前。"],
+  "机场站出闸走连通桥到 T1，乘电梯到 4F 国际出发大厅。不要往 T2 接驳巴士方向走。": ["Cross the connecting bridge to T1 and take the lift to 4F international departures. Do not head for the T2 shuttle.", "改札から連絡橋でT1へ、エレベーターで4F国際線出発へ。T2シャトル方面には行かない。"],
+  "T1 · 值机、托运与出境": ["T1 · Check-in, bags and departure procedures", "T1・チェックイン、手荷物預け、出国"],
+  "各自找国航 / 东航柜台，柜台开放后值机托运，再过安检与出境。": ["Find Air China / China Eastern counters; check in once open, then security and immigration.", "国航・中国東方航空のカウンターへ。営業開始後チェックイン・荷物預け、保安検査と出国へ。"],
+  "免税购物 / 午餐": ["Duty-free shopping / lunch", "免税店・昼食"],
+  "出境后逛免税店，简单吃午餐；13:00 起分别前往登机口。": ["Browse duty-free after immigration and have a quick lunch; head to your separate gates from 13:00.", "出国後に免税店・軽い昼食。13:00から各自の搭乗口へ。"],
+  "购买 10/18 HARUKA 指定席并取票": ["Buy and collect HARUKA reserved-seat tickets for Oct 18", "10/18はるか指定席を購入・受取"],
+  "备选出租车：酒店直达 T1，约 60–90 分钟，09:00 前出发；费用按接送报价或计价器，另计高速费。行李多、想门到门时再选。": ["Taxi alternative: direct hotel → T1, allow 60–90 minutes and leave before 09:00. Fare by transfer quote or meter plus tolls; useful for more luggage and door-to-door travel.", "タクシー候補：ホテル→T1直行、約60〜90分、9:00前に出発。送迎見積・メーター料金＋高速代。荷物が多くドアツードア希望の場合。"],
+  "备选机场巴士：阪急三番街上车 → T1，车程约 60 分钟，¥1,800／人，行李放行李舱；先到先乘，不预约，路上与等车另留时间。": ["Airport bus alternative: Hankyu Sanbangai → T1, about 60 minutes, ¥1,800 per adult, luggage in the hold. First come, no reservations; add time for waiting and traffic.", "空港バス候補：阪急三番街→T1、約60分、大人1,800円、荷物はトランクへ。予約なし先着順、待ち時間・道路の余裕を追加。"],
+  "关西机场巴士 · 梅田路线": ["Kansai airport bus · Umeda route", "関空リムジンバス・梅田線"],
+  "奈良 · 春日大社、小鹿与东大寺": ["Nara · Kasuga Taisha, deer and Todaiji", "奈良・春日大社、鹿と東大寺"],
+  "春日大社 → 奈良公园 → 东大寺 → 若草山。二月堂有余裕再去。": ["Kasuga Taisha → Nara Park → Todaiji → Wakakusayama. Nigatsudo only if time allows.", "春日大社 → 奈良公園 → 東大寺 → 若草山。二月堂は時間があれば。"],
+  "10 月境内一般参拜 06:30–17:30，免费；特别参拜 09:00–16:00，¥700／人，现场购票。": ["General grounds 06:30–17:30 in October, free; special worship 09:00–16:00, ¥700 per adult, tickets on site.", "10月の一般参拝は6:30〜17:30、無料。特別参拝9:00〜16:00、700円、現地購入。"],
+  "春日大社 · 参拜费用": ["Kasuga Taisha · Worship fees", "春日大社・参拝料金"],
+  "先逛石灯笼参道与本殿，约 35 分钟；特别参拜看排队情况决定。": ["Visit the stone-lantern approach and main shrine, around 35 minutes; decide on special worship depending on queues.", "石灯籠の参道・本殿を参拝、約35分。特別参拝は待ち時間で判断。"],
+  "向东大寺步行约 20–25 分钟，途中看鹿、拍照；只喂鹿仙贝。": ["Walk 20–25 minutes toward Todaiji, meeting and photographing deer along the way; feed only deer crackers.", "東大寺へ徒歩約20〜25分、途中で鹿と撮影。餌は鹿せんべいのみ。"],
+  "南大门、大佛殿，约 45 分钟。": ["Nandaimon Gate and Great Buddha Hall, around 45 minutes.", "南大門・大仏殿、約45分。"],
+  "从东大寺步行约 15–20 分钟，到北入口买票。": ["Walk 15–20 minutes from Todaiji to buy a ticket at the north gate.", "東大寺から北ゲートまで徒歩約15〜20分、入口で購入。"],
+  "时间充裕才去": ["Only with spare time", "時間がある場合のみ"],
+  "东大寺旁的佛堂，有木廊与俯瞰奈良的平台。绕行加参拜约 25–30 分钟；至少多出半小时才加，16:15 仍需到若草山。": ["A hall beside Todaiji with a wooden veranda and city views. Allow 25–30 minutes for the detour and visit; add only with half an hour spare, still reaching Wakakusayama by 16:15.", "東大寺脇の堂、木の回廊・奈良を見渡す舞台あり。寄道・参拝に25〜30分、30分以上余裕がある場合のみ追加。16:15までに若草山へ。"],
+  "参拜免费，24 小时可参拜；平台不使用三脚架。": ["Free worship, accessible 24 hours; no tripods on the terrace.", "無料、24時間参拝可。舞台では三脚不可。"],
+  "约 13:00 乘 JR 快速，车程约 30–40 分钟；奈良站换公交并步行去春日大社，全段约 75 分钟。": ["Take a JR rapid around 13:00, around 30–40 minutes; bus and walk from Nara Station to Kasuga Taisha. Allow about 75 minutes overall.", "13:00頃JR快速、約30〜40分。奈良駅からバス・徒歩で春日大社へ、全体約75分。"],
+  "JR 奈良站乘奈良公园方向公交；到「春日大社本殿」后步行约 5 分钟，或到「春日大社表参道」后沿石灯笼参道步行约 15 分钟。公交加步行预留 25–30 分钟。": ["From JR Nara, take a park-bound bus. Walk five minutes from Kasugataisha Honden, or 15 minutes along the stone-lantern approach from Kasugataisha Omotesando. Allow 25–30 minutes for bus and walk.", "JR奈良駅から公園方面バス。「春日大社本殿」から徒歩約5分、または「春日大社表参道」から石灯籠の参道を約15分。バス＋徒歩25〜30分。"],
+  "午餐候选": ["Lunch option", "昼食候補"],
+  "备选": ["Optional", "候補"],
+  "蟹料理": ["Crab dinner", "かに料理"],
+  "二月堂": ["Nigatsudo", "二月堂"],
+  "若草山": ["Wakakusayama", "若草山"],
+  "宇治神社": ["Uji Shrine", "宇治神社"],
+  "宇治上神社": ["Ujigami Shrine", "宇治上神社"],
+  "宇治桥": ["Uji Bridge", "宇治橋"],
+  "春日大社": ["Kasuga Taisha", "春日大社"],
+  "两家目前均有 10/16 两位 18:00 选项；尚未预约。": ["Both currently offer Oct 16 at 18:00 for two; not booked.", "両店とも現在10/16の18:00、2名の選択肢あり。未予約。"],
+  "心斋桥 蟹善": ["Shinsaibashi Kanizen", "心斎橋 蟹善"],
+  "18:00 吧台 · 已查余位": ["18:00 counter · Availability checked", "18:00カウンター・空席確認済"],
+  "约 25–30 分钟": ["About 25–30 minutes", "約25〜30分"],
+  "18:00–20:00 场次；另有 20:30 场次": ["18:00–20:00 seating; another seating at 20:30", "18:00〜20:00の回、別途20:30の回あり"],
+  "10/4 查到 10/16、两位、18:00 吧台可进入预约页。推荐套餐 ¥44,000／人（含税），两位合计 ¥88,000，现场付款，预约需信用卡担保。店家提示蟹进货不稳定，所用蟹品种需与店家确认。": ["Checked Oct 4: Oct 16, two guests, 18:00 counter seats reach the reservation form. Recommended course ¥44,000 per person including tax, ¥88,000 for two, paid on site; card guarantee required. The restaurant notes unstable crab supply; confirm crab varieties with them.", "10/4確認：10/16、2名、18:00カウンターで予約入力画面へ進める。おすすめコース税込44,000円／人、2名88,000円、当日支払、カード保証必須。蟹の仕入れ不安定の案内あり、蟹の種類は店に確認。"],
+  "TableCheck · 蟹善预约": ["TableCheck · Kanizen reservations", "TableCheck・蟹善予約"],
+  "割烹まほろば 蟹": ["Kappo Mahoroba Kani", "割烹まほろば 蟹"],
+  "18:00 个室 · 已查余位": ["18:00 private room · Availability checked", "18:00個室・空席確認済"],
+  "约 20–25 分钟": ["About 20–25 minutes", "約20〜25分"],
+  "晚餐 17:30–23:00 · 最后点单 21:30": ["Dinner 17:30–23:00 · Last orders 21:30", "夕食17:30〜23:00、L.O.21:30"],
+  "10/4 查一休：10/16 两位 18:00、18:30、19:00 均显示 ◯。全个室活蟹套餐 ¥48,400／人（含税与服务费），两位 ¥96,800。": ["Checked Ikyu Oct 4: Oct 16 for two shows availability at 18:00, 18:30 and 19:00. Private-room live-crab course ¥48,400 per person including tax and service, ¥96,800 for two.", "10/4一休確認：10/16の2名は18:00・18:30・19:00が◯。全席個室、活蟹コース税・サービス込48,400円／人、2名96,800円。"],
+  "一休 · まほろば套餐与预约": ["Ikyu · Mahoroba course and reservations", "一休・まほろばコースと予約"],
+  "橘子街 → 所选螃蟹餐厅": ["Orange Street → Selected crab restaurant", "オレンジストリート → 選んだかに料理店"],
+  "まほろば步行约 20–25 分钟；蟹善约 25–30 分钟。17:10 离开橘子街，留到店缓冲，不回梅田酒店。": ["Walk 20–25 minutes to Mahoroba or 25–30 to Kanizen. Leave Orange Street at 17:10 with arrival buffer; keep luggage at the Umeda hotel.", "まほろばへ徒歩約20〜25分、蟹善へ約25〜30分。17:10に橘通り出発、到着の余裕を確保。梅田ホテルには戻らない。"],
+  "按这个顺序逛街，17:10 从橘子街直接前往所选餐厅。": ["Shop in this order; leave Orange Street directly for your restaurant at 17:10.", "この順で買い物、17:10に橘通りから選んだ店へ直行。"],
+  "按所选餐厅走到长堀桥站，地铁回梅田，取行李入住。": ["Walk from the selected restaurant to Nagahoribashi; take the subway to Umeda, collect luggage and check in.", "選んだ店から長堀橋駅へ。地下鉄で梅田、荷物受取・チェックイン。"],
+  "まほろば到长堀桥站步行约 3–5 分钟；蟹善约 8–10 分钟。乘堺筋线往天神桥筋六丁目方向，堺筋本町换中央线往梦洲方向，1 站到本町；换御堂筋线到梅田。嫌两次换乘，可直接步行约 15–20 分钟到心斋桥站，御堂筋线直达梅田。": ["Mahoroba is 3–5 minutes from Nagahoribashi, Kanizen 8–10. Take the Sakaisuji Line toward Tenjimbashisuji 6-chome, change at Sakaisuji-Hommachi to the Chuo Line toward Yumeshima for one stop to Hommachi, then Midosuji to Umeda. To avoid two changes, walk 15–20 minutes to Shinsaibashi for a direct Midosuji train.", "まほろばから長堀橋へ徒歩3〜5分、蟹善から8〜10分。堺筋線・天神橋筋六丁目方面、堺筋本町で中央線・夢洲方面へ1駅、本町で御堂筋線に乗換し梅田へ。乗換2回を避けるなら心斎橋へ徒歩15〜20分、御堂筋線で梅田直通。"],
+  "まほろば到长堀桥站步行约 3–5 分钟；蟹善约 8–10 分钟。乘堺筋线往天神桥筋六丁目方向到南森町，换谷町线往大日方向，1 站到东梅田。两段车程共约 15 分钟，含换乘、走到酒店约 40–50 分钟。": ["Walk 3–5 minutes from Mahoroba or 8–10 from Kanizen to Nagahoribashi. Take the Sakaisuji Line toward Tenjimbashisuji 6-chome to Minamimorimachi, change to the Tanimachi Line toward Dainichi for one stop to Higashi-Umeda. Train rides total around 15 minutes; allow 40–50 minutes including transfer and hotel walk.", "まほろばから長堀橋へ徒歩3〜5分、蟹善から8〜10分。堺筋線・天神橋筋六丁目方面で南森町、谷町線・大日方面へ1駅で東梅田。乗車計約15分、乗換・ホテル徒歩込み40〜50分。"],
+  "营业时间与用餐详情": ["Hours and dining details", "営業時間・食事の詳細"],
+  "营业时间与店铺资料": ["Hours and shop information", "営業時間・店舗情報"],
+  "抹茶店候选与营业时间": ["Matcha shops and hours", "抹茶店の候補・営業時間"],
+  "午餐候选与店铺详情": ["Lunch options and restaurant details", "昼食候補・店舗詳細"],
+  "购物顺序与商场详情": ["Shopping order and mall details", "買い物の順序・施設詳細"],
+  "年轻服饰与动漫周边，购物备选。": ["Youth fashion and anime merchandise, an optional shopping stop.", "若者向けファッション・アニメグッズ、買い物の候補。"],
+  "10/4 蟹善余位查询截图 · 未预约": ["Oct 4 Kanizen availability screenshot · Not booked", "10/4蟹善空席確認画像・未予約"],
+  "10/16 两位 18:00 蟹善吧台可预约表单": ["Oct 16, two guests, 18:00 Kanizen counter reservation form", "10/16、2名、18:00、蟹善カウンターの予約入力画面"],
+  "10/4 まほろば余位查询截图 · 未预约": ["Oct 4 Mahoroba availability screenshot · Not booked", "10/4まほろば空席確認画像・未予約"],
+  "10/16 两位 18:00 まほろば个室可预约表单": ["Oct 16, two guests, 18:00 Mahoroba private-room reservation form", "10/16、2名、18:00、まほろば個室の予約入力画面"],
+  "10/4 查一休：10/16 两位 18:00、18:30、19:00 均显示 ◯，18:00 可进入预约页。个室活蟹套餐 ¥48,400／人（含税与服务费），两位 ¥96,800。页面另有席费提示，金额待店家确认。": ["Checked Ikyu Oct 4: Oct 16 for two shows availability at 18:00, 18:30 and 19:00; 18:00 reaches the reservation form. Private-room live-crab course ¥48,400 per person including tax and service, ¥96,800 for two. A separate seat-fee note appears; confirm its amount with the restaurant.", "10/4一休確認：10/16の2名は18:00・18:30・19:00が◯、18:00で予約入力画面へ進める。個室の活蟹コース税・サービス込48,400円／人、2名96,800円。別途席料の記載あり、金額は店に確認。"],
+  "步行到心斋桥站，御堂筋线直达梅田；取行李入住。": ["Walk to Shinsaibashi Station, then direct Midosuji Line to Umeda; collect luggage and check in.", "心斎橋駅へ徒歩、御堂筋線で梅田へ直通。荷物受取・チェックイン。"],
+  "まほろば到心斋桥站步行约 8–12 分钟；蟹善约 15–20 分钟。乘御堂筋线往江坂 / 千里中央方向到梅田，约 12–15 分钟，再走约 8–10 分钟回酒店。": ["Walk 8–12 minutes from Mahoroba or 15–20 from Kanizen to Shinsaibashi. Take the Midosuji Line toward Esaka / Senri-Chuo to Umeda, about 12–15 minutes, then walk 8–10 minutes to the hotel.", "まほろばから心斎橋駅へ徒歩8〜12分、蟹善から15〜20分。御堂筋線・江坂／千里中央方面で梅田へ約12〜15分、ホテルまで徒歩8〜10分。"],
+  "大阪南区，18:30 まほろば蟹宴": ["South Osaka, Mahoroba crab dinner at 18:30", "大阪ミナミ、18:30まほろば蟹コース"],
+  "18:30 まほろば · 已预订": ["18:30 Mahoroba · Booked", "18:30まほろば・予約済み"],
+  "道顿堀 → 心斋桥 → 橘子街，17:50 左右步行去まほろば。": ["Dotonbori → Shinsaibashi → Orange Street; walk to Mahoroba around 17:50.", "道頓堀→心斎橋→オレンジストリート。17:50頃まほろばへ徒歩。"],
+  "橘子街 → まほろば": ["Orange Street → Mahoroba", "オレンジストリート→まほろば"],
+  "步行约 20–25 分钟，18:20 左右到店。": ["Walk about 20–25 minutes, arriving around 18:20.", "徒歩約20〜25分、18:20頃到着。"],
+  "割烹まほろば 蟹 · 螃蟹晚餐": ["Kappo Mahoroba Kani · Crab dinner", "割烹まほろば 蟹・夕食"],
+  "两位，Mahoroba Crab Course；18:20 左右到店，用餐预留约 2–2.5 小时。": ["Two guests, Mahoroba Crab Course; arrive around 18:20 and allow about 2–2.5 hours for dinner.", "2名、Mahoroba Crab Course。18:20頃到着、食事は約2〜2.5時間を確保。"],
+  "まほろば · 10/16 18:30 两人预约确认": ["Mahoroba · Oct 16, 18:30 reservation for two", "まほろば・10/16 18:30、2名予約確認"],
+  "2026/10/16（周五）18:30 JST，2 位，Mahoroba Crab Course。到店出示预约记录或确认邮件。确认截图未列出价格、席位类型及付款方式。": ["October 16, 2026 (Fri), 18:30 JST, two guests, Mahoroba Crab Course. Show the reservation record or confirmation email on arrival. The supplied screenshot does not specify the price, seat type or payment method.", "2026/10/16（金）18:30 JST、2名、Mahoroba Crab Course。来店時に予約記録または確認メールを提示。提供画像には料金・席種・支払方法の記載なし。"],
+  "地址与步行导航": ["Address and walking directions", "住所・徒歩ナビ"],
+  "地址：大阪府大阪市中央区東心斎橋1-4-20，1F。": ["Address: 1F, 1-4-20 Higashishinsaibashi, Chuo-ku, Osaka.", "住所：大阪府大阪市中央区東心斎橋1-4-20、1F。"],
+  "从橘子街步行约 20–25 分钟。": ["About 20–25 minutes on foot from Orange Street.", "オレンジストリートから徒歩約20〜25分。"],
+  "橘子街 → まほろば · 步行导航": ["Orange Street → Mahoroba · Walking directions", "オレンジストリート→まほろば・徒歩ナビ"],
+  "まほろば · 店铺信息": ["Mahoroba · Restaurant information", "まほろば・店舗情報"],
+  "まほろば到心斋桥站步行约 8–12 分钟；御堂筋线往江坂 / 千里中央方向到梅田，约 12–15 分钟，再走约 8–10 分钟回酒店。": ["Walk 8–12 minutes from Mahoroba to Shinsaibashi Station. Take the Midosuji Line toward Esaka / Senri-Chuo to Umeda, about 12–15 minutes, then walk 8–10 minutes to the hotel.", "まほろばから心斎橋駅へ徒歩約8〜12分。御堂筋線・江坂／千里中央方面で梅田へ約12〜15分、ホテルまで徒歩約8〜10分。"],
+  "18:30 · 割烹まほろば 蟹 · 已预订": ["18:30 · Kappo Mahoroba Kani · Booked", "18:30・割烹まほろば 蟹・予約済み"],
+  "海味、京丹波、和ごころ泉、弘、まほろば晚餐已预订": ["Umi, Kyotanba, Wagokoro Izumi, HIRO and Mahoroba dinners booked", "海味・京丹波・和ごころ泉・弘・まほろばの夕食予約済み"],
+  "09:00 寄存行李": ["09:00 luggage drop", "09:00 荷物預け"],
+  "07:30–约 09:00": ["07:30–about 09:00", "07:30–09:00頃"],
+  "京都酒店 → 大阪酒店 · 阪急直达": ["Kyoto hotel → Osaka hotel · direct Hankyu train", "京都ホテル → 大阪ホテル · 阪急で直行"],
+  "步行到乌丸站，阪急京都线直达大阪梅田，再步行到酒店；门到门约 90 分钟。": ["Walk to Karasuma, take the Hankyu Kyoto Line directly to Osaka-Umeda, then walk to the hotel; about 90 minutes door to door.", "烏丸駅まで徒歩、阪急京都線で大阪梅田へ直行し、ホテルへ徒歩。全体で約90分。"],
+  "07:30 酒店出发，带行李步行并下到乌丸站站台，预留 15–20 分钟；按电梯指示进站。": ["Leave the hotel at 07:30; allow 15–20 minutes to walk with luggage and reach the Karasuma platform, following elevator signs.", "07:30ホテル出発。荷物を持って烏丸駅ホームまで15〜20分。エレベーターの案内に従う。"],
+  "候选班次：07:52 乌丸 → 08:42 大阪梅田，阪急京都线「準特急」，直达约 50 分钟。": ["Candidate train: 07:52 Karasuma → 08:42 Osaka-Umeda, Hankyu Kyoto Line Semi-Limited Express, direct in about 50 minutes.", "候補：07:52烏丸 → 08:42大阪梅田、阪急京都線の準特急で直行、約50分。"],
+  "普通车刷 Suica 进出站，不用预约或另买特急券；周五早高峰可能需站立，行李放身边，不占通道。": ["Use Suica for the ordinary carriage; no reservation or express supplement is needed. During the Friday morning rush you may have to stand; keep luggage beside you and aisles clear.", "一般車はSuicaで乗車でき、予約・特急券は不要。金曜朝の通勤時間帯なので立つ可能性あり。荷物は手元に置き、通路を空ける。"],
+  "大阪梅田下车，出站后步行约 5 分钟到阪急大阪龙仕柏酒店，乘电梯到 9F 前台；出站至前台共预留约 10–15 分钟。": ["At Osaka-Umeda, exit and walk about five minutes to Hotel Hankyu RESPIRE OSAKA, then take the elevator to the 9F reception; allow 10–15 minutes from the station to reception.", "大阪梅田で下車。改札を出て阪急大阪龍仕柏ホテルへ徒歩約5分、エレベーターで9Fフロントへ。駅からフロントまで10〜15分を確保。"],
+  "塔下街景与通天阁外观拍照，约 30 分钟。": ["About 30 minutes for street photos and Tsutenkaku exterior.", "通天閣の外観と周辺の街並みを撮影、約30分。"],
+  "狮子殿与境内拍照，约 20 分钟。": ["About 20 minutes for the lion-head hall and shrine grounds.", "獅子殿と境内を撮影、約20分。"],
+  "黑门市场 · 11:45 午餐逛吃": ["Kuromon Market · 11:45 light lunch", "黒門市場 · 11:45 軽めの昼食"],
+  "步行约 20–25 分钟；11:45–12:30 少量寿司、海鲜与小吃，留胃口给晚上的蟹宴。": ["Walk about 20–25 minutes; 11:45–12:30 small portions of sushi, seafood and snacks, saving your appetite for the crab dinner.", "徒歩約20〜25分。11:45〜12:30に寿司・海鮮・軽食を少量、夜の蟹コースに備えて控えめに。"],
+  "黑门三平 · 寿司 / 刺身": ["Kuromon Sanpei · sushi / sashimi", "黒門三平 · 寿司 / 刺身"],
+  "买少量寿司或刺身，两人分着吃。": ["Buy a small portion of sushi or sashimi to share.", "寿司や刺身を少量購入し、2人でシェア。"],
+  "08:00–20:00；现场选购，可在店内用餐。": ["08:00–20:00; buy on arrival and eat in the shop.", "08:00〜20:00。店頭で購入し、店内で食事可能。"],
+  "想吃金枪鱼可选几贯寿司或少量刺身，两家选一家即可。": ["Choose a few pieces of tuna sushi or a small sashimi portion; pick one of the two shops.", "マグロの寿司数貫または刺身を少量。2店から1店を選ぶ。"],
+  "沿心斋桥筋北上逛街，约 2 小时。": ["Browse north along Shinsaibashi-suji for about two hours.", "心斎橋筋を北へ歩きながら買い物、約2時間。"],
+  "11:45 黑门市场 · 少量寿司 / 海鲜与小吃": ["11:45 Kuromon Market · small portions of sushi / seafood and snacks", "11:45 黒門市場 · 寿司・海鮮・軽食を少量"],
+  "09:45 寄存行李": ["09:45 luggage drop", "09:45 荷物預け"],
+  "08:20–约 09:45": ["08:20–about 09:45", "08:20–09:45頃"],
+  "步行到乌丸站，阪急京都线直达大阪梅田，再步行到酒店；门到门约 85 分钟。": ["Walk to Karasuma, take the Hankyu Kyoto Line directly to Osaka-Umeda, then walk to the hotel; about 85 minutes door to door.", "烏丸駅まで徒歩、阪急京都線で大阪梅田へ直行し、ホテルへ徒歩。全体で約85分。"],
+  "08:20 酒店出发，带行李步行并下到乌丸站站台，预留 15–20 分钟；按电梯指示进站。": ["Leave the hotel at 08:20; allow 15–20 minutes to walk with luggage and reach the Karasuma platform, following elevator signs.", "08:20ホテル出発。荷物を持って烏丸駅ホームまで15〜20分。エレベーターの案内に従う。"],
+  "候选班次：08:46 乌丸 → 09:32 大阪梅田，阪急京都线「特急」，直达约 46 分钟。": ["Candidate train: 08:46 Karasuma → 09:32 Osaka-Umeda, Hankyu Kyoto Line Limited Express, direct in about 46 minutes.", "候補：08:46烏丸 → 09:32大阪梅田、阪急京都線の特急で直行、約46分。"],
+  "普通车刷 Suica 进出站，不用预约或另买特急券；有空座就坐。PRiVACE 指定席需另买座位券；行李放身边，不占通道。": ["Use Suica for ordinary carriages; no reservation or express supplement is needed, and you may use any vacant seat. PRiVACE reserved seats require a separate seat ticket. Keep luggage beside you and aisles clear.", "一般車はSuicaで乗車でき、予約・特急券は不要。空席があれば着席可。PRiVACEは別途座席指定券が必要。荷物は手元に置き、通路を空ける。"],
+  "通天阁 / 新世界 → 午餐 → 难波八阪神社": ["Tsutenkaku / Shinsekai → lunch → Namba Yasaka Shrine", "通天閣 / 新世界 → 昼食 → 難波八阪神社"],
+  "通天阁外观拍照，11:15–12:00 在新世界附近吃午餐（餐厅待定），再步行去八阪神社。": ["Photograph Tsutenkaku exterior, have lunch near Shinsekai at 11:15–12:00 (restaurant undecided), then walk to Namba Yasaka Shrine.", "通天閣の外観を撮影、11:15〜12:00に新世界周辺で昼食（店は未定）、その後は難波八阪神社へ徒歩。"],
+  "新世界附近午餐 · 待定": ["Lunch near Shinsekai · undecided", "新世界周辺で昼食 · 未定"],
+  "附近找一家简单吃午餐，约 45 分钟；餐厅待定。": ["Choose a nearby restaurant for a simple lunch, about 45 minutes; restaurant undecided.", "近くの店で簡単な昼食、約45分。店は未定。"],
+  "步行到黑门市场 · 逛逛": ["Walk to Kuromon Market · browse", "黒門市場へ徒歩 · 散策"],
+  "从八阪神社步行约 20–25 分钟，13:20–13:50 逛市场，不安排正式午餐。": ["Walk about 20–25 minutes from Namba Yasaka Shrine; browse the market at 13:20–13:50, without a full lunch stop.", "難波八阪神社から徒歩約20〜25分。13:20〜13:50に市場を散策し、ここでは本格的な昼食を予定しない。"],
+  "沿心斋桥筋北上逛街，约 1 小时 20 分钟。": ["Browse north along Shinsaibashi-suji for about one hour and 20 minutes.", "心斎橋筋を北へ歩きながら買い物、約1時間20分。"],
+  "11:15 新世界附近 · 餐厅待定": ["11:15 near Shinsekai · restaurant undecided", "11:15 新世界周辺 · 店は未定"],
+  "约 09:00 到 JR 宇治站；步行约 2–3 分钟到中村藤吉本店。": [
+    "Reach JR Uji around 09:00; walk 2–3 minutes to Nakamura Tokichi Main Store.",
+    "09:00頃にJR宇治駅着。中村藤吉本店まで徒歩約2～3分。"
+  ],
+  "约 08:50–09:00 到 JR 宇治站；从南口步行约 2–3 分钟到中村藤吉本店，09:20–09:30 在店前候位。": [
+    "Arrive at JR Uji around 08:50–09:00. Walk 2–3 minutes from the south exit to Nakamura Tokichi; join the queue around 09:20–09:30.",
+    "08:50～09:00頃にJR宇治駅着。南口から本店まで徒歩約2～3分、09:20～09:30頃に店頭で並ぶ。"
+  ],
+  "中村藤吉本店 · 抹茶甜点": [
+    "Nakamura Tokichi Main Store · matcha sweets",
+    "中村藤吉本店 · 抹茶スイーツ"
+  ],
+  "开门前到店候位，10:00 开门；用餐预留约 45 分钟。": [
+    "Queue before the 10:00 opening; allow about 45 minutes for the café.",
+    "10:00開店前に並び、カフェは約45分。"
+  ],
+  "营业、候位与路线": [
+    "Hours, queue and walking route",
+    "営業時間・待ち時間・徒歩ルート"
+  ],
+  "本店咖啡厅 10:00–17:30（LO 16:30，受付至 16:00），不接受座位预约；会排队。": [
+    "The Main Store café opens 10:00–17:30 (last order 16:30; reception until 16:00). No table reservations; expect a queue.",
+    "本店カフェ10:00～17:30（LO16:30、受付16:00まで）。席の予約不可、順番待ちあり。"
+  ],
+  "09:20–09:30 提前到店；是否提前发号以现场安排为准。10:30 仍未入座，就改外带或附近甜点，13:00 左右仍出发去奈良。": [
+    "Arrive at 09:20–09:30; early ticket distribution is not guaranteed. If still not seated at 10:30, choose takeaway or nearby sweets to keep the roughly 13:00 departure for Nara.",
+    "09:20～09:30に到着。開店前の整理券配布は確約なし。10:30に未入店なら持ち帰り等へ変更し、13:00頃の奈良行きを優先。"
+  ],
+  "中村藤吉本店 · 官网": [
+    "Nakamura Tokichi · official site",
+    "中村藤吉本店 · 公式"
+  ],
+  "JR 宇治站 → 中村藤吉 · 步行": [
+    "JR Uji → Nakamura Tokichi · walk",
+    "JR宇治駅 → 中村藤吉 · 徒歩"
+  ],
+  "宇治 · 平等院与宇治川": [
+    "Uji · Byodoin and the river",
+    "宇治 · 平等院と宇治川"
+  ],
+  "中村藤吉 → 平等院 → 宇治川；两座神社时间够再去。": [
+    "Nakamura Tokichi → Byodoin → Uji River; the two shrines are optional if time allows.",
+    "中村藤吉 → 平等院 → 宇治川。二社は時間に余裕があれば。"
+  ],
+  "从中村藤吉步行约 10–15 分钟；庭园、凤凰堂外观与博物馆约 45 分钟。": [
+    "Walk 10–15 minutes from Nakamura Tokichi; allow 45 minutes for the garden, Phoenix Hall exterior and museum.",
+    "本店から徒歩約10～15分。庭園・鳳凰堂外観・博物館は約45分。"
+  ],
+  "成人 ¥700，含庭园与博物馆，现场购票。本次不排凤凰堂内部参观。": [
+    "Adult ¥700 for the garden and museum, purchased on site. No Phoenix Hall interior visit scheduled.",
+    "大人700円、庭園と博物館込み。現地購入。今回は鳳凰堂内部拝観を予定しない。"
+  ],
+  "从平等院步行到河边，橘桥 / 朝雾桥拍照，再回表参道午餐。": [
+    "Walk from Byodoin to the river, photograph Tachibana / Asagiri bridges, then return to the approach street for lunch.",
+    "平等院から川沿いへ。橘橋・朝霧橋を撮影し、表参道で昼食。"
+  ],
+  "两座神社含过河、步行和参拜需再留约 40–45 分钟；抹茶用餐提前结束，或不进平等院时再安排。": [
+    "Allow another 40–45 minutes for both shrines including the river crossing and worship. Add only if the café finishes early or you skip entering Byodoin.",
+    "川を渡る徒歩と二社の参拝で別途約40～45分。カフェが早く終わるか、平等院入場を見送る場合に追加。"
+  ],
+  "宇治 · 步行路线图": [
+    "Uji · walking route diagram",
+    "宇治 · 徒歩ルート図"
+  ],
+  "宇治站、中村藤吉、平等院、宇治川与抹茶拉面的步行路线，神社为可选分支": [
+    "Walking route through JR Uji, Nakamura Tokichi, Byodoin, Uji River and ramen, with an optional shrine branch",
+    "JR宇治・中村藤吉・平等院・宇治川・抹茶ラーメンの徒歩順序、神社は任意の分岐"
+  ],
+  "打开宇治步行导航": [
+    "Open the Uji walking route",
+    "宇治の徒歩ナビを開く"
+  ],
+  "中村藤吉 → 平等院 → 宇治川 → 午餐": [
+    "Nakamura → Byodoin → river → lunch",
+    "中村藤吉 → 平等院 → 宇治川 → 昼食"
+  ],
+  "神社支线 · 朝雾桥 → 宇治神社 → 宇治上神社": [
+    "Shrine branch · Asagiri Bridge → Uji Shrine → Ujigami Shrine",
+    "神社分岐 · 朝霧橋 → 宇治神社 → 宇治上神社"
+  ],
+  "抹茶面有盐味 / 酱油汤底，也有抹茶饺子。12:50 离店，步行约 10–15 分钟到 JR 宇治站；长队则改附近简餐。": [
+    "Matcha noodles come with salt or soy broth; matcha dumplings are also available. Leave at 12:50, then walk 10–15 minutes to JR Uji; use a nearby quick meal if the queue is long.",
+    "塩・醤油の抹茶ラーメンや抹茶餃子あり。12:50退店、JR宇治駅まで徒歩約10～15分。長い行列なら近隣の簡単な昼食へ。"
+  ],
+  "宇治 → JR 奈良站 → 春日大社": [
+    "Uji → JR Nara → Kasuga Taisha",
+    "宇治 → JR奈良駅 → 春日大社"
+  ],
+  "JR 快速约 30–40 分钟；下车后步行约 50–60 分钟，经过奈良公园。": [
+    "JR rapid train about 30–40 minutes, then walk 50–60 minutes through Nara Park.",
+    "JR快速約30～40分。下車後、奈良公園を経由して徒歩約50～60分。"
+  ],
+  "12:50 从午餐店往 JR 宇治站，步行约 10–15 分钟；目标约 13:00–13:10 乘奈良方向みやこ路快速，车程约 30–40 分钟。": [
+    "Walk 10–15 minutes from lunch to JR Uji at 12:50. Aim for a Nara-bound Miyakoji Rapid around 13:00–13:10; the ride takes 30–40 minutes.",
+    "12:50に昼食店を出発、JR宇治駅まで徒歩約10～15分。13:00～13:10頃の奈良方面みやこ路快速、乗車約30～40分を目標。"
+  ],
+  "约 13:35–13:50 到 JR 奈良站，走东口；沿三条通 → 兴福寺外侧 → 奈良公园 → 春日大社参道步行。公园边缘约 20 分钟，本殿前约 50–60 分钟。": [
+    "Arrive JR Nara around 13:35–13:50; use the east exit. Walk along Sanjo-dori → outside Kofukuji → Nara Park → Kasuga approach. The park edge is about 20 minutes away; Kasuga main hall is 50–60 minutes away.",
+    "13:35～13:50頃にJR奈良駅着、東口へ。三条通 → 興福寺外側 → 奈良公園 → 春日大社参道。公園入口は約20分、本殿前は約50～60分。"
+  ],
+  "目标 14:30–14:45 到春日大社。公交不必坐；若 JR 列车晚到或走累了，可改坐往春日大社本殿的公交，保留登山时间。": [
+    "Aim to reach Kasuga around 14:30–14:45. A bus is optional; if the train arrives late or you are tired, take a Kasuga Taisha Honden bus to preserve climbing time.",
+    "14:30～14:45頃に春日大社着を目標。バスは任意。列車遅延や疲れた場合は本殿行きバスで登山時間を確保。"
+  ],
+  "步行去宇治站，JR 快速直达奈良，车程约 30–40 分钟。": [
+    "Walk to JR Uji, then take a direct rapid train to Nara in about 30–40 minutes.",
+    "JR宇治駅へ徒歩、快速で奈良まで直通約30～40分。"
+  ],
+  "JR 奈良站步行出发 → 春日大社 → 奈良公园 → 东大寺 → 若草山南入口。": [
+    "Walk from JR Nara → Kasuga Taisha → Nara Park → Todaiji → Wakakusa south entrance.",
+    "JR奈良駅から徒歩 → 春日大社 → 奈良公園 → 東大寺 → 若草山南入口。"
+  ],
+  "JR 奈良站 → 春日大社 · 步行": [
+    "JR Nara → Kasuga Taisha · walk",
+    "JR奈良駅 → 春日大社 · 徒歩"
+  ],
+  "步行导航与公交备选": [
+    "Walking route and bus alternative",
+    "徒歩ナビ・バスの代案"
+  ],
+  "往东大寺步行约 20–25 分钟，途中看鹿、拍照；预留约 30 分钟。": [
+    "Walk 20–25 minutes towards Todaiji, with deer and photos along the way; allow 30 minutes.",
+    "東大寺へ徒歩約20～25分、途中で鹿と写真。約30分を確保。"
+  ],
+  "南大门、大佛殿，参观约 35 分钟。": [
+    "Visit the Great South Gate and Great Buddha Hall in about 35 minutes.",
+    "南大門・大仏殿を約35分で参拝。"
+  ],
+  "步行至若草山南入口": [
+    "Walk to Wakakusa south entrance",
+    "若草山南ゲートへ徒歩"
+  ],
+  "从大佛殿步行约 15–20 分钟到山脚南入口；16:40 买票入山。": [
+    "Walk 15–20 minutes from the Great Buddha Hall to the south entrance at the foot of the hill; enter around 16:40.",
+    "大仏殿から山麓南ゲートまで徒歩約15～20分、16:40頃に入山券購入。"
+  ],
+  "东大寺的木廊佛堂，可俯瞰奈良。绕行与参拜加约 25–30 分钟；至少提前半小时结束前面行程才加，16:40 仍需到南入口。": [
+    "Todaiji’s wooden terrace hall overlooks Nara. Add 25–30 minutes for the detour and visit only if earlier activities finish at least half an hour early; still reach the south entrance by 16:40.",
+    "奈良を望む東大寺の木造回廊の仏堂。寄り道と参拝に約25～30分。前の行程が30分以上早く終わった場合のみ追加、南ゲート16:40着を維持。"
+  ],
+  "奈良 · 步行路线图": [
+    "Nara · walking route diagram",
+    "奈良 · 徒歩ルート図"
+  ],
+  "从 JR 奈良步行至春日大社、东大寺和若草山，再到近铁奈良站回京都的路线": [
+    "Walking route from JR Nara through Kasuga Taisha, Todaiji and Wakakusa, returning via Kintetsu Nara",
+    "JR奈良から春日大社・東大寺・若草山を巡り、近鉄奈良駅から帰る徒歩ルート"
+  ],
+  "奈良步行导航": [
+    "Nara walking directions",
+    "奈良の徒歩ナビ"
+  ],
+  "春日大社 → 东大寺 → 若草山南入口": [
+    "Kasuga → Todaiji → Wakakusa south entrance",
+    "春日大社 → 東大寺 → 若草山南ゲート"
+  ],
+  "一重目看日落，约 17:23；17:30 开始下山。": [
+    "Sunset at the first peak around 17:23; start descending at 17:30.",
+    "一重目で17:23頃の日没を見る。17:30に下山開始。"
+  ],
+  "山脚南入口 → 一重目": [
+    "South entrance → first peak",
+    "山麓南ゲート → 一重目"
+  ],
+  "南入口现场买票，¥150 / 人；沿南侧步道上行约 500 米，预留 20–30 分钟。": [
+    "Buy the ¥150 entry ticket at the south entrance. Follow the south trail about 500 metres uphill; allow 20–30 minutes.",
+    "南ゲートで入山券150円／人を購入。南登山道約500m、上り20～30分。"
+  ],
+  "日落定位 · 若草山一重目": [
+    "Sunset pin · Wakakusa first peak",
+    "日没の位置 · 若草山一重目"
+  ],
+  "定位 34.6873838, 135.8485886；在一重目西向开阔处看奈良市区与日落，不继续登三重目。": [
+    "Pin: 34.6873838, 135.8485886. Use the open west-facing area at the first peak for Nara and sunset views; stop here without continuing to the third peak.",
+    "位置34.6873838, 135.8485886。一重目の西向きの開けた場所から奈良と夕日を見る。三重目へは登らない。"
+  ],
+  "下山 → 出口专用门": [
+    "Descend → exit-only gate",
+    "下山 → 出口専用ゲート"
+  ],
+  "下行约 20–30 分钟，按官方图走南北入口之间的出口专用门；17:00 后仍可从这里离山。": [
+    "Allow 20–30 minutes downhill. Follow the official map to the exit-only gate between the two entrances; it allows exits after 17:00.",
+    "下り約20～30分。公式図の南北ゲート間にある出口専用ゲートから退出。17:00以降も退出可。"
+  ],
+  "展开入口、日落定位与上下山时间": [
+    "Expand entrance, sunset pin and climbing times",
+    "入口・夕日の位置・登下山時間を開く"
+  ],
+  "门票、入口时间与地图": [
+    "Tickets, entrance hours and maps",
+    "入山料・ゲート時間・地図"
+  ],
+  "南入口 09:00–17:00；北入口 09:00–16:30。本次走南入口，16:40 到达；山脚南入口地图定位为 34.6843245, 135.8470358。": [
+    "South entrance 09:00–17:00; north entrance 09:00–16:30. Use the south entrance at 16:40; its foot-of-hill map pin is 34.6843245, 135.8470358.",
+    "南ゲート09:00～17:00、北ゲート09:00～16:30。今回は南ゲート16:40着、山麓位置34.6843245, 135.8470358。"
+  ],
+  "日落约 17:23，17:30 下山；带手机照明。雨天不登山。山顶、山顶停车场和山顶入山料金所是三重目方向，这次不要导航到那里。": [
+    "Sunset about 17:23; descend at 17:30 and bring phone lighting. Skip the climb in rain. The summit, summit car park and summit toll gate belong to the third-peak route; do not navigate there for this plan.",
+    "日没約17:23、17:30下山。スマホの照明を用意、雨天は登らない。山頂・山頂駐車場・山頂入山料金所は三重目方面で、今回の目的地ではない。"
+  ],
+  "山脚南入口 · 精确定位": [
+    "South entrance · precise pin",
+    "山麓南ゲート · 位置"
+  ],
+  "一重目 · 日落观景定位": [
+    "First peak · sunset pin",
+    "一重目 · 夕日の位置"
+  ],
+  "若草山 · 官方参观信息": [
+    "Wakakusa · official visitor information",
+    "若草山 · 公式案内"
+  ],
+  "若草山 · 官方步道图（入口 / 一重目 / 出口）": [
+    "Wakakusa · official trail map (entrance / first peak / exit)",
+    "若草山 · 公式登山道図（入口・一重目・出口）"
+  ],
+  "若草山保胜会官方地图，标明南北入口、一重目、三重目与17点后出口专用门": [
+    "Official Wakakusa guide map showing entrances, first and third peaks, and the exit-only gate available after 17:00",
+    "若草山保勝会公式図。南北ゲート・一重目・三重目・17時以降の出口専用ゲート"
+  ],
+  "若草山山脚 → 近铁奈良站 · 步行": [
+    "Wakakusa foot → Kintetsu Nara · walk",
+    "若草山麓 → 近鉄奈良駅 · 徒歩"
+  ],
+  "山脚到车站约 35–45 分钟；从一重目算起，下山加走到车站共约 55–75 分钟。": [
+    "Foot of hill to station: 35–45 minutes. Including descent from the first peak, allow 55–75 minutes in total.",
+    "山麓から駅まで約35～45分。一重目からの下山込みで合計約55～75分。"
+  ],
+  "17:55 左右离山，经奈良公园 → 登大路 → 近铁奈良站 / 东向商店街，预计 18:35–18:40 到。": [
+    "Leave around 17:55, walk through Nara Park and Noborioji to Kintetsu Nara / Higashimuki Shopping Street; arrive around 18:35–18:40.",
+    "17:55頃に退出、奈良公園 → 登大路 → 近鉄奈良駅・東向商店街。18:35～18:40頃着。"
+  ],
+  "累了可从山脚步行约 10–15 分钟到「東大寺大仏殿・春日大社前」，乘近铁奈良站方向公交；候车时间另加。": [
+    "If tired, walk 10–15 minutes to Todaiji Daibutsuden / Kasuga Taisha-mae and take a bus towards Kintetsu Nara; add waiting time.",
+    "疲れたら山麓から約10～15分で「東大寺大仏殿・春日大社前」へ、近鉄奈良駅方面バス。待ち時間は別。"
+  ],
+  "候选 19:46 近铁急行，20:43 直达乌丸御池；步行回酒店。": [
+    "Candidate 19:46 Kintetsu Express, directly to Karasuma Oike at 20:43; then walk to the hotel.",
+    "候補19:46近鉄急行、20:43烏丸御池へ直通。その後ホテルへ徒歩。"
+  ],
+  "19:30 左右离开晚餐店，走到「近鉄奈良駅」，19:35–19:40 前进站；不是 JR 奈良站。": [
+    "Leave dinner around 19:30 and enter Kintetsu Nara by 19:35–19:40. This is a different station from JR Nara.",
+    "19:30頃に食事を終え、19:35～19:40までに近鉄奈良駅へ。JR奈良駅とは別。"
+  ],
+  "候选 19:46「急行 国際会館行き」→ 20:43「烏丸御池」，57 分钟直达。经过大和西大寺、竹田都不用下车；列车继续进入京都地铁乌丸线。可刷 Suica，无需特急券。": [
+    "Candidate 19:46 Express for Kokusaikaikan → Karasuma Oike 20:43, direct in 57 minutes. Stay on at Yamato-Saidaiji and Takeda as the train continues onto the Kyoto subway. Suica accepted; no limited-express ticket required.",
+    "候補19:46「急行 国際会館行き」→20:43「烏丸御池」、57分直通。大和西大寺・竹田で降りず烏丸線へ。Suica可、特急券不要。"
+  ],
+  "乌丸御池下车，北改札口出站后步行约 5–8 分钟，约 20:50 到酒店。若错过直通急行，选京都方向列车；到近铁京都站后再转乌丸线。": [
+    "At Karasuma Oike, use the north ticket gate, then walk 5–8 minutes to the hotel around 20:50. If the through express is missed, take a Kyoto-bound train and change to the subway at Kintetsu Kyoto.",
+    "烏丸御池で北改札へ、徒歩約5～8分で20:50頃ホテル着。直通急行を逃したら京都行き列車、近鉄京都から烏丸線へ乗換。"
+  ],
+  "回程班次与打车备选": [
+    "Return train and taxi alternative",
+    "帰りの列車・タクシー案"
+  ],
+  "“约一小时”指近铁奈良 → 乌丸御池的列车时间。从一重目开始下山到酒店，不吃晚饭也要约 2–2.5 小时，包含下山、步行到站、候车和列车。": [
+    "“About one hour” refers to the train from Kintetsu Nara to Karasuma Oike. From the first peak to the hotel, allow roughly 2–2.5 hours without dinner, including descent, walking, waiting and train travel.",
+    "「約1時間」は近鉄奈良 → 烏丸御池の乗車時間。一重目からホテルまでは、食事なしでも下山・徒歩・待ち時間・乗車を含め約2～2.5時間。"
+  ],
+  "可安排奈良 → 京都的跨城出租车。奈良近铁出租车有京都站直送服务，官网预留 1.5–2 小时；送京都三条酒店需另询价，不保证比铁路快。": [
+    "An intercity taxi from Nara to Kyoto can be arranged. Nara Kintetsu Taxi offers Kyoto Station transfers, with an official allowance of 1.5–2 hours. Delivery to the Sanjo hotel needs a separate quote and is not guaranteed faster than rail.",
+    "奈良 → 京都の長距離タクシーは手配可能。奈良近鉄タクシーの京都駅直送は公式目安1.5～2時間。三条のホテルへの送迎は別見積り、鉄道より速いとは限らない。"
+  ],
+  "若打车，请酒店或出租车公司提前安排，从山脚可停车的道路接；一重目草坡不能上车。临时叫车要确认司机接单、目的地和费用。": [
+    "For a taxi, ask the hotel or operator to arrange pickup on a vehicle-accessible road at the foot of the hill; cars cannot collect you on the first-peak lawn. For an on-demand car, confirm acceptance, destination and fare.",
+    "タクシーはホテルか会社に事前依頼し、山麓の停車可能な道路で乗車。一重目の草地では乗れない。当日配車は引受・目的地・料金を確認。"
+  ],
+  "近铁官方 · 19:46 直通急行": [
+    "Kintetsu official · 19:46 through express",
+    "近鉄公式 · 19:46直通急行"
+  ],
+  "奈良近铁出租车 · 京都直送": [
+    "Nara Kintetsu Taxi · Kyoto transfers",
+    "奈良近鉄タクシー · 京都送迎"
+  ],
+  "中村藤吉 10:00": [
+    "Nakamura Tokichi 10:00",
+    "中村藤吉10:00"
+  ],
+  "若草山一重目": [
+    "Wakakusa first peak",
+    "若草山一重目"
+  ],
+  "出发前简单早餐；10:00 中村藤吉抹茶甜点": [
+    "Light breakfast before leaving; Nakamura Tokichi matcha sweets at 10:00",
+    "出発前に軽い朝食、10:00中村藤吉で抹茶スイーツ"
+  ],
+  "12:05 宇治抹茶拉面 · 候选": [
+    "12:05 Uji matcha ramen · candidate",
+    "12:05宇治の抹茶ラーメン · 候補"
+  ],
+  "JR 奈良站": [
+    "JR Nara Station",
+    "JR奈良駅"
+  ],
+  "近铁奈良站": [
+    "Kintetsu Nara Station",
+    "近鉄奈良駅"
+  ],
+  "宇治 → JR 奈良站 · JR 奈良线": [
+    "Uji → JR Nara · JR Nara Line",
+    "宇治 → JR奈良駅 · JR奈良線"
+  ],
+  "平等院": [
+    "Byodoin",
+    "平等院"
+  ],
+  "宇治川": [
+    "Uji River",
+    "宇治川"
+  ],
+  "抹茶拉面": [
+    "Matcha ramen",
+    "抹茶ラーメン"
+  ],
+  "东大寺": [
+    "Todaiji",
+    "東大寺"
+  ],
+  "奈良公园": [
+    "Nara Park",
+    "奈良公園"
+  ],
+  "约 08:50–09:00 到 JR 宇治站，步行约 10–15 分钟到平等院。": [
+    "Arrive at JR Uji around 08:50–09:00, then walk 10–15 minutes to Byodoin.",
+    "08:50～09:00頃にJR宇治駅着、平等院まで徒歩約10～15分。"
+  ],
+  "约 08:50–09:00 到 JR 宇治站，从南口沿宇治桥通、平等院表参道步行约 10–15 分钟，09:10 左右到平等院。": [
+    "Arrive JR Uji around 08:50–09:00. From the south exit, walk along Ujibashi-dori and Byodoin Omotesando for 10–15 minutes; reach Byodoin around 09:10.",
+    "08:50～09:00頃にJR宇治駅着。南口から宇治橋通・平等院表参道を徒歩約10～15分、09:10頃に平等院へ。"
+  ],
+  "宇治 · 平等院、宇治川与两座神社": [
+    "Uji · Byodoin, river and two shrines",
+    "宇治 · 平等院・宇治川・二社"
+  ],
+  "平等院 → 橘桥 / 朝雾桥 → 宇治神社 → 宇治上神社 → 表参道午餐。": [
+    "Byodoin → Tachibana / Asagiri bridges → Uji Shrine → Ujigami Shrine → lunch on Omotesando.",
+    "平等院 → 橘橋・朝霧橋 → 宇治神社 → 宇治上神社 → 表参道で昼食。"
+  ],
+  "庭园、凤凰堂外观与博物馆，预留约 1 小时。": [
+    "Allow about one hour for the garden, Phoenix Hall exterior and museum.",
+    "庭園・鳳凰堂外観・博物館に約1時間。"
+  ],
+  "从平等院步行过橘桥与朝雾桥，河边拍照后去宇治神社。": [
+    "Walk from Byodoin across Tachibana and Asagiri bridges, take riverside photos, then visit Uji Shrine.",
+    "平等院から橘橋・朝霧橋を渡り、川沿いで撮影して宇治神社へ。"
+  ],
+  "朝雾桥旁，参拜与看兔子御守约 20 分钟；境内免费、自由参拜。": [
+    "Beside Asagiri Bridge; allow 20 minutes for worship and rabbit charms. Grounds are free and freely accessible.",
+    "朝霧橋のそば。参拝・うさぎのお守りに約20分。境内無料、参拝自由。"
+  ],
+  "境内自由参拜；御守与御朱印至 16:30，无需预约。": [
+    "Free access to the grounds; charms and goshuin available until 16:30. No reservation needed.",
+    "境内自由。御守・御朱印は16:30まで、予約不要。"
+  ],
+  "回平等院表参道 · 午餐": [
+    "Return to Byodoin Omotesando · lunch",
+    "平等院表参道へ戻る · 昼食"
+  ],
+  "从宇治上神社步行约 15–20 分钟，过朝雾桥回西岸，去田中九商店平等院店。": [
+    "Walk 15–20 minutes from Ujigami Shrine, crossing Asagiri Bridge to the west bank for Tanaka Kyushoten’s Byodoin shop.",
+    "宇治上神社から徒歩約15～20分。朝霧橋を渡り西岸の田中九商店平等院店へ。"
+  ],
+  "宇治站、平等院、宇治川、宇治神社、宇治上神社、抹茶拉面与中村藤吉候选的步行顺序": [
+    "Walking order through JR Uji, Byodoin, Uji River, both shrines, ramen and optional Nakamura Tokichi",
+    "JR宇治・平等院・宇治川・二社・抹茶ラーメン・任意の中村藤吉の徒歩順序"
+  ],
+  "JR 宇治站 → 平等院 · 步行": [
+    "JR Uji → Byodoin · walk",
+    "JR宇治駅 → 平等院 · 徒歩"
+  ],
+  "平等院 → 宇治川 → 两座神社": [
+    "Byodoin → Uji River → both shrines",
+    "平等院 → 宇治川 → 二社"
+  ],
+  "宇治上神社 → 表参道午餐": [
+    "Ujigami Shrine → lunch on Omotesando",
+    "宇治上神社 → 表参道で昼食"
+  ],
+  "抹茶面有盐味 / 酱油汤底，也有抹茶饺子；现场候位，长队就改附近简餐。": [
+    "Matcha ramen with salt or soy broth, plus matcha dumplings. Join the queue on arrival; choose a nearby quick meal if it is long.",
+    "塩・醤油の抹茶ラーメン、抹茶餃子あり。現地で並び、長い行列なら近隣で簡単な昼食。"
+  ],
+  "中村藤吉本店 · 抹茶甜点与伴手礼（候选）": [
+    "Nakamura Tokichi · sweets and gifts (optional)",
+    "中村藤吉本店 · スイーツ・お土産（候補）"
+  ],
+  "午餐后步行约 10–15 分钟，回 JR 宇治站前顺路去；排队长就买外带。": [
+    "Walk 10–15 minutes after lunch and stop on the way to JR Uji; choose takeaway if the café queue is long.",
+    "昼食後徒歩約10～15分、JR宇治駅への途中に立ち寄り。カフェの列が長ければ持ち帰り。"
+  ],
+  "不提前排开门队。堂食仅在候位短、时间够时安排；可选外带甜点或茶叶，12:50 前往车站。": [
+    "No pre-opening queue scheduled. Dine in only if the wait is short and time allows; takeaway sweets or tea are alternatives. Head to the station by 12:50.",
+    "開店前の行列は予定しない。待ち時間が短く余裕がある場合のみ店内利用。スイーツや茶葉を持ち帰り、12:50までに駅へ。"
+  ],
+  "午餐 → 中村藤吉 → JR 宇治站": [
+    "Lunch → Nakamura Tokichi → JR Uji",
+    "昼食 → 中村藤吉 → JR宇治駅"
+  ],
+  "12:50 左右到 JR 宇治站候车；目标约 13:00–13:10 乘奈良方向みやこ路快速，车程约 30–40 分钟。从中村藤吉本店到车站步行约 2–3 分钟。": [
+    "Reach JR Uji around 12:50 and aim for a Nara-bound Miyakoji Rapid around 13:00–13:10; ride 30–40 minutes. Nakamura Tokichi is a 2–3 minute walk from the station.",
+    "12:50頃にJR宇治駅で待ち、13:00～13:10頃の奈良方面みやこ路快速を目標。乗車約30～40分。本店から駅へ徒歩約2～3分。"
+  ],
+  "中村藤吉 · 候选": [
+    "Nakamura Tokichi · optional",
+    "中村藤吉 · 候補"
+  ],
+  "11:30 宇治抹茶拉面；饭后抹茶甜点待定": [
+    "11:30 Uji matcha ramen; optional matcha sweets afterwards",
+    "11:30宇治の抹茶ラーメン、食後の抹茶スイーツは未定"
+  ],
+  "おおやま · 牛肠锅午餐": [
+    "Ooyama · motsunabe lunch",
+    "おおやま · もつ鍋ランチ"
+  ],
+  "通天阁外观拍照，11:40 在难波 Parks 吃牛肠锅，再步行去八阪神社。": [
+    "Photograph Tsutenkaku outside, have motsunabe at Namba Parks at 11:40, then walk to Namba Yasaka Shrine.",
+    "通天閣の外観撮影、11:40になんばパークスでもつ鍋、その後は難波八阪神社へ徒歩。"
+  ],
+  "步行 → 难波 Parks 6F": [
+    "Walk → Namba Parks 6F",
+    "徒歩 → なんばパークス6F"
+  ],
+  "通天阁到难波 Parks 步行约 20 分钟，再乘电梯到 6F；共预留约 25 分钟。": [
+    "About 20 minutes from Tsutenkaku to Namba Parks, then take the elevator to 6F; allow 25 minutes in total.",
+    "通天閣からなんばパークスへ徒歩約20分、エレベーターで6Fへ。合計約25分。"
+  ],
+  "博多もつ鍋 おおやま なんば店 · 牛肠锅午餐": [
+    "Hakata Motsunabe Ooyama Namba · lunch",
+    "博多もつ鍋 おおやま なんば店 · ランチ"
+  ],
+  "未预约，到店候位；用餐预留约 50 分钟。": [
+    "Not reserved; join the walk-in queue. Allow about 50 minutes for lunch.",
+    "未予約、店頭で順番待ち。食事は約50分。"
+  ],
+  "营业时间、菜单与订位": [
+    "Hours, menu and reservations",
+    "営業時間・メニュー・予約"
+  ],
+  "おおやま · 官方菜单与地址": [
+    "Ooyama · official menu and address",
+    "おおやま · 公式メニュー・住所"
+  ],
+  "TableCheck · 午餐订位": [
+    "TableCheck · lunch reservations",
+    "TableCheck · ランチ予約"
+  ],
+  "店家菜单 · 无预约到店说明": [
+    "Restaurant menu · walk-in information",
+    "店舗メニュー · 予約なし来店の案内"
+  ],
+  "从难波 Parks 6F 下楼，步行到八阪神社，共约 10–15 分钟。": [
+    "From Namba Parks 6F, go downstairs and walk to Namba Yasaka Shrine; about 10–15 minutes in total.",
+    "なんばパークス6Fから下に降り、難波八阪神社へ徒歩。合計約10～15分。"
+  ],
+  "从八阪神社步行约 20–25 分钟，13:35–13:50 逛市场。": [
+    "Walk 20–25 minutes from Namba Yasaka Shrine; browse the market at 13:35–13:50.",
+    "難波八阪神社から徒歩約20～25分、13:35～13:50に市場を散策。"
+  ],
+  "11:40 おおやま难波店 · 牛肠锅 · 未预约": [
+    "11:40 Ooyama Namba · motsunabe · not reserved",
+    "11:40 おおやまなんば店 · もつ鍋 · 未予約"
+  ],
+  "11:00–23:00；午餐菜单 11:00–16:00。难波 Parks 6F，休息日随商场。": [
+    "11:00–23:00; lunch menu 11:00–16:00. Namba Parks 6F; closed on the mall’s closure days.",
+    "11:00～23:00、ランチ11:00～16:00。なんばパークス6F、定休日は施設に準ずる。"
+  ],
+  "可 walk-in，满座需候位；也可在 TableCheck 只订午餐座位，当天选菜。": [
+    "Walk-ins are possible, with a wait when full. TableCheck offers lunch seat-only reservations; choose dishes on arrival.",
+    "予約なしで来店可、満席時は順番待ち。TableCheckでランチの席のみ予約もでき、料理は当日選択。"
+  ],
+  "官网午餐牛肠锅定食 ¥2,068 / 人（含税）：牛肠锅、明太子、柚子萝卜，搭配杂烩面或米饭。味噌、酱油、水炊风三种汤底；以当天菜单为准。": [
+    "Official lunch motsunabe set: ¥2,068 per person including tax, with mentaiko, yuzu daikon, and champon noodles or rice. Miso, soy sauce or mizutaki-style broth; check the menu on the day.",
+    "公式ランチもつ鍋定食は税込1人2,068円。明太子・柚子大根・ちゃんぽん麺またはご飯付き。みそ・しょうゆ・水炊き風の3種、当日メニューを確認。"
+  ],
+  "通天阁 / 新世界 → 牛肠锅午餐": [
+    "Tsutenkaku / Shinsekai → motsunabe lunch",
+    "通天閣 / 新世界 → もつ鍋ランチ"
+  ],
+  "通天阁外观拍照，11:40 在难波 Parks 吃牛肠锅。": [
+    "Photograph Tsutenkaku outside, then have motsunabe at Namba Parks at 11:40.",
+    "通天閣の外観撮影後、11:40になんばパークスでもつ鍋。"
+  ],
+  "难波八阪神社 → 黑门市场 → 道顿堀 → 心斋桥 → 橘子街": [
+    "Namba Yasaka Shrine → Kuromon Market → Dotonbori → Shinsaibashi → Orange Street",
+    "難波八阪神社 → 黒門市場 → 道頓堀 → 心斎橋 → オレンジストリート"
+  ],
+  "午餐后从难波 Parks 出发；17:50 左右从橘子街步行去まほろば。": [
+    "Leave Namba Parks after lunch; walk from Orange Street to Mahoroba around 17:50.",
+    "昼食後になんばパークスを出発。17:50頃にオレンジストリートからまほろばへ徒歩。"
+  ],
+  "黑门市场 · 逛逛": [
+    "Kuromon Market · browse",
+    "黒門市場 · 散策"
+  ],
+  "07:00 酒店出发，伏见稻荷、清水寺与东山；烧肉晚餐后散步鸭川。": [
+    "Leave the hotel at 07:00 for Fushimi Inari, Kiyomizu-dera and Higashiyama; stroll along the Kamo River after yakiniku dinner.",
+    "07:00ホテル出発、伏見稲荷・清水寺・東山へ。焼肉の夕食後に鴨川を散歩。"
+  ],
+  "07:00 酒店出发": [
+    "07:00 hotel departure",
+    "07:00 ホテル出発"
+  ],
+  "鸭川 · 饭后散步": [
+    "Kamo River · after dinner",
+    "鴨川 · 夕食後の散歩"
+  ],
+  "07:00 酒店出发，地铁 + JR，门到门约 35–45 分钟。": [
+    "Leave the hotel at 07:00; subway + JR, about 35–45 minutes door to door.",
+    "07:00ホテル出発。地下鉄＋JRで全体約35～45分。"
+  ],
+  "楼门 → 本殿 → 千本鸟居 → 奥社奉拜所折返；不登顶，含拍照约 1 小时 15 分钟。": [
+    "Romon Gate → main shrine → Senbon Torii → Okusha worship area, then return; no summit climb. About 1 hour 15 minutes including photos.",
+    "楼門 → 本殿 → 千本鳥居 → 奥社奉拝所で折り返す。登頂なし、撮影込み約1時間15分。"
+  ],
+  "东山 → 祇园 · 步行游逛": [
+    "Higashiyama → Gion · walking route",
+    "東山 → 祇園 · 散策"
+  ],
+  "三年坂 → 二年坂 → 八坂塔 → 石塀小路 → 高台寺 → 八坂神社 → 祇园 → 花见小路。": [
+    "Sannenzaka → Ninenzaka → Yasaka Pagoda → Ishibe Koji → Kodaiji → Yasaka Shrine → Gion → Hanamikoji.",
+    "三年坂 → 二年坂 → 八坂塔 → 石塀小路 → 高台寺 → 八坂神社 → 祇園 → 花見小路。"
+  ],
+  "两人，18:00 已预订；从花见小路步行约 10–15 分钟，17:50 左右到店。": [
+    "Two guests, confirmed at 18:00; walk about 10–15 minutes from Hanamikoji and arrive around 17:50.",
+    "2名、18:00予約済み。花見小路から徒歩約10～15分、17:50頃到着。"
+  ],
+  "约 20:00–20:40": [
+    "About 20:00–20:40",
+    "20:00～20:40頃"
+  ],
+  "鸭川 · 晚饭后散步": [
+    "Kamo River · after-dinner stroll",
+    "鴨川 · 夕食後の散歩"
+  ],
+  "弘祇园山名庵步行约 5–10 分钟到四条大桥，沿鸭川散步约 20–30 分钟。": [
+    "Walk about 5–10 minutes from Hiro Gion Yamana-an to Shijo Bridge, then stroll along the Kamo River for 20–30 minutes.",
+    "弘祇園山名庵から四条大橋へ徒歩約5～10分、鴨川を約20～30分散歩。"
+  ],
+  "11:30 清水坂／三年坂附近 · 待定": [
+    "11:30 near Kiyomizuzaka / Sannenzaka · undecided",
+    "11:30 清水坂・三年坂周辺 · 未定"
+  ],
+  "18:00–约 20:00": [
+    "18:00–about 20:00",
+    "18:00～20:00頃"
+  ],
+  "仅外观拍照，不登塔；免费，无需购票。": ["Exterior photos only, no tower visit; free, no ticket needed.", "外観撮影のみ、展望台には上らない。無料、チケット不要。"]
 };

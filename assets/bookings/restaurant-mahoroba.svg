@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500">
+  <rect width="1000" height="500" fill="#fff"/>
+  <g font-family="Arial, 'Hiragino Sans', sans-serif" fill="#193940">
+    <text x="60" y="75" font-size="34" font-weight="700">Reservation confirmed / 予約確定</text>
+    <text x="60" y="126" font-size="28">Kappou Mahoroba Kani / 割烹まほろば 蟹</text>
+    <text x="60" y="202" font-size="21" fill="#60747a">Date / 日時</text>
+    <text x="310" y="202" font-size="26">October 16, 2026 (Fri) · 18:30 JST</text>
+    <path d="M60 228 H940" stroke="#e2e9eb"/>
+    <text x="60" y="279" font-size="21" fill="#60747a">Party / 人数</text>
+    <text x="310" y="279" font-size="26">2 guests / 2名</text>
+    <path d="M60 305 H940" stroke="#e2e9eb"/>
+    <text x="60" y="356" font-size="21" fill="#60747a">Course / コース</text>
+    <text x="310" y="356" font-size="26">Mahoroba Crab Course</text>
+    <path d="M60 382 H940" stroke="#e2e9eb"/>
+    <text x="60" y="455" font-size="18" fill="#60747a">Details transcribed from the supplied reservation screenshot.</text>
+  </g>
+</svg>
