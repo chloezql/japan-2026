@@ -1,70 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1263" viewBox="0 0 760 1263" role="img" aria-labelledby="title desc">
-<title id="title">奈良 · 下午到回程路线</title><desc id="desc">NARA WALK · 抵达 JR 奈良，回程用近铁奈良</desc>
-<rect width="760" height="1263" rx="28" fill="#f6f7f3"/>
-<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Noto Sans CJK SC",sans-serif;fill:#24332d}.title{font-size:31px;font-weight:700}.sub{font-size:17px;fill:#62746a}.name{font-size:25px;font-weight:650}.en{font-size:16px;fill:#62746a}.time{font-size:20px;font-weight:600}.note{font-size:18px;fill:#506459}.foot{font-size:17px;fill:#536b5c}</style>
-<text x="40" y="58" class="title">奈良 · 下午到回程路线</text>
-<text x="40" y="92" class="sub">NARA WALK · 抵达 JR 奈良，回程用近铁奈良</text>
-<path d="M70 193 V263" stroke="#577b94" stroke-width="3" stroke-dasharray="0"/>
-<rect x="106" y="126" width="614" height="109" rx="18" fill="#fff" stroke="#dce3dd"/>
-<circle cx="70" cy="164" r="19" fill="#577b94"/>
-<text x="70" y="171" text-anchor="middle" style="fill:white;font-size:18px;font-weight:700">1</text>
-<text x="126" y="156" class="time">约 13:45</text>
-<text x="126" y="188" class="name">JR 奈良站 · 东口</text>
-<text x="126" y="213" class="en">JR Nara Station · east exit</text>
-<text x="126" y="248" class="note">三条通 → 兴福寺外侧 → 公园参道，步行约 50–60 分钟</text>
-<path d="M70 319 V389" stroke="#577b94" stroke-width="3" stroke-dasharray="0"/>
-<rect x="106" y="252" width="614" height="109" rx="18" fill="#fff" stroke="#dce3dd"/>
-<circle cx="70" cy="290" r="19" fill="#577b94"/>
-<text x="70" y="297" text-anchor="middle" style="fill:white;font-size:18px;font-weight:700">2</text>
-<text x="126" y="282" class="time">14:40–15:15</text>
-<text x="126" y="314" class="name">春日大社</text>
-<text x="126" y="339" class="en">Kasuga Taisha</text>
-<text x="126" y="374" class="note">经奈良公园看鹿，往东大寺步行约 20–25 分钟</text>
-<path d="M70 445 V515" stroke="#577b94" stroke-width="3" stroke-dasharray="0"/>
-<rect x="106" y="378" width="614" height="109" rx="18" fill="#fff" stroke="#dce3dd"/>
-<circle cx="70" cy="416" r="19" fill="#577b94"/>
-<text x="70" y="423" text-anchor="middle" style="fill:white;font-size:18px;font-weight:700">3</text>
-<text x="126" y="408" class="time">15:45–16:20</text>
-<text x="126" y="440" class="name">东大寺 · 大佛殿</text>
-<text x="126" y="465" class="en">Todaiji · Great Buddha Hall</text>
-<text x="126" y="500" class="note">步行约 15–20 分钟</text>
-<path d="M70 571 V641" stroke="#577b94" stroke-width="3" stroke-dasharray="0"/>
-<rect x="106" y="504" width="614" height="109" rx="18" fill="#fff" stroke="#dce3dd"/>
-<circle cx="70" cy="542" r="19" fill="#577b94"/>
-<text x="70" y="549" text-anchor="middle" style="fill:white;font-size:18px;font-weight:700">4</text>
-<text x="126" y="534" class="time">16:40 入山</text>
-<text x="126" y="566" class="name">若草山 · 山脚南入口</text>
-<text x="126" y="591" class="en">South entrance · 34.6843245, 135.8470358</text>
-<text x="126" y="626" class="note">南侧步道约 500 米，上行约 20–30 分钟</text>
-<path d="M70 697 V767" stroke="#577b94" stroke-width="3" stroke-dasharray="0"/>
-<rect x="106" y="630" width="614" height="109" rx="18" fill="#fff" stroke="#dce3dd"/>
-<circle cx="70" cy="668" r="19" fill="#577b94"/>
-<text x="70" y="675" text-anchor="middle" style="fill:white;font-size:18px;font-weight:700">5</text>
-<text x="126" y="660" class="time">17:05 到 / 17:23 日落</text>
-<text x="126" y="692" class="name">若草山 · 一重目观景处</text>
-<text x="126" y="717" class="en">First peak · 34.6873838, 135.8485886</text>
-<text x="126" y="752" class="note">17:30 下山，下行约 20–30 分钟</text>
-<path d="M70 823 V893" stroke="#577b94" stroke-width="3" stroke-dasharray="0"/>
-<rect x="106" y="756" width="614" height="109" rx="18" fill="#fff" stroke="#dce3dd"/>
-<circle cx="70" cy="794" r="19" fill="#577b94"/>
-<text x="70" y="801" text-anchor="middle" style="fill:white;font-size:18px;font-weight:700">6</text>
-<text x="126" y="786" class="time">约 17:55</text>
-<text x="126" y="818" class="name">山脚 · 出口专用门</text>
-<text x="126" y="843" class="en">Exit-only gate · open for exits after 17:00</text>
-<text x="126" y="878" class="note">经奈良公园、登大路，步行约 35–45 分钟</text>
-<path d="M70 949 V1019" stroke="#577b94" stroke-width="3" stroke-dasharray="0"/>
-<rect x="106" y="882" width="614" height="109" rx="18" fill="#fff" stroke="#dce3dd"/>
-<circle cx="70" cy="920" r="19" fill="#577b94"/>
-<text x="70" y="927" text-anchor="middle" style="fill:white;font-size:18px;font-weight:700">7</text>
-<text x="126" y="912" class="time">18:40–19:30</text>
-<text x="126" y="944" class="name">近铁奈良站 / 东向商店街</text>
-<text x="126" y="969" class="en">Kintetsu Nara · dinner nearby</text>
-<text x="126" y="1004" class="note">晚餐不预约，19:35–19:40 前进站</text>
-<rect x="106" y="1008" width="614" height="109" rx="18" fill="#fff" stroke="#dce3dd"/>
-<circle cx="70" cy="1046" r="19" fill="#577b94"/>
-<text x="70" y="1053" text-anchor="middle" style="fill:white;font-size:18px;font-weight:700">8</text>
-<text x="126" y="1038" class="time">候选 19:46 → 20:43</text>
-<text x="126" y="1070" class="name">近铁急行 · 国际会馆方向</text>
-<text x="126" y="1095" class="en">Express for Kokusaikaikan → Karasuma Oike</text>
-<text x="126" y="1130" class="note">57 分钟直达乌丸御池，无需换乘；步行约 5–8 分钟回酒店</text>
-<text x="40" y="1226" class="foot">一重目到近铁奈良站：下山加步行合计约 55–75 分钟。</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="1135" viewBox="0 0 760 1135" role="img" aria-labelledby="title desc">
+<title id="title">奈良 · 顺路散步时间示意图</title><desc id="desc">春日大社、若草山山脚、东大寺、奈良公园、近铁奈良站。不登山，不等待日落。</desc>
+<rect width="760" height="1135" rx="28" fill="#f6f7f3"/>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans",sans-serif;fill:#24332d}.title{font-size:31px;font-weight:700}.sub{font-size:17px;fill:#62746a}.name{font-size:25px;font-weight:650}.en{font-size:16px;fill:#62746a}.time{font-size:20px;font-weight:600}.note{font-size:18px;fill:#506459}</style>
+<text x="40" y="58" class="title">奈良 · 顺路散步时间示意图</text>
+<text x="40" y="92" class="sub">JR 奈良站出发 · 近铁奈良站返程 · 若草山只走山脚</text>
+<path d="M70 159 V299" stroke="#577b94" stroke-width="3"/>
+<rect x="106" y="125" width="614" height="122" rx="18" fill="#fff" stroke="#dce3dd"/>
+<circle cx="70" cy="159" r="19" fill="#577b94"/><text x="70" y="166" text-anchor="middle" style="fill:white;font-size:18px;font-weight:700">1</text>
+<text x="126" y="152" class="time">约 13:45</text>
+<text x="126" y="183" class="name">JR 奈良站 · 东口</text>
+<text x="126" y="207" class="en">JR Nara Station · east exit</text>
+<text x="126" y="233" class="note">步行约 50–60 分钟到春日大社</text>
+<path d="M70 299 V439" stroke="#577b94" stroke-width="3"/>
+<rect x="106" y="265" width="614" height="122" rx="18" fill="#fff" stroke="#dce3dd"/>
+<circle cx="70" cy="299" r="19" fill="#577b94"/><text x="70" y="306" text-anchor="middle" style="fill:white;font-size:18px;font-weight:700">2</text>
+<text x="126" y="292" class="time">14:40–15:15</text>
+<text x="126" y="323" class="name">春日大社</text>
+<text x="126" y="347" class="en">Kasuga Taisha</text>
+<text x="126" y="373" class="note">向北步行约 10–15 分钟到若草山山脚</text>
+<path d="M70 439 V579" stroke="#577b94" stroke-width="3"/>
+<rect x="106" y="405" width="614" height="122" rx="18" fill="#fff" stroke="#dce3dd"/>
+<circle cx="70" cy="439" r="19" fill="#577b94"/><text x="70" y="446" text-anchor="middle" style="fill:white;font-size:18px;font-weight:700">3</text>
+<text x="126" y="432" class="time">15:30–15:50</text>
+<text x="126" y="463" class="name">若草山休憩所 · 山脚</text>
+<text x="126" y="487" class="en">Wakakusa Rest Area · at the foot of the hill</text>
+<text x="126" y="513" class="note">只走山麓道路；再向西步行约 15–20 分钟</text>
+<path d="M70 579 V719" stroke="#577b94" stroke-width="3"/>
+<rect x="106" y="545" width="614" height="122" rx="18" fill="#fff" stroke="#dce3dd"/>
+<circle cx="70" cy="579" r="19" fill="#577b94"/><text x="70" y="586" text-anchor="middle" style="fill:white;font-size:18px;font-weight:700">4</text>
+<text x="126" y="572" class="time">16:10–17:00</text>
+<text x="126" y="603" class="name">东大寺 · 大佛殿与南大门</text>
+<text x="126" y="627" class="en">Todaiji · Great Buddha Hall and Nandaimon</text>
+<text x="126" y="653" class="note">大佛殿 17:30 关闭；向南接奈良公园</text>
+<path d="M70 719 V859" stroke="#577b94" stroke-width="3"/>
+<rect x="106" y="685" width="614" height="122" rx="18" fill="#fff" stroke="#dce3dd"/>
+<circle cx="70" cy="719" r="19" fill="#577b94"/><text x="70" y="726" text-anchor="middle" style="fill:white;font-size:18px;font-weight:700">5</text>
+<text x="126" y="712" class="time">17:00–17:30</text>
+<text x="126" y="743" class="name">奈良公园 · 看鹿与散步</text>
+<text x="126" y="767" class="en">Nara Park · Ukigumo-enchi</text>
+<text x="126" y="793" class="note">沿登大路向西，步行约 15–20 分钟去车站</text>
+<path d="M70 859 V999" stroke="#577b94" stroke-width="3"/>
+<rect x="106" y="825" width="614" height="122" rx="18" fill="#fff" stroke="#dce3dd"/>
+<circle cx="70" cy="859" r="19" fill="#577b94"/><text x="70" y="866" text-anchor="middle" style="fill:white;font-size:18px;font-weight:700">6</text>
+<text x="126" y="852" class="time">17:50–18:40</text>
+<text x="126" y="883" class="name">近铁奈良站 / 东向商店街</text>
+<text x="126" y="907" class="en">Kintetsu Nara Station · dinner nearby</text>
+<text x="126" y="933" class="note">晚餐现场选；也可直接回京都再吃</text>
+<rect x="106" y="965" width="614" height="122" rx="18" fill="#fff" stroke="#dce3dd"/>
+<circle cx="70" cy="999" r="19" fill="#577b94"/><text x="70" y="1006" text-anchor="middle" style="fill:white;font-size:18px;font-weight:700">7</text>
+<text x="126" y="992" class="time">18:40 起返程</text>
+<text x="126" y="1023" class="name">近铁奈良 → 乌丸御池 → 酒店</text>
+<text x="126" y="1047" class="en">Kintetsu Nara → Karasuma Oike → hotel</text>
+<text x="126" y="1073" class="note">优先直通急行；含候车与步行约 70–90 分钟</text>
+</svg>

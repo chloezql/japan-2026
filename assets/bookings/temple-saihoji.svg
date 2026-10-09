@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+<rect width="1000" height="620" fill="#fff"/>
+<g font-family="Arial, 'Hiragino Sans', sans-serif" fill="#193940">
+<text x="60" y="80" font-size="35" font-weight="700">Reservation confirmed / 予約完了</text>
+<text x="60" y="132" font-size="28">西芳寺（苔寺）/ Saihoji</text>
+<text x="60" y="205" font-size="21" fill="#60747a">Date / 日時</text>
+<text x="340" y="205" font-size="26">October 13, 2026 (Tue) · 11:30 JST</text>
+<path d="M60 230 H940" stroke="#e2e9eb"/>
+<text x="60" y="280" font-size="21" fill="#60747a">Visit / 参拝</text>
+<text x="340" y="280" font-size="26">Nichi-nichi Sanpai / 日々参拝</text>
+<path d="M60 305 H940" stroke="#e2e9eb"/>
+<text x="60" y="355" font-size="21" fill="#60747a">Category / 区分</text>
+<text x="340" y="355" font-size="26">Non-member</text>
+<path d="M60 380 H940" stroke="#e2e9eb"/>
+<text x="60" y="430" font-size="21" fill="#60747a">Admission / 受付</text>
+<text x="340" y="430" font-size="24">Original QR + photo ID for every visitor</text>
+<text x="340" y="472" font-size="24">入場 QR ＋ 全員の顔写真付き身分証</text>
+<text x="60" y="565" font-size="18" fill="#60747a">Transcribed from supplied screenshots. Admission QR omitted.</text>
+</g></svg>

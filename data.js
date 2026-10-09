@@ -1,6 +1,6 @@
 // Public trip data only. Booking identifiers and original documents stay in .private/.
 window.TRIP = {
-  updated: '2026-10-04',
+  updated: '2026-10-09',
   itineraryVersion: 'word-provisional',
   sources: {
     meiji: {title:'明治神宫官方开放时间', url:'https://www.meijijingu.or.jp/en/opening/'},
@@ -54,7 +54,7 @@ window.TRIP = {
         {name:'FamilyMart · 日本桥本町二丁目店',kind:'便利店 · 备用',walk:'约 5–7 分钟',hours:'24 小时营业',address:'東京都中央区日本橋本町二丁目6番7号',query:'ファミリーマート 日本橋本町二丁目店 東京都中央区日本橋本町2-6-7',detail:'便当、饭团、炸鸡、饮料。',sourceUrl:'https://store.family.co.jp/points/59147',sourceTitle:'FamilyMart 官方门店资料',status:'备用'},
         {name:'なか卯 · 日本桥本石町店',kind:'简餐 · 亲子丼 / 乌冬',walk:'约 7–9 分钟',hours:'04:00–次日 03:00 · 03:00–04:00 休息',address:'東京都中央区日本橋本石町3-2-3 日本橋オリーブビル',query:'なか卯 日本橋本石町店 東京都中央区日本橋本石町3-2-3',detail:'亲子丼、乌冬；堂食或外带。',sourceUrl:'https://maps.nakau.co.jp/jp/detail/2555.html',sourceTitle:'なか卯官方门店资料',status:'备用'}
       ]}],meals:{lunch:'机上用餐',dinner:'日本桥いちり寿喜烧 · Walk-in；附近简餐 / 便利店备用'},todo:['落实包车接机']},
-    {date:'2026-10-11',city:'东京',group:'东京',title:'明治神宫，原宿逛到涩谷',subtitle:'明治神宫、代代木公园、原宿、表参道，海味晚餐后去涩谷。',hotel:'tokyo',tags:['预计 07:00 酒店出发','17:00 海味已预订','饭后涩谷夜景','东京第 2 晚'],route:['原宿早餐','明治神宫','代代木公园','11:00 午餐','原宿 / Cat Street / 表参道','根津美术馆（待定）','海味 17:00','涩谷路口 / 八公像','Scramble Square 12F','歌舞伎町 / 酒吧（待定）'],events:[
+    {date:'2026-10-11',city:'东京',group:'东京',title:'明治神宫，原宿逛到涩谷',subtitle:'明治神宫、代代木公园、原宿、表参道，海味晚餐后去涩谷。',hotel:'tokyo',tags:['预计 07:00 酒店出发','17:00 海味已预订','饭后涩谷夜景','东京第 2 晚'],route:['原宿早餐','明治神宫','代代木公园','11:00 午餐','原宿 / Cat Street / 表参道','根津美术馆（待定）','海味 17:00','涩谷 19:30–20:00','忠犬八公 / Scramble Square 12F','20:00 后歌舞伎町','GOLD FINGER · 新宿二丁目'],events:[
       {time:'07:00–约 07:45',title:'酒店 → 原宿 / 明治神宫前',status:'预计',type:'交通',detail:'地铁全程约 40–50 分钟，含步行和换乘；预计 07:40–07:50 抵达原宿一侧。',steps:['从酒店进入三越前站，乘半藏门线往涩谷方向至表参道。','换乘千代田线往代代木上原方向，1 站到明治神宫前。','从 2 号出口一侧出站，步行至原宿站周边早餐店。'],origin:'Mitsui Garden Hotel Nihonbashi Premier Tokyo 東京都中央区日本橋室町3-4-4',place:'Harajuku Station Tokyo'},
       {time:'约 07:45–08:30',title:'原宿 · 咖啡与早餐',status:'待选',type:'餐饮',detail:'早到可吃 Doutor；猿田彦 08:00 开门。',options:[
         {name:'Doutor Coffee · 原宿店',kind:'最早开门 · 三明治与咖啡',walk:'约 2–4 分钟',origin:'Harajuku Station Tokyo',originLabel:'原宿站',hours:'周日 06:45–21:00 · 早餐套餐至 10:30',address:'東京都渋谷区神宮前1-13-18 第2大英ビル',query:'ドトールコーヒーショップ 原宿店 神宮前1-13-18',detail:'连锁咖啡店，适合到原宿后直接吃一顿简单早餐。',sourceUrl:'https://shop.doutor.co.jp/doutor/spot/detail?code=1010451',sourceTitle:'Doutor 官方门店资料',status:'候选'},
@@ -71,11 +71,9 @@ window.TRIP = {
       {time:'12:00–16:30',title:'原宿 / Cat Street / 表参道 · 购物与咖啡',status:'预计',type:'游逛',detail:'原宿 → 竹下通 → Cat Street → 表参道。下午自由逛街，之后步行前往海味。',optionalVisit:{title:'根津美术馆 · 待定',time:'15:30–16:30 · 约 1 小时',detail:'购物结束早就去。从表参道站一带步行约 8–12 分钟；16:30 离馆后步行约 15–20 分钟到海味。',hours:'开放 10:00–17:00，最晚 16:30 入馆；门票待购买。',place:'根津美術館 東京都港区南青山6-5-1',source:'nezu'},places:['Harajuku Tokyo','Takeshita Street Harajuku Tokyo','Cat Street Shibuya','Omotesando Tokyo','根津美術館 東京都港区南青山6-5-1']},
       {time:'17:00–19:00',title:'海味 · 南青山寿司 Omakase',status:'已预订',type:'餐饮',detail:'两人，Omakase Course，用餐时间 2 小时。约 16:45–16:50 到店；表参道步行约 15–25 分钟，根津美术馆步行约 15–20 分钟。',confirmation:{images:[{image:'restaurant-umi-confirmation',title:'海味 · 10/11 17:00 两人预约确认'},{image:'restaurant-umi-details',title:'海味 · 套餐与两小时用餐确认'}],title:'海味 · 10/11 17:00 两人预约确认',price:'Omakase Course ¥44,800 / 人（含税），另加 10% 服务费。两人餐费加服务费约 ¥98,560；酒水另计。',note:'通过食べログ预约。到店出示确认邮件或预约记录；餐饮费用当天在餐厅支付。'},place:'海味 東京都港区南青山3-2-8 三南ビル1F',source:'umi',extraSource:'umiTabelog'},
       {time:'19:00–约 19:30',title:'海味 → 涩谷',status:'预计',type:'交通',detail:'步行约 5–8 分钟至外苑前站，乘银座线往涩谷方向，2 站到涩谷；含出站步行约 20–30 分钟。',steps:['海味步行至外苑前站。','乘银座线往涩谷方向，经表参道到涩谷。','出站后步行前往涩谷十字路口与八公像。'],origin:'海味 東京都港区南青山3-2-8 三南ビル1F',place:'Shibuya Scramble Crossing Tokyo'},
-      {time:'约 19:30–20:00',title:'涩谷路口与忠犬八公像 · 打卡',status:'预计',type:'景点',detail:'拍十字路口夜景，再去涩谷站八公口旁的忠犬八公像；两处步行约 2–3 分钟。',places:['Shibuya Scramble Crossing Tokyo','Hachiko Memorial Statue Shibuya Tokyo']},
-      {time:'20:00–20:40',title:'Shibuya Scramble Square · 12 楼夜景',status:'预计',type:'景点',detail:'从八公像步行到大楼、上 12 楼约 10–15 分钟。餐厅层公共窗边可俯瞰涩谷路口，免费，无需预约；留约 20–25 分钟拍照。餐厅层营业 11:00–23:00。',place:'Shibuya Scramble Square Tokyo 渋谷2-24-12',source:'scrambleSquare',extraSource:'scrambleSquareView'},
-      {time:'约 20:40–21:15 · 可选',title:'涩谷 → 新宿歌舞伎町',status:'待定',type:'交通',detail:'JR 山手线到新宿，再步行至歌舞伎町，全程约 25–35 分钟。',origin:'Shibuya Station Tokyo',place:'Kabukicho Shinjuku Tokyo'},
-      {time:'约 21:15 起 · 可选',title:'歌舞伎町 / 酒吧',status:'待定',type:'游逛',detail:'候选：新宿歌舞伎町、Golden Gai。',places:['Kabukicho Shinjuku Tokyo','Shinjuku Golden Gai Tokyo']},
-      {time:'涩谷打卡后 / 酒吧后',title:'返回日本桥酒店',status:'预计',type:'交通',detail:'涩谷出发：银座线直达三越前，含步行约 35–45 分钟。若去歌舞伎町：步行至新宿三丁目，丸之内线到赤坂见附换银座线至三越前，全程约 45–55 分钟。',origin:'Shibuya Station Tokyo',place:'Mitsui Garden Hotel Nihonbashi Premier Tokyo 東京都中央区日本橋室町3-4-4'}],meals:{breakfast:'原宿咖啡早餐 · Doutor / 猿田彦待选',lunch:'原宿 / 表参道附近 · 待定',dinner:'17:00 海味 · 两人寿司 Omakase · 已预订'},todo:['确定午餐餐厅']},
+      {"time":"19:30–20:00","title":"涩谷 · 忠犬八公与 Scramble Square","status":"预计","type":"景点","detail":"忠犬八公像、涩谷路口，Shibuya Scramble Square 12 楼夜景。","places":["Hachiko Memorial Statue Shibuya Tokyo","Shibuya Scramble Crossing Tokyo","Shibuya Scramble Square Tokyo 渋谷2-24-12"],"hidePlaces":true,"routeStops":[{"time":"19:30–19:40","title":"忠犬八公像与涩谷路口","detail":"八公像在涩谷站八公口旁；与十字路口相距约 2–3 分钟步行，简短拍照打卡。","place":"Hachiko Memorial Statue Shibuya Tokyo"},{"time":"19:40–20:00","title":"Shibuya Scramble Square · 12 楼夜景","detail":"从八公像到大楼并上楼约 10–15 分钟，窗边简短拍照后离开。","place":"Shibuya Scramble Square Tokyo 渋谷2-24-12","visitInfo":{"paragraphs":["12 楼餐厅层公共窗边看涩谷路口；免费，无需预约。","餐厅层营业 11:00–23:00。"],"links":[{"url":"https://shibuya-scramble-square.com/faq/","title":"Scramble Square 官方楼层与营业时间"}]}}]},
+      {"time":"20:00 后","title":"歌舞伎町 → GOLD FINGER · 拉吧","status":"拟定","type":"游逛","detail":"歌舞伎町打卡，再步行去新宿二丁目 GOLD FINGER。","hidePlaces":true,"routeSummary":"展开夜游路线、交通与酒吧详情","routeStops":[{"time":"20:00–约 20:35","title":"涩谷 → 新宿歌舞伎町","detail":"从 Scramble Square 下楼到 JR 涩谷站，乘山手线往新宿方向约 7–10 分钟；新宿站东口步行约 10 分钟到歌舞伎町。全程约 30–40 分钟。","place":"Shinjuku Station East Exit Tokyo"},{"time":"约 20:35–20:45","title":"歌舞伎町一番街 · 红色牌坊","detail":"从靖国通一侧拍红色「歌舞伎町一番街」牌坊与街道霓虹。","place":"Kabukicho Ichibangai Gate Shinjuku Tokyo"},{"time":"约 20:45–20:55","title":"哥斯拉头 · 新宿东宝大楼","detail":"从牌坊步行约 3–5 分钟，在哥斯拉路上拍大楼上方的哥斯拉头。","place":"Godzilla Head 新宿東宝ビル 東京都新宿区歌舞伎町1-19-1","visitInfo":{"summary":"拍照位置与地图","paragraphs":["从街上拍外观，免费；官网目前注明哥斯拉露台关闭。","吼叫与发光演出为 12:00–20:00 每整点一次；本行程到达时已结束。"],"links":[{"url":"https://shinjuku-toho-bldg.toho.co.jp/gim/ja.html","title":"东宝官网 · 哥斯拉打卡地图"}]}},{"time":"约 20:55–21:10","title":"东急歌舞伎町 TOWER / Cine City 广场","detail":"从东宝大楼步行约 3–5 分钟，拍塔楼与广场夜景。","place":"Tokyu Kabukicho Tower 東京都新宿区歌舞伎町1-29-1","visitInfo":{"summary":"拍照位置与地图","paragraphs":["外观与广场打卡。"],"links":[{"url":"https://www.tokyu-kabukicho-tower.jp/access/","title":"东急歌舞伎町 TOWER · 官方地图"}]}},{"time":"约 21:30 起","title":"GOLD FINGER · 新宿二丁目","detail":"从歌舞伎町一带步行约 15–20 分钟到酒吧；停留时间随意。","place":"BAR GOLD FINGER 東京都新宿区新宿2-12-11 林ビル1F","visitInfo":{"summary":"地址、营业时间与入店规则","paragraphs":["地址：東京都新宿区新宿2-12-11 林ビル1F。","周日常规营业 17:00–24:00，21:00 起卡拉 OK；当天活动以官方日历为准。","以女同与女性客人为主；周六仅限女性，其他混合营业日男客也需女性同行。","无入场费，每位至少点一杯饮品。"],"links":[{"url":"https://goldfingerparty.com/bar-goldfinger/","title":"GOLD FINGER 官网 · 时间、规则与日历"}]}}]},
+      {"time":"酒吧后","title":"返回日本桥酒店","status":"预计","type":"交通","detail":"从新宿二丁目回酒店，地铁全程约 45–55 分钟；出租车约 25–40 分钟。","steps":["GOLD FINGER 步行约 5–8 分钟到新宿三丁目站。","乘丸之内线往池袋方向至赤坂见附，换银座线往浅草方向至三越前。","从三越前站经地下通道回酒店。"],"origin":"BAR GOLD FINGER 東京都新宿区新宿2-12-11 林ビル1F","place":"Mitsui Garden Hotel Nihonbashi Premier Tokyo 東京都中央区日本橋室町3-4-4","travelMode":"transit","hidePlaces":true,"routeInsideSteps":true}],meals:{breakfast:'原宿咖啡早餐 · Doutor / 猿田彦待选',lunch:'原宿 / 表参道附近 · 待定',dinner:'17:00 海味 · 两人寿司 Omakase · 已预订'},todo:['确定午餐餐厅']},
     {date:'2026-10-12',city:'东京',group:'东京',title:'筑地海胆饭，东京经典一日',subtitle:'筑地、浅草、银座，烧鸟晚餐与东京塔夜景。',hotel:'tokyo',tags:['07:00 酒店出发','09:00 筑地出发','东京第 3 晚'],route:['筑地场外市场','浅草','银座','酒店放东西（可选）','京丹波 19:30','东京塔'],events:[
       {time:'07:00 出发',title:'酒店 → 筑地场外市场',status:'预计',type:'交通',detail:'出租车约 10–20 分钟；地铁全程约 25–35 分钟，预计 07:30–07:40 到うに虎。',steps:['步行约 8–10 分钟至日本桥站，乘都营浅草线往西马込 / 羽田机场方向，2 站到东银座。','东银座 5 / 6 号出口，步行约 5–8 分钟到市场及うに虎。'],origin:'Mitsui Garden Hotel Nihonbashi Premier Tokyo 東京都中央区日本橋室町3-4-4',place:'うに虎 本店 東京都中央区築地4-10-5'},
       {time:'约 07:30–09:00',title:'うに虎海胆饭 → 筑地场外市场',status:'拟定',type:'餐饮',detail:'先吃海胆饭，再逛市场。Unitora Nakadori：官网现称うに虎本店，07:00–17:00，无固定休息日。地址：東京都中央区築地4-10-5 MIHIROビル1F。10/12 为假日，部分市场店铺休息。',places:['うに虎 本店 東京都中央区築地4-10-5','Tsukiji Outer Market Tokyo'],source:'unitora',extraSource:'tsukiji'},
@@ -87,17 +85,437 @@ window.TRIP = {
       {time:'19:30–约 21:30',title:'银座京丹波 · 烧鸟晚餐',status:'已预订',type:'餐饮',detail:'10/12 19:30，两人吧台，滞留时间 2 小时。高坂鸡季节限定套餐。地址：東京都中央区銀座7-2-18 銀座グランベルスクエア201。',confirmation:{image:'restaurant-kyotanba',title:'京丹波 · 10/12 19:30 两人预约确认',price:'高坂鸡季节限定套餐 ¥22,000 / 人（含税），另加 10% 服务费。两人餐费加服务费约 ¥48,400，OMAKASE 预约费共 ¥780；酒水另计。',note:'到店出示 OMAKASE 预约记录或确认邮件。10/9 起取消收套餐费 50%，10/12 当天收 100%；预约费不可退。'},place:'銀座やきとり 京丹波 東京都中央区銀座7-2-18 銀座グランベルスクエア201',source:'kyotanba'},
       {time:'晚餐后 · 约 21:30',title:'京丹波 → 东京塔',status:'待定（拍照）',type:'交通',detail:'出租车约 10–20 分钟。',origin:'銀座やきとり 京丹波 東京都中央区銀座7-2-18 銀座グランベルスクエア201',place:'Tokyo Tower',travelMode:'driving'},
       {time:'约 22:00',title:'东京塔夜景 · 芝公园 / 赤羽桥',status:'拟定',type:'景点',detail:'主展望台 09:00–23:00，最晚 22:30 入场；顶部展望台至 22:45，最晚 22:15 入场。外观亮灯通常至 24:00；是否登塔待定。',place:'Tokyo Tower',places:['Tokyo Tower','Shiba Park Tokyo','Akabanebashi Station Tokyo'],source:'tower',extraSource:'towerLights'}],meals:{breakfast:'筑地海鲜早餐',lunch:'浅草寺商业街小吃',dinner:'19:30 银座京丹波 · 两人吧台 · 季节限定套餐 · 已预订'},todo:['确定东京塔是否登塔']},
-    {date:'2026-10-13',city:'京都',group:'京都',title:'去京都，走进岚山小路',subtitle:'寄存行李，锦市场午饭，再去奥嵯峨与岚山。',hotel:'kyoto',tags:['08:18 Nozomi 331 · 已预订','约 11:00 到酒店','19:00 和ごころ泉 · 已预订','京都第 1 晚'],route:['07:00 东京酒店退房','东京站 08:18','京都三条酒店','锦市场午饭','打车约 40–50 分钟','爱宕念佛寺','祇王寺','常寂光寺','竹林小径','天龙寺','渡月桥','酒店入住','和ごころ泉 19:00'],events:[
-      {"time": "07:00–07:10", "title": "东京酒店 · 退房", "status": "预计", "type": "住宿", "detail": "07:10 前完成退房，带走行李。早餐可在东京站买，车上吃。", "place": "Mitsui Garden Hotel Nihonbashi Premier Tokyo 東京都中央区日本橋室町3-4-4"},
-      {"time": "07:10–08:00", "title": "日本桥酒店 → 东京站 · JR 总武快速线", "status": "预计", "type": "交通", "detail": "JR 1 站约 2 分钟，08:00 前到新干线站台。", "steps": ["07:10 从酒店出发，经地下通道前往 JR 新日本桥站；用 Suica / PASMO 进站，找「総武線快速・東京方面」站台。", "候选 07:22 发车，07:24 到东京站，1 站直达。错过后乘下一班东京方向列车。", "东京站下车后跟随「東海道・山陽新幹線」标识；地下站台到新干线站台预留 20–25 分钟，08:00 前到站台。", "换乘闸机：先扫 Smart EX 的 QR-Ticket，再刷刚才进站用的 Suica / PASMO，拿走座位信息纸条。JR 这段车费另从 IC 卡扣除；两人各用自己的乘车码和 IC 卡。"], "origin": "Mitsui Garden Hotel Nihonbashi Premier Tokyo 東京都中央区日本橋室町3-4-4", "place": "Tokyo Station", "travelMode": "transit", "hidePlaces": true, "routeInsideSteps": true},
-      {"time": "08:18–10:29", "title": "Nozomi 331 · 东京 → 京都", "status": "已预订", "type": "交通", "detail": "直达 2 小时 11 分钟，两人普通车指定席。", "steps": ["08:00 前到新干线站台，核对电子屏上的「のぞみ331号 / NOZOMI 331」，到 5 号车厢候车位置等车。", "上车找到 5 号车厢 18D、18E；E 靠窗，D 靠过道。放好行李后可吃早餐。", "10:29 在京都站下车；用各自的 Smart EX QR-Ticket 出站，再前往地铁乌丸线。"], "origin": "Tokyo Station", "place": "Kyoto Station", "confirmation": {"summary": "车票详情与预约确认", "title": "Nozomi 331 · 10/13 两人车票确认", "price": "Smart EX 两人合计 ¥27,940，平均 ¥13,970 / 人。", "note": "已确认：2026/10/13，Nozomi 331，东京 08:18 → 京都 10:29；N700 系列 16 节编组，普通车指定席，5 号车厢 18D、18E。乘车使用 Smart EX 的 QR-Ticket。", "images": [{"path": "assets/bookings/train-nozomi331.svg", "title": "Nozomi 331 · 10/13 两人车票确认", "label": "查看车票确认信息"}]}, "hidePlaces": true, "hideRouteLink": true, "routeInsideSteps": true},
-      {"time": "10:29–11:00", "title": "京都站 → 京都三条酒店", "status": "预计", "type": "交通", "detail": "乌丸线 3 站直达，预计 11:00 到酒店。", "steps": ["10:29 京都站下车，出新干线区域后跟随「地下鉄・烏丸線」标识，到地铁站台预留约 10–15 分钟。", "刷 Suica / PASMO 进地铁站，乘「国際会館方面」列车；京都 → 五条 → 四条 → 乌丸御池，3 站约 6 分钟，无需换乘。", "乌丸御池站走北改札口，乘 3-2 号出口电梯到地面，再步行约 5–8 分钟到酒店。"], "origin": "Kyoto Station", "place": "Mitsui Garden Hotel Kyoto Sanjo PREMIER 京都市中京区三条通東洞院東入菱屋町45番1", "travelMode": "transit", "hidePlaces": true, "routeInsideSteps": true},
-      {"time": "11:00–11:15", "title": "京都酒店 · 寄存行李", "status": "预计", "type": "住宿", "detail": "到前台办理行李寄存；15:00 起入住，傍晚回来拿行李和房卡。", "hotel": "kyoto"},
-      {time:'11:15–12:45',title:'锦市场 · 午饭逛吃',status:'拟定',type:'餐饮',detail:'酒店步行约 10–15 分钟。玉子烧、鲷鱼烧等小吃；花道鳗鱼饭待定。',places:['Nishiki Market Kyoto','うなぎや花道 京都錦市場店 京都市中京区中魚屋町503','三木鶏卵 京都錦市場']},
-      {time:'12:45–约 13:30',title:'锦市场 → 爱宕念佛寺 · 打车',status:'预计',type:'交通',detail:'车程约 40–50 分钟，预计 13:30 到达。',steps:['12:45 左右从锦市场走到附近可停车的道路，叫出租车。','给司机看目的地：愛宕念仏寺，京都市右京区嵯峨鳥居本深谷町2-5。','车程约 40–50 分钟，预计 13:30 到寺院入口。'],origin:'Nishiki Market Kyoto',place:'Otagi Nenbutsuji Kyoto',travelMode:'driving',hidePlaces:true,routeInsideSteps:true},
-      {"time": "13:30–17:30", "title": "奥嵯峨 → 岚山 · 步行反穿", "status": "预计", "type": "景点", "detail": "爱宕念佛寺 → 祇王寺 → 常寂光寺 → 竹林小径 → 天龙寺 → 渡月桥。", "places": ["Otagi Nenbutsuji Kyoto", "Gio-ji Kyoto", "Jojakko-ji Kyoto", "Arashiyama Bamboo Forest Kyoto", "Tenryu-ji Kyoto", "Togetsukyo Bridge Kyoto"], "hidePlaces": true, "routeStops": [{"time": "13:30–14:10", "title": "爱宕念佛寺", "status": "预计", "type": "景点", "detail": "罗汉石像与苔庭，游览约 40 分钟。", "place": "Otagi Nenbutsuji Kyoto", "hidePlaces": true, "visitInfo": {"paragraphs": ["09:00–16:00；周三、周六休息。10/13 周二开放。", "成人 ¥1,000 / 人；两人 ¥2,000。", "到入口受付现场购票，无需提前订时段。"], "links": [{"url": "https://www.otagiji.com/visit-jp", "title": "官网 · 参观信息"}, {"url": "https://xhslink.cn/o/43uHE68LtTj", "title": "小红书 · 岚山反穿攻略"}]}}, {"time": "14:40–15:05", "title": "祇王寺", "status": "预计", "type": "景点", "detail": "从爱宕念佛寺沿嵯峨鸟居本步行约 25–30 分钟；苔庭游览约 25 分钟。", "place": "Gio-ji Kyoto", "hidePlaces": true, "visitInfo": {"paragraphs": ["09:00 开门，16:30 停止入场，16:50 结束参观。", "成人 ¥500 / 人；两人 ¥1,000。", "入口受付现场购票；本路线买单寺票。"], "links": [{"url": "https://www.giouji.or.jp/access/", "title": "官网 · 参观信息"}]}}, {"time": "15:20–16:00", "title": "常寂光寺", "status": "预计", "type": "景点", "detail": "从祇王寺步行约 10–15 分钟；游览约 40 分钟，寺内有台阶与上坡。", "place": "Jojakko-ji Kyoto", "hidePlaces": true, "visitInfo": {"paragraphs": ["09:00–17:00，16:30 停止入场；全年开放。", "成人 ¥600 / 人；两人 ¥1,200。", "入口受付现场购票，官网明确无需预约。"], "links": [{"url": "https://jojakko-ji.or.jp/faq/", "title": "官网 · 参观信息"}]}}, {"time": "16:10–16:25", "title": "竹林小径", "status": "预计", "type": "景点", "detail": "从常寂光寺步行约 10 分钟；穿过竹林拍照，接天龙寺北门。", "place": "Arashiyama Bamboo Forest Kyoto", "hidePlaces": true, "visitInfo": {"paragraphs": ["公共步道，全天开放；免费，无需购票或预约。"], "links": [{"url": "https://www.japan.travel/en/spot/1141/", "title": "日本观光局 · 岚山竹林"}]}}, {"time": "16:25–17:00", "title": "天龙寺", "status": "预计", "type": "景点", "detail": "从竹林侧北门入园，先逛曹源池庭园；17:00 前离园。", "place": "Tenryu-ji Kyoto", "hidePlaces": true, "visitInfo": {"paragraphs": ["庭园 08:30–17:00；北门与庭园受付 16:50 停止售票。", "庭园 ¥500 / 人；两人 ¥1,000。北门现场购票，无需预约。", "室内诸堂另加 ¥300 / 人；16:30 停止售票，16:45 关闭。想进入室内需在16:30前到诸堂受付，北门入园后还需步行。", "若前面走慢，缩短竹林拍照时间，优先保证天龙寺庭园的参观时间。"], "links": [{"url": "https://www.tenryuji.com/visit/", "title": "官网 · 参观信息"}]}}, {"time": "17:10–17:30", "title": "渡月桥", "status": "预计", "type": "景点", "detail": "从天龙寺步行约 5–10 分钟；桥边与桂川拍照约 20 分钟。", "place": "Togetsukyo Bridge Kyoto", "hidePlaces": true, "visitInfo": {"paragraphs": ["公共桥梁，通行自由；免费，无需购票或预约。"], "links": [{"url": "https://ja.kyoto.travel/tourism/single01.php?category_id=8&tourism_id=2682", "title": "京都观光官网 · 渡月桥"}]}}]},
-      {time:'17:30–18:55',title:'岚山 → 酒店入住 → 和ごころ泉',status:'预计',type:'交通',detail:'先回酒店入住、取行李；18:55 到餐厅。',steps:['17:30 从渡月桥一带出发；公共交通返酒店约 45–50 分钟，出租车约 35–45 分钟。','约 18:20 到酒店，办理入住、取行李。','18:40 从酒店出发，沿东洞院通步行约 13–15 分钟（约 1 公里）；18:55 到和ごころ泉。'],origin:'Mitsui Garden Hotel Kyoto Sanjo PREMIER 京都市中京区三条通東洞院東入菱屋町45番1',place:'和ごころ泉 京都府京都市下京区匂天神町634-3',travelMode:'walking',hidePlaces:true,routeInsideSteps:true},
-      {time:'19:00',title:'和ごころ泉 · 怀石晚餐',status:'已预订',type:'餐饮',detail:'两人吧台，夜のおまかせコース①；18:55 到店。',place:'和ごころ泉 京都府京都市下京区匂天神町634-3',hidePlaces:true,confirmation:{summary:'套餐详情与预约确认',title:'和ごころ泉 · 10/13 19:00 两人预约确认',price:'套餐费用已预付；酒水及追加费用现场结算。',note:'2026/10/13（周二）19:00 JST，2 位，吧台，夜のおまかせコース①。到店出示确认邮件或预约记录；请提前 5 分钟到达，未联系而迟到可能被取消。',images:[{path:'assets/bookings/restaurant-izumi.svg',title:'和ごころ泉 · 10/13 19:00 两人预约确认',label:'查看预约确认信息'}]},visitInfo:{summary:'地址与到店要求',paragraphs:['地址：京都府京都市下京区匂天神町634-3。','Smart casual；不穿 T 恤、短裤或凉鞋。','避免浓香水及明显的衣物柔顺剂气味。'],links:[{url:'https://omakaseje.com/ja/restaurants/hc541098',title:'和ごころ泉 · 套餐与预约'}]}}],meals:{breakfast:'东京站便当 / 三明治 · 车上吃',lunch:'锦市场逛吃 · 玉子烧、鲷鱼烧等；花道鳗鱼饭待定',dinner:'19:00 · 和ごころ泉 · 已预订'},todo:[],alternative:'原 PDF：寄存行李后去二条城 → 锦市场 → 寺町通 → 河原町 → 鸭川 / 先斗町；岚山安排在 10/15。'},
+    {
+  "date": "2026-10-13",
+  "city": "京都",
+  "group": "京都",
+  "title": "去京都，西芳寺与岚山",
+  "subtitle": "酒店寄存行李 → 11:30 西芳寺 → 附近简餐 → 岚山。",
+  "hotel": "kyoto",
+  "tags": [
+    "08:18 Nozomi 331 · 已预订",
+    "11:30 西芳寺 · 已预订",
+    "19:00 和ごころ泉 · 已预订",
+    "京都第 1 晚"
+  ],
+  "route": [
+    "07:00 东京酒店退房",
+    "东京站 08:18",
+    "京都三条酒店寄存",
+    "西芳寺 11:30",
+    "西芳寺附近简餐",
+    "打车去爱宕念佛寺",
+    "爱宕念佛寺",
+    "祇王寺",
+    "常寂光寺",
+    "竹林小径",
+    "天龙寺",
+    "渡月桥",
+    "酒店入住",
+    "和ごころ泉 19:00"
+  ],
+  "events": [
+    {
+      "time": "07:00–07:10",
+      "title": "东京酒店 · 退房",
+      "status": "预计",
+      "type": "住宿",
+      "detail": "07:10 前完成退房，带走行李。早餐可在东京站买，车上吃。",
+      "place": "Mitsui Garden Hotel Nihonbashi Premier Tokyo 東京都中央区日本橋室町3-4-4"
+    },
+    {
+      "time": "07:10–08:00",
+      "title": "日本桥酒店 → 东京站 · JR 总武快速线",
+      "status": "预计",
+      "type": "交通",
+      "detail": "JR 1 站约 2 分钟，08:00 前到新干线站台。",
+      "steps": [
+        "07:10 从酒店出发，经地下通道前往 JR 新日本桥站；用 Suica / PASMO 进站，找「総武線快速・東京方面」站台。",
+        "候选 07:22 发车，07:24 到东京站，1 站直达。错过后乘下一班东京方向列车。",
+        "东京站下车后跟随「東海道・山陽新幹線」标识；地下站台到新干线站台预留 20–25 分钟，08:00 前到站台。",
+        "换乘闸机：先扫 Smart EX 的 QR-Ticket，再刷刚才进站用的 Suica / PASMO，拿走座位信息纸条。JR 这段车费另从 IC 卡扣除；两人各用自己的乘车码和 IC 卡。"
+      ],
+      "origin": "Mitsui Garden Hotel Nihonbashi Premier Tokyo 東京都中央区日本橋室町3-4-4",
+      "place": "Tokyo Station",
+      "travelMode": "transit",
+      "hidePlaces": true,
+      "routeInsideSteps": true
+    },
+    {
+      "time": "08:18–10:29",
+      "title": "Nozomi 331 · 东京 → 京都",
+      "status": "已预订",
+      "type": "交通",
+      "detail": "直达 2 小时 11 分钟，两人普通车指定席。",
+      "steps": [
+        "08:00 前到新干线站台，核对电子屏上的「のぞみ331号 / NOZOMI 331」，到 5 号车厢候车位置等车。",
+        "上车找到 5 号车厢 18D、18E；E 靠窗，D 靠过道。放好行李后可吃早餐。",
+        "10:29 在京都站下车，用各自的 Smart EX QR-Ticket 出新干线改札，再跟随「地下鉄・烏丸線」标识换乘地铁。"
+      ],
+      "origin": "Tokyo Station",
+      "place": "Kyoto Station",
+      "confirmation": {
+        "summary": "车票详情与预约确认",
+        "title": "Nozomi 331 · 10/13 两人车票确认",
+        "price": "Smart EX 两人合计 ¥27,940，平均 ¥13,970 / 人。",
+        "note": "已确认：2026/10/13，Nozomi 331，东京 08:18 → 京都 10:29；N700 系列 16 节编组，普通车指定席，5 号车厢 18D、18E。乘车使用 Smart EX 的 QR-Ticket。",
+        "images": [
+          {
+            "path": "assets/bookings/train-nozomi331.svg",
+            "title": "Nozomi 331 · 10/13 两人车票确认",
+            "label": "查看车票确认信息"
+          }
+        ]
+      },
+      "hidePlaces": true,
+      "hideRouteLink": true,
+      "routeInsideSteps": true
+    },
+    {
+      "time": "10:29–约 11:00",
+      "title": "京都站 → 京都三条酒店 · 地铁乌丸线",
+      "status": "预计",
+      "type": "交通",
+      "detail": "京都站内换乘，乌丸线 3 站直达；含步行和候车约 25–35 分钟。",
+      "steps": [
+        "10:29 下新干线，用各自的 Smart EX QR-Ticket 出新干线改札，跟随「地下鉄・烏丸線 / Subway Karasuma Line」标识，通过站内通道换乘，预留约 10–15 分钟步行。",
+        "地铁另过改札，刷 Suica 进站；到 2 号站台，乘往「国際会館」方向的乌丸线。",
+        "京都 → 五条 → 四条 → 乌丸御池，3 站，车程约 6 分钟，无需换车。",
+        "乌丸御池北改札口出站，带行李走 3-2 号出口电梯；再步行约 5–8 分钟到京都三条 PREMIER 酒店。",
+        "预计约 11:00 到酒店；含新干线下车、站内换乘、候车、地铁及步行共约 25–35 分钟。"
+      ],
+      "origin": "Kyoto Station",
+      "place": "Mitsui Garden Hotel Kyoto Sanjo PREMIER 京都市中京区三条通東洞院東入菱屋町45番1",
+      "travelMode": "transit",
+      "hidePlaces": true,
+      "routeInsideSteps": true
+    },
+    {
+      "time": "约 11:00–11:05",
+      "title": "京都酒店 · 寄存行李",
+      "status": "预计",
+      "type": "住宿",
+      "detail": "仅寄存行李，随即出发；傍晚回来办理入住。",
+      "hotel": "kyoto"
+    },
+    {
+      "time": "约 11:05 出发",
+      "title": "京都三条酒店 → 西芳寺 · 打车",
+      "status": "预计",
+      "type": "交通",
+      "detail": "车程约 20–50 分钟；11:30 预约，时间较紧。",
+      "steps": [
+        "寄存后立即乘出租车出发，提前请前台协助叫车。",
+        "给司机看：西芳寺（苔寺），京都市西京区松尾神ヶ谷町56。",
+        "10/13 11:00 出发的 Google Maps 日间预测约 20–50 分钟；11:30 到达为目标，不能保证准时。",
+        "出租车在西芳寺指定上下车处停靠，距寺门约 100 米；再步行约 2–3 分钟到受付。",
+        "若预计迟到，查看确认邮件联系寺院。官网说明迟到仍可受付，超过 30 分钟需联系；可能需等候，且须在当日闭门前离开。"
+      ],
+      "origin": "Mitsui Garden Hotel Kyoto Sanjo PREMIER 京都市中京区三条通東洞院東入菱屋町45番1",
+      "place": "西芳寺 苔寺 京都市西京区松尾神ヶ谷町56",
+      "travelMode": "driving",
+      "hidePlaces": true,
+      "routeInsideSteps": true
+    },
+    {
+      "time": "11:30–约 12:30",
+      "title": "西芳寺（苔寺）· 日々参拝",
+      "status": "已预订",
+      "type": "景点",
+      "detail": "先写经，再逛苔庭；参观约 1 小时。",
+      "place": "西芳寺 苔寺 京都市西京区松尾神ヶ谷町56",
+      "hidePlaces": true,
+      "confirmation": {
+        "summary": "参拜详情与预约确认",
+        "title": "西芳寺 · 10/13 11:30 预约确认",
+        "note": "已确认：2026/10/13（周二）11:30，Nichi-nichi Sanpai（日々参拝），Non-member。受付出示确认邮件或 My page 中的入场 QR；每位参观者都需携带护照等带照片的身份证件。",
+        "images": [
+          {
+            "path": "assets/bookings/temple-saihoji.svg",
+            "title": "西芳寺 · 10/13 11:30 预约确认",
+            "label": "查看预约确认信息"
+          },
+          {
+            "path": "assets/bookings/temple-saihoji-complete.jpg",
+            "title": "西芳寺 · 预约完成截图",
+            "label": "查看预约完成截图"
+          }
+        ]
+      },
+      "visitInfo": {
+        "summary": "地址、参拜与到场要求",
+        "paragraphs": [
+          "地址：京都市西京区松尾神ヶ谷町56。",
+          "日々参拝先在本堂写经，再游览庭园，官网建议约 60 分钟。",
+          "入场 QR 在原确认邮件或官网 My page；两人各自带护照。",
+          "庭园可拍照，本堂内不可拍照；境内不可饮食。"
+        ],
+        "links": [
+          {
+            "url": "https://intosaihoji.com/en/nichinichi/",
+            "title": "西芳寺官网 · 日々参拝"
+          },
+          {
+            "url": "https://intosaihoji.com/en/faq/",
+            "title": "西芳寺官网 · 到场与交通"
+          }
+        ]
+      }
+    },
+    {
+      "time": "约 12:30–13:00",
+      "title": "西芳寺附近 · 简餐",
+      "status": "待定",
+      "type": "餐饮",
+      "detail": "荞麦面等简餐，约 30 分钟；柚之茶屋备选。",
+      "place": "柚之茶屋 京都府京都市西京区松尾万石町53",
+      "hidePlaces": true,
+      "visitInfo": {
+        "summary": "简餐备选 · 柚之茶屋",
+        "paragraphs": [
+          "寺门附近步行约 3 分钟；山药泥荞麦面「苔の月」等。",
+          "官网营业时间 10:30–16:00，不定休。未预约，到店看候位情况。",
+          "荞麦面约 ¥890–1,360 / 人；店铺官网列明不接受信用卡或电子支付，准备现金。"
+        ],
+        "links": [
+          {
+            "url": "https://yunotyaya.owst.jp/",
+            "title": "柚之茶屋官网 · 菜单与营业时间"
+          }
+        ]
+      }
+    },
+    {
+      "time": "13:00–约 13:30",
+      "title": "西芳寺附近 → 爱宕念佛寺 · 打车",
+      "status": "预计",
+      "type": "交通",
+      "detail": "车程预计约 20–30 分钟，接岚山步行路线。",
+      "steps": [
+        "简餐后从西芳寺指定上下车处乘出租车；叫车及步行时间另计。",
+        "给司机看：愛宕念仏寺，京都市右京区嵯峨鳥居本深谷町2-5。",
+        "路程约 6.6 公里，规划车程约 20–30 分钟；以 13:30 到达为目标。",
+        "若西芳寺或午餐延后，岚山各站顺延；天龙寺庭园 17:00 关闭，先将祇王寺改为待定，再缩短竹林停留。17:30 从渡月桥一带返酒店，留出入住和 19:00 晚餐时间。"
+      ],
+      "origin": "西芳寺 苔寺 京都市西京区松尾神ヶ谷町56",
+      "place": "Otagi Nenbutsuji Kyoto",
+      "travelMode": "driving",
+      "hidePlaces": true,
+      "routeInsideSteps": true
+    },
+    {
+      "time": "13:30–17:30",
+      "title": "奥嵯峨 → 岚山 · 步行反穿",
+      "status": "预计",
+      "type": "景点",
+      "detail": "爱宕念佛寺 → 祇王寺 → 常寂光寺 → 竹林小径 → 天龙寺 → 渡月桥。",
+      "places": [
+        "Otagi Nenbutsuji Kyoto",
+        "Gio-ji Kyoto",
+        "Jojakko-ji Kyoto",
+        "Arashiyama Bamboo Forest Kyoto",
+        "Tenryu-ji Kyoto",
+        "Togetsukyo Bridge Kyoto"
+      ],
+      "hidePlaces": true,
+      "routeStops": [
+        {
+          "time": "13:30–14:10",
+          "title": "爱宕念佛寺",
+          "status": "预计",
+          "type": "景点",
+          "detail": "罗汉石像与苔庭，游览约 40 分钟。",
+          "place": "Otagi Nenbutsuji Kyoto",
+          "hidePlaces": true,
+          "visitInfo": {
+            "paragraphs": [
+              "09:00–16:00；周三、周六休息。10/13 周二开放。",
+              "成人 ¥1,000 / 人；两人 ¥2,000。",
+              "到入口受付现场购票，无需提前订时段。"
+            ],
+            "links": [
+              {
+                "url": "https://www.otagiji.com/visit-jp",
+                "title": "官网 · 参观信息"
+              },
+              {
+                "url": "https://xhslink.cn/o/43uHE68LtTj",
+                "title": "小红书 · 岚山反穿攻略"
+              }
+            ]
+          }
+        },
+        {
+          "time": "14:40–15:05",
+          "title": "祇王寺",
+          "status": "预计",
+          "type": "景点",
+          "detail": "从爱宕念佛寺沿嵯峨鸟居本步行约 25–30 分钟；苔庭游览约 25 分钟。",
+          "place": "Gio-ji Kyoto",
+          "hidePlaces": true,
+          "visitInfo": {
+            "paragraphs": [
+              "09:00 开门，16:30 停止入场，16:50 结束参观。",
+              "成人 ¥500 / 人；两人 ¥1,000。",
+              "入口受付现场购票；本路线买单寺票。"
+            ],
+            "links": [
+              {
+                "url": "https://www.giouji.or.jp/access/",
+                "title": "官网 · 参观信息"
+              }
+            ]
+          }
+        },
+        {
+          "time": "15:20–16:00",
+          "title": "常寂光寺",
+          "status": "预计",
+          "type": "景点",
+          "detail": "从祇王寺步行约 10–15 分钟；游览约 40 分钟，寺内有台阶与上坡。",
+          "place": "Jojakko-ji Kyoto",
+          "hidePlaces": true,
+          "visitInfo": {
+            "paragraphs": [
+              "09:00–17:00，16:30 停止入场；全年开放。",
+              "成人 ¥600 / 人；两人 ¥1,200。",
+              "入口受付现场购票，官网明确无需预约。"
+            ],
+            "links": [
+              {
+                "url": "https://jojakko-ji.or.jp/faq/",
+                "title": "官网 · 参观信息"
+              }
+            ]
+          }
+        },
+        {
+          "time": "16:10–16:25",
+          "title": "竹林小径",
+          "status": "预计",
+          "type": "景点",
+          "detail": "从常寂光寺步行约 10 分钟；穿过竹林拍照，接天龙寺北门。",
+          "place": "Arashiyama Bamboo Forest Kyoto",
+          "hidePlaces": true,
+          "visitInfo": {
+            "paragraphs": [
+              "公共步道，全天开放；免费，无需购票或预约。"
+            ],
+            "links": [
+              {
+                "url": "https://www.japan.travel/en/spot/1141/",
+                "title": "日本观光局 · 岚山竹林"
+              }
+            ]
+          }
+        },
+        {
+          "time": "16:25–17:00",
+          "title": "天龙寺",
+          "status": "预计",
+          "type": "景点",
+          "detail": "从竹林侧北门入园，先逛曹源池庭园；17:00 前离园。",
+          "place": "Tenryu-ji Kyoto",
+          "hidePlaces": true,
+          "visitInfo": {
+            "paragraphs": [
+              "庭园 08:30–17:00；北门与庭园受付 16:50 停止售票。",
+              "庭园 ¥500 / 人；两人 ¥1,000。北门现场购票，无需预约。",
+              "室内诸堂另加 ¥300 / 人；16:30 停止售票，16:45 关闭。想进入室内需在16:30前到诸堂受付，北门入园后还需步行。",
+              "若前面走慢，缩短竹林拍照时间，优先保证天龙寺庭园的参观时间。"
+            ],
+            "links": [
+              {
+                "url": "https://www.tenryuji.com/visit/",
+                "title": "官网 · 参观信息"
+              }
+            ]
+          }
+        },
+        {
+          "time": "17:10–17:30",
+          "title": "渡月桥",
+          "status": "预计",
+          "type": "景点",
+          "detail": "从天龙寺步行约 5–10 分钟；桥边与桂川拍照约 20 分钟。",
+          "place": "Togetsukyo Bridge Kyoto",
+          "hidePlaces": true,
+          "visitInfo": {
+            "paragraphs": [
+              "公共桥梁，通行自由；免费，无需购票或预约。"
+            ],
+            "links": [
+              {
+                "url": "https://ja.kyoto.travel/tourism/single01.php?category_id=8&tourism_id=2682",
+                "title": "京都观光官网 · 渡月桥"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "time": "17:30–18:55",
+      "title": "岚山 → 酒店入住 → 和ごころ泉",
+      "status": "预计",
+      "type": "交通",
+      "detail": "先回酒店入住、取行李；18:55 到餐厅。",
+      "steps": [
+        "17:30 从渡月桥一带出发；公共交通返酒店约 45–50 分钟，出租车约 35–45 分钟。",
+        "约 18:20 到酒店，办理入住、取行李。",
+        "18:40 从酒店出发，沿东洞院通步行约 13–15 分钟（约 1 公里）；18:55 到和ごころ泉。"
+      ],
+      "origin": "Mitsui Garden Hotel Kyoto Sanjo PREMIER 京都市中京区三条通東洞院東入菱屋町45番1",
+      "place": "和ごころ泉 京都府京都市下京区匂天神町634-3",
+      "travelMode": "walking",
+      "hidePlaces": true,
+      "routeInsideSteps": true
+    },
+    {
+      "time": "19:00",
+      "title": "和ごころ泉 · 怀石晚餐",
+      "status": "已预订",
+      "type": "餐饮",
+      "detail": "两人吧台，夜のおまかせコース①；18:55 到店。",
+      "place": "和ごころ泉 京都府京都市下京区匂天神町634-3",
+      "hidePlaces": true,
+      "confirmation": {
+        "summary": "套餐详情与预约确认",
+        "title": "和ごころ泉 · 10/13 19:00 两人预约确认",
+        "price": "套餐费用已预付；酒水及追加费用现场结算。",
+        "note": "2026/10/13（周二）19:00 JST，2 位，吧台，夜のおまかせコース①。到店出示确认邮件或预约记录；请提前 5 分钟到达，未联系而迟到可能被取消。",
+        "images": [
+          {
+            "path": "assets/bookings/restaurant-izumi.svg",
+            "title": "和ごころ泉 · 10/13 19:00 两人预约确认",
+            "label": "查看预约确认信息"
+          }
+        ]
+      },
+      "visitInfo": {
+        "summary": "地址与到店要求",
+        "paragraphs": [
+          "地址：京都府京都市下京区匂天神町634-3。",
+          "Smart casual；不穿 T 恤、短裤或凉鞋。",
+          "避免浓香水及明显的衣物柔顺剂气味。"
+        ],
+        "links": [
+          {
+            "url": "https://omakaseje.com/ja/restaurants/hc541098",
+            "title": "和ごころ泉 · 套餐与预约"
+          }
+        ]
+      }
+    }
+  ],
+  "meals": {
+    "breakfast": "东京站便当 / 三明治 · 车上吃",
+    "lunch": "西芳寺附近简餐 · 荞麦面等，柚之茶屋待定",
+    "dinner": "19:00 · 和ごころ泉 · 已预订"
+  },
+  "todo": [],
+  "alternative": "原 PDF：寄存行李后去二条城 → 锦市场 → 寺町通 → 河原町 → 鸭川 / 先斗町；岚山安排在 10/15。"
+},
     {
   "date": "2026-10-14",
   "city": "京都",
@@ -346,463 +764,416 @@ window.TRIP = {
   "todo": []
 },
     {
-      "date": "2026-10-15",
-      "city": "京都",
-      "group": "京都",
-      "title": "宇治抹茶，奈良看鹿与日落",
-      "subtitle": "",
-      "hotel": "kyoto",
-      "tags": [
-        "08:00 酒店出发",
-        "17:23 奈良日落",
-        "京都第 3 晚"
-      ],
-      "route": [
-        "京都",
-        "平等院",
-        "宇治川",
-        "宇治神社",
-        "宇治上神社",
-        "抹茶拉面",
-        "中村藤吉 · 候选",
-        "JR 奈良站",
-        "春日大社",
-        "东大寺",
-        "若草山一重目",
-        "近铁奈良站",
-        "京都"
-      ],
-      "events": [
+  "date": "2026-10-15",
+  "city": "京都",
+  "group": "京都",
+  "title": "宇治抹茶，奈良看鹿与散步",
+  "subtitle": "",
+  "hotel": "kyoto",
+  "tags": [
+    "08:00 酒店出发",
+    "奈良顺路散步",
+    "京都第 3 晚"
+  ],
+  "route": [
+    "京都",
+    "平等院",
+    "宇治川",
+    "宇治神社",
+    "宇治上神社",
+    "抹茶拉面",
+    "中村藤吉 · 候选",
+    "JR 奈良站",
+    "春日大社",
+    "若草山山脚",
+    "东大寺",
+    "奈良公园",
+    "近铁奈良站",
+    "京都"
+  ],
+  "events": [
+    {
+      "time": "08:00–09:10",
+      "title": "京都酒店 → 宇治 · 地铁 + JR 奈良线",
+      "type": "交通",
+      "status": "预计",
+      "detail": "约 08:50–09:00 到 JR 宇治站，步行约 10–15 分钟到平等院。",
+      "origin": "Mitsui Garden Hotel Kyoto Sanjo PREMIER 京都市中京区菱屋町45-1",
+      "place": "Byodo-in Uji",
+      "travelMode": "transit",
+      "hidePlaces": true,
+      "routeInsideSteps": true,
+      "steps": [
+        "08:00 出发，步行约 5–8 分钟到乌丸御池站；乘乌丸线往竹田方向到京都站，3 站约 6 分钟。",
+        "京都站转 JR 奈良线，预留约 10–15 分钟；选停靠宇治的みやこ路快速，车程约 20–25 分钟，不用预约。",
+        "约 08:50–09:00 到 JR 宇治站，从南口沿宇治桥通、平等院表参道步行约 10–15 分钟，09:10 左右到平等院。"
+      ]
+    },
+    {
+      "time": "09:10–11:30",
+      "title": "宇治 · 平等院、宇治川与两座神社",
+      "type": "游逛",
+      "status": "预计",
+      "detail": "平等院 → 橘桥 / 朝雾桥 → 宇治神社 → 宇治上神社 → 表参道午餐。",
+      "routeStops": [
         {
-          "time": "08:00–09:10",
-          "title": "京都酒店 → 宇治 · 地铁 + JR 奈良线",
-          "type": "交通",
-          "status": "预计",
-          "detail": "约 08:50–09:00 到 JR 宇治站，步行约 10–15 分钟到平等院。",
-          "origin": "Mitsui Garden Hotel Kyoto Sanjo PREMIER 京都市中京区菱屋町45-1",
+          "time": "09:10–10:10",
+          "title": "平等院",
+          "detail": "庭园、凤凰堂外观与博物馆，预留约 1 小时。",
           "place": "Byodo-in Uji",
-          "travelMode": "transit",
-          "hidePlaces": true,
-          "routeInsideSteps": true,
-          "steps": [
-            "08:00 出发，步行约 5–8 分钟到乌丸御池站；乘乌丸线往竹田方向到京都站，3 站约 6 分钟。",
-            "京都站转 JR 奈良线，预留约 10–15 分钟；选停靠宇治的みやこ路快速，车程约 20–25 分钟，不用预约。",
-            "约 08:50–09:00 到 JR 宇治站，从南口沿宇治桥通、平等院表参道步行约 10–15 分钟，09:10 左右到平等院。"
-          ]
-        },
-        {
-          "time": "09:10–11:30",
-          "title": "宇治 · 平等院、宇治川与两座神社",
-          "type": "游逛",
-          "status": "预计",
-          "detail": "平等院 → 橘桥 / 朝雾桥 → 宇治神社 → 宇治上神社 → 表参道午餐。",
-          "routeStops": [
-            {
-              "time": "09:10–10:10",
-              "title": "平等院",
-              "detail": "庭园、凤凰堂外观与博物馆，预留约 1 小时。",
-              "place": "Byodo-in Uji",
-              "visitInfo": {
-                "paragraphs": [
-                  "庭园 08:45–17:30（17:15 停止入场）；博物馆 09:00–17:00（16:45 停止入场）。",
-                  "成人 ¥700，含庭园与博物馆，现场购票。本次不排凤凰堂内部参观。"
-                ],
-                "links": [
-                  {
-                    "url": "https://www.byodoin.or.jp/guide/",
-                    "title": "官方开放时间与门票"
-                  }
-                ]
-              }
-            },
-            {
-              "time": "10:10–10:30",
-              "title": "宇治川 · 橘桥与朝雾桥",
-              "detail": "从平等院步行过橘桥与朝雾桥，河边拍照后去宇治神社。",
-              "place": "Asagiri Bridge Uji"
-            },
-            {
-              "time": "10:30–10:50",
-              "title": "宇治神社",
-              "detail": "朝雾桥旁，参拜与看兔子御守约 20 分钟；境内免费、自由参拜。",
-              "place": "Uji Shrine Kyoto",
-              "visitInfo": {
-                "paragraphs": [
-                  "境内自由参拜；御守与御朱印至 16:30，无需预约。"
-                ],
-                "links": [
-                  {
-                    "url": "https://www.uji-jinja.com/access/index.html",
-                    "title": "官方开放时间与门票"
-                  }
-                ]
-              }
-            },
-            {
-              "time": "10:55–11:10",
-              "title": "宇治上神社",
-              "detail": "从宇治神社步行约 5 分钟；参拜约 15 分钟。",
-              "place": "Ujigami Shrine Kyoto",
-              "visitInfo": {
-                "paragraphs": [
-                  "免费。开门 05:00–16:00；授与所 09:00–15:50。"
-                ],
-                "links": [
-                  {
-                    "url": "https://www.ujikamijinja.jp/cont4/main.html",
-                    "title": "官方开放时间与门票"
-                  }
-                ]
-              }
-            },
-            {
-              "time": "11:10–11:30",
-              "title": "回平等院表参道 · 午餐",
-              "detail": "从宇治上神社步行约 15–20 分钟，过朝雾桥回西岸，去田中九商店平等院店。",
-              "place": "田中九商店 平等院店 宇治蓮華9-1"
-            }
-          ],
-          "guides": [
-            {
-              "title": "宇治 · 步行路线图",
-              "path": "assets/guides/uji-nara/uji-route.svg",
-              "alt": "宇治站、平等院、宇治川、宇治神社、宇治上神社、抹茶拉面与中村藤吉候选的步行顺序"
-            },
-            {
-              "title": "宇治 / 奈良攻略截图 ①",
-              "path": "assets/guides/uji-nara/guide-1.png",
-              "alt": "用户提供的宇治与奈良一日游攻略"
-            },
-            {
-              "title": "宇治 / 奈良攻略截图 ②",
-              "path": "assets/guides/uji-nara/guide-2.png",
-              "alt": "宇治步行路线与奈良景点攻略"
-            }
-          ],
-          "visitInfo": {
-            "summary": "打开宇治步行导航",
-            "paragraphs": [],
-            "links": [
-              {
-                "title": "JR 宇治站 → 平等院 · 步行",
-                "url": "https://www.google.com/maps/dir/?api=1&origin=JR+Uji+Station+Kyoto&destination=Byodo-in+Uji&travelmode=walking"
-              },
-              {
-                "title": "平等院 → 宇治川 → 两座神社",
-                "url": "https://www.google.com/maps/dir/?api=1&origin=Byodo-in+Uji&destination=Ujigami+Shrine+Kyoto&travelmode=walking&waypoints=Asagiri+Bridge+Uji%7CUji+Shrine+Kyoto"
-              },
-              {
-                "title": "宇治上神社 → 表参道午餐",
-                "url": "https://www.google.com/maps/dir/?api=1&origin=Ujigami+Shrine+Kyoto&destination=%E7%94%B0%E4%B8%AD%E4%B9%9D%E5%95%86%E5%BA%97+%E5%B9%B3%E7%AD%89%E9%99%A2%E5%BA%97+%E5%AE%87%E6%B2%BB%E8%93%AE%E8%8F%AF9-1&travelmode=walking&waypoints=Asagiri+Bridge+Uji"
-              }
-            ]
-          }
-        },
-        {
-          "time": "11:30–12:15",
-          "title": "宇治午餐 · 抹茶拉面（候选）",
-          "type": "餐饮",
-          "status": "待定",
-          "detail": "田中九商店 平等院店，现场候位；用餐和排队共留 45 分钟。",
-          "place": "田中九商店 平等院店 宇治蓮華9-1",
           "visitInfo": {
             "paragraphs": [
-              "10:30–17:30，周三休息；10/15 周四可安排。不接受预约。",
-              "抹茶面有盐味 / 酱油汤底，也有抹茶饺子；现场候位，长队就改附近简餐。"
+              "庭园 08:45–17:30（17:15 停止入场）；博物馆 09:00–17:00（16:45 停止入场）。",
+              "成人 ¥700，含庭园与博物馆，现场购票。本次不排凤凰堂内部参观。"
             ],
             "links": [
               {
-                "url": "https://tabelog.com/kyoto/A2607/A260701/26027071/",
-                "title": "店铺营业与预约资料"
+                "url": "https://www.byodoin.or.jp/guide/",
+                "title": "官方开放时间与门票"
               }
-            ],
-            "summary": "营业时间与用餐详情"
+            ]
           }
         },
         {
-          "time": "12:15–12:50",
-          "title": "中村藤吉本店 · 抹茶甜点与伴手礼（候选）",
-          "type": "餐饮",
-          "status": "待定",
-          "detail": "午餐后步行约 10–15 分钟，回 JR 宇治站前顺路去；排队长就买外带。",
-          "place": "中村藤吉本店 宇治壱番10",
-          "hidePlaces": true,
+          "time": "10:10–10:30",
+          "title": "宇治川 · 橘桥与朝雾桥",
+          "detail": "从平等院步行过橘桥与朝雾桥，河边拍照后去宇治神社。",
+          "place": "Asagiri Bridge Uji"
+        },
+        {
+          "time": "10:30–10:50",
+          "title": "宇治神社",
+          "detail": "朝雾桥旁，参拜与看兔子御守约 20 分钟；境内免费、自由参拜。",
+          "place": "Uji Shrine Kyoto",
           "visitInfo": {
-            "summary": "营业、候位与路线",
             "paragraphs": [
-              "本店咖啡厅 10:00–17:30（LO 16:30，受付至 16:00），不接受座位预约；会排队。",
-              "不提前排开门队。堂食仅在候位短、时间够时安排；可选外带甜点或茶叶，12:50 前往车站。"
+              "境内自由参拜；御守与御朱印至 16:30，无需预约。"
             ],
             "links": [
               {
-                "title": "中村藤吉本店 · 官网",
-                "url": "https://tokichi.jp/pages/honten-store-page"
-              },
-              {
-                "title": "午餐 → 中村藤吉 → JR 宇治站",
-                "url": "https://www.google.com/maps/dir/?api=1&origin=%E7%94%B0%E4%B8%AD%E4%B9%9D%E5%95%86%E5%BA%97+%E5%B9%B3%E7%AD%89%E9%99%A2%E5%BA%97+%E5%AE%87%E6%B2%BB%E8%93%AE%E8%8F%AF9-1&destination=JR+Uji+Station+Kyoto&travelmode=walking&waypoints=%E4%B8%AD%E6%9D%91%E8%97%A4%E5%90%89%E6%9C%AC%E5%BA%97+%E5%AE%87%E6%B2%BB%E5%A3%B1%E7%95%AA10"
+                "url": "https://www.uji-jinja.com/access/index.html",
+                "title": "官方开放时间与门票"
               }
             ]
           }
         },
         {
-          "time": "12:50–约 13:45",
-          "title": "宇治 → JR 奈良站 · JR 奈良线",
-          "type": "交通",
-          "status": "预计",
-          "detail": "步行去宇治站，JR 快速直达奈良，车程约 30–40 分钟。",
-          "origin": "JR Uji Station Kyoto",
-          "place": "JR Nara Station",
-          "travelMode": "transit",
-          "hidePlaces": true,
-          "routeInsideSteps": true,
-          "steps": [
-            "12:50 左右到 JR 宇治站候车；目标约 13:00–13:10 乘奈良方向みやこ路快速，车程约 30–40 分钟。从中村藤吉本店到车站步行约 2–3 分钟。"
-          ]
-        },
-        {
-          "time": "约 13:45–16:40",
-          "title": "奈良 · 春日大社、小鹿与东大寺",
-          "type": "游逛",
-          "status": "预计",
-          "detail": "JR 奈良站步行出发 → 春日大社 → 奈良公园 → 东大寺 → 若草山南入口。",
-          "routeStops": [
-            {
-              "time": "13:45–14:40",
-              "title": "JR 奈良站 → 春日大社 · 步行",
-              "detail": "约 13:35–13:50 到 JR 奈良站，走东口；沿三条通 → 兴福寺外侧 → 奈良公园 → 春日大社参道步行。公园边缘约 20 分钟，本殿前约 50–60 分钟。",
-              "place": "Kasuga Taisha Nara",
-              "visitInfo": {
-                "summary": "步行导航与公交备选",
-                "paragraphs": [
-                  "目标 14:30–14:45 到春日大社。公交不必坐；若 JR 列车晚到或走累了，可改坐往春日大社本殿的公交，保留登山时间。"
-                ],
-                "links": [
-                  {
-                    "title": "JR 奈良站 → 春日大社 · 步行",
-                    "url": "https://www.google.com/maps/dir/?api=1&origin=JR+Nara+Station&destination=Kasuga+Taisha+Nara&travelmode=walking&waypoints=Kofukuji+Nara"
-                  }
-                ]
-              }
-            },
-            {
-              "time": "14:40–15:15",
-              "title": "春日大社",
-              "detail": "先逛石灯笼参道与本殿，约 35 分钟；特别参拜看排队情况决定。",
-              "place": "Kasuga Taisha Nara",
-              "visitInfo": {
-                "paragraphs": [
-                  "10 月境内一般参拜 06:30–17:30，免费；特别参拜 09:00–16:00，¥700／人，现场购票。"
-                ],
-                "links": [
-                  {
-                    "url": "https://www.kasugataisha.or.jp/about/basic/",
-                    "title": "官方开放时间与门票"
-                  },
-                  {
-                    "title": "春日大社 · 参拜费用",
-                    "url": "https://www.kasugataisha.or.jp/news/2024/14235/"
-                  }
-                ]
-              }
-            },
-            {
-              "time": "15:15–15:45",
-              "title": "奈良公园",
-              "detail": "往东大寺步行约 20–25 分钟，途中看鹿、拍照；预留约 30 分钟。",
-              "place": "Nara Park"
-            },
-            {
-              "time": "15:45–16:20",
-              "title": "东大寺 · 大佛殿",
-              "detail": "南大门、大佛殿，参观约 35 分钟。",
-              "place": "Todai-ji Great Buddha Hall Nara",
-              "visitInfo": {
-                "paragraphs": [
-                  "10 月大佛殿 07:30–17:30；成人 ¥800，现场现金购票，无需预约。"
-                ],
-                "links": [
-                  {
-                    "url": "https://www.todaiji.or.jp/information/haikan/",
-                    "title": "官方开放时间与门票"
-                  }
-                ]
-              }
-            },
-            {
-              "time": "16:20–16:40",
-              "title": "步行至若草山南入口",
-              "detail": "从大佛殿步行约 15–20 分钟到山脚南入口；16:40 买票入山。",
-              "place": "34.6843245,135.8470358"
-            },
-            {
-              "time": "时间充裕才去",
-              "title": "二月堂",
-              "detail": "东大寺的木廊佛堂，可俯瞰奈良。绕行与参拜加约 25–30 分钟；至少提前半小时结束前面行程才加，16:40 仍需到南入口。",
-              "place": "Todaiji Nigatsudo Nara",
-              "visitInfo": {
-                "paragraphs": [
-                  "参拜免费，24 小时可参拜；平台不使用三脚架。"
-                ],
-                "links": [
-                  {
-                    "url": "https://www.todaiji.or.jp/information/nigatsudo/",
-                    "title": "官方开放时间与门票"
-                  }
-                ]
-              }
-            }
-          ],
-          "guides": [
-            {
-              "title": "奈良 · 步行路线图",
-              "path": "assets/guides/uji-nara/nara-route.svg",
-              "alt": "从 JR 奈良步行至春日大社、东大寺和若草山，再到近铁奈良站回京都的路线"
-            }
-          ],
+          "time": "10:55–11:10",
+          "title": "宇治上神社",
+          "detail": "从宇治神社步行约 5 分钟；参拜约 15 分钟。",
+          "place": "Ujigami Shrine Kyoto",
           "visitInfo": {
-            "summary": "奈良步行导航",
-            "paragraphs": [],
-            "links": [
-              {
-                "title": "春日大社 → 东大寺 → 若草山南入口",
-                "url": "https://www.google.com/maps/dir/?api=1&origin=Kasuga+Taisha+Nara&destination=34.6843245%2C135.8470358&travelmode=walking&waypoints=Todai-ji+Great+Buddha+Hall+Nara"
-              }
-            ]
-          }
-        },
-        {
-          "time": "16:40–17:55",
-          "title": "若草山 · 一重目看日落",
-          "type": "景点",
-          "status": "预计",
-          "detail": "一重目看日落，约 17:23；17:30 开始下山。",
-          "hidePlaces": true,
-          "routeStops": [
-            {
-              "time": "16:40–17:05",
-              "title": "山脚南入口 → 一重目",
-              "detail": "南入口现场买票，¥150 / 人；沿南侧步道上行约 500 米，预留 20–30 分钟。",
-              "place": "34.6843245,135.8470358"
-            },
-            {
-              "time": "17:05–17:30",
-              "title": "日落定位 · 若草山一重目",
-              "detail": "定位 34.6873838, 135.8485886；在一重目西向开阔处看奈良市区与日落，不继续登三重目。",
-              "place": "34.6873838,135.8485886",
-              "mapUrl": "https://www.google.com/maps/search/?api=1&query=34.6873838,135.8485886&query_place_id=ChIJI4oSYwA5AWARXQvHwYEUlWA"
-            },
-            {
-              "time": "17:30–17:55",
-              "title": "下山 → 出口专用门",
-              "detail": "下行约 20–30 分钟，按官方图走南北入口之间的出口专用门；17:00 后仍可从这里离山。"
-            }
-          ],
-          "routeSummary": "展开入口、日落定位与上下山时间",
-          "visitInfo": {
-            "summary": "门票、入口时间与地图",
             "paragraphs": [
-              "南入口 09:00–17:00；北入口 09:00–16:30。本次走南入口，16:40 到达；山脚南入口地图定位为 34.6843245, 135.8470358。",
-              "日落约 17:23，17:30 下山；带手机照明。雨天不登山。山顶、山顶停车场和山顶入山料金所是三重目方向，这次不要导航到那里。"
+              "免费。开门 05:00–16:00；授与所 09:00–15:50。"
             ],
             "links": [
               {
-                "title": "山脚南入口 · 精确定位",
-                "url": "https://www.google.com/maps/search/?api=1&query=34.6843245,135.8470358"
-              },
-              {
-                "title": "一重目 · 日落观景定位",
-                "url": "https://www.google.com/maps/search/?api=1&query=34.6873838,135.8485886&query_place_id=ChIJI4oSYwA5AWARXQvHwYEUlWA"
-              },
-              {
-                "title": "若草山官方步道与出口地图",
-                "url": "https://www.pref.nara.lg.jp/documents/2378/20251023155602.pdf"
-              },
-              {
-                "title": "若草山 · 官方参观信息",
-                "url": "https://www.pref.nara.lg.jp/site/park/2585.html"
-              },
-              {
-                "title": "10 月奈良日落时间",
-                "url": "https://eco2.mtk.nao.ac.jp/koyomi/dni/2026/s3010.html"
-              }
-            ]
-          },
-          "guides": [
-            {
-              "title": "若草山 · 官方步道图（入口 / 一重目 / 出口）",
-              "path": "assets/guides/uji-nara/wakakusa-official-map.png",
-              "alt": "若草山保胜会官方地图，标明南北入口、一重目、三重目与17点后出口专用门"
-            }
-          ]
-        },
-        {
-          "time": "17:55–18:40",
-          "title": "若草山山脚 → 近铁奈良站 · 步行",
-          "type": "交通",
-          "status": "预计",
-          "detail": "山脚到车站约 35–45 分钟；从一重目算起，下山加走到车站共约 55–75 分钟。",
-          "origin": "34.6843245,135.8470358",
-          "place": "Kintetsu Nara Station",
-          "travelMode": "walking",
-          "hidePlaces": true,
-          "routeInsideSteps": true,
-          "steps": [
-            "17:55 左右离山，经奈良公园 → 登大路 → 近铁奈良站 / 东向商店街，预计 18:35–18:40 到。",
-            "累了可从山脚步行约 10–15 分钟到「東大寺大仏殿・春日大社前」，乘近铁奈良站方向公交；候车时间另加。"
-          ]
-        },
-        {
-          "time": "18:40–19:30",
-          "title": "晚餐 · 随当天心情选",
-          "type": "餐饮",
-          "status": "待定",
-          "detail": "近铁奈良站 / 东向商店街附近找饭，不预约；也可直接回京都再吃。",
-          "place": "Higashimuki Shopping Street Nara"
-        },
-        {
-          "time": "19:30–约 20:50",
-          "title": "奈良 → 京都酒店",
-          "type": "交通",
-          "status": "预计",
-          "detail": "候选 19:46 近铁急行，20:43 直达乌丸御池；步行回酒店。",
-          "origin": "Kintetsu Nara Station",
-          "place": "Mitsui Garden Hotel Kyoto Sanjo PREMIER 京都市中京区菱屋町45-1",
-          "travelMode": "transit",
-          "hidePlaces": true,
-          "routeInsideSteps": true,
-          "steps": [
-            "19:30 左右离开晚餐店，走到「近鉄奈良駅」，19:35–19:40 前进站；不是 JR 奈良站。",
-            "候选 19:46「急行 国際会館行き」→ 20:43「烏丸御池」，57 分钟直达。经过大和西大寺、竹田都不用下车；列车继续进入京都地铁乌丸线。可刷 Suica，无需特急券。",
-            "乌丸御池下车，北改札口出站后步行约 5–8 分钟，约 20:50 到酒店。若错过直通急行，选京都方向列车；到近铁京都站后再转乌丸线。"
-          ],
-          "visitInfo": {
-            "summary": "回程班次与打车备选",
-            "paragraphs": [
-              "“约一小时”指近铁奈良 → 乌丸御池的列车时间。从一重目开始下山到酒店，不吃晚饭也要约 2–2.5 小时，包含下山、步行到站、候车和列车。",
-              "可安排奈良 → 京都的跨城出租车。奈良近铁出租车有京都站直送服务，官网预留 1.5–2 小时；送京都三条酒店需另询价，不保证比铁路快。",
-              "若打车，请酒店或出租车公司提前安排，从山脚可停车的道路接；一重目草坡不能上车。临时叫车要确认司机接单、目的地和费用。"
-            ],
-            "links": [
-              {
-                "title": "近铁官方 · 19:46 直通急行",
-                "url": "https://eki.kintetsu.co.jp/norikae/T7?dw=0&sf=5212&time=1940&tx=1-306"
-              },
-              {
-                "title": "奈良近铁出租车 · 京都直送",
-                "url": "https://www.narakintaxi.co.jp/sightseeing/fixed_course.html"
+                "url": "https://www.ujikamijinja.jp/cont4/main.html",
+                "title": "官方开放时间与门票"
               }
             ]
           }
+        },
+        {
+          "time": "11:10–11:30",
+          "title": "回平等院表参道 · 午餐",
+          "detail": "从宇治上神社步行约 15–20 分钟，过朝雾桥回西岸，去田中九商店平等院店。",
+          "place": "田中九商店 平等院店 宇治蓮華9-1"
         }
       ],
-      "meals": {
-        "breakfast": "酒店 / 附近简餐",
-        "lunch": "11:30 宇治抹茶拉面；饭后抹茶甜点待定",
-        "dinner": "奈良现场选店 / 回京都吃 · 不预约"
-      },
-      "todo": []
+      "guides": [
+        {
+          "title": "宇治 · 步行路线图",
+          "path": "assets/guides/uji-nara/uji-route.svg",
+          "alt": "宇治站、平等院、宇治川、宇治神社、宇治上神社、抹茶拉面与中村藤吉候选的步行顺序"
+        },
+        {
+          "title": "宇治 / 奈良攻略截图 ①",
+          "path": "assets/guides/uji-nara/guide-1.png",
+          "alt": "用户提供的宇治与奈良一日游攻略"
+        },
+        {
+          "title": "宇治 / 奈良攻略截图 ②",
+          "path": "assets/guides/uji-nara/guide-2.png",
+          "alt": "宇治步行路线与奈良景点攻略"
+        }
+      ],
+      "visitInfo": {
+        "summary": "打开宇治步行导航",
+        "paragraphs": [],
+        "links": [
+          {
+            "title": "JR 宇治站 → 平等院 · 步行",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=JR+Uji+Station+Kyoto&destination=Byodo-in+Uji&travelmode=walking"
+          },
+          {
+            "title": "平等院 → 宇治川 → 两座神社",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Byodo-in+Uji&destination=Ujigami+Shrine+Kyoto&travelmode=walking&waypoints=Asagiri+Bridge+Uji%7CUji+Shrine+Kyoto"
+          },
+          {
+            "title": "宇治上神社 → 表参道午餐",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Ujigami+Shrine+Kyoto&destination=%E7%94%B0%E4%B8%AD%E4%B9%9D%E5%95%86%E5%BA%97+%E5%B9%B3%E7%AD%89%E9%99%A2%E5%BA%97+%E5%AE%87%E6%B2%BB%E8%93%AE%E8%8F%AF9-1&travelmode=walking&waypoints=Asagiri+Bridge+Uji"
+          }
+        ]
+      }
     },
+    {
+      "time": "11:30–12:15",
+      "title": "宇治午餐 · 抹茶拉面（候选）",
+      "type": "餐饮",
+      "status": "待定",
+      "detail": "田中九商店 平等院店，现场候位；用餐和排队共留 45 分钟。",
+      "place": "田中九商店 平等院店 宇治蓮華9-1",
+      "visitInfo": {
+        "paragraphs": [
+          "10:30–17:30，周三休息；10/15 周四可安排。不接受预约。",
+          "抹茶面有盐味 / 酱油汤底，也有抹茶饺子；现场候位，长队就改附近简餐。"
+        ],
+        "links": [
+          {
+            "url": "https://tabelog.com/kyoto/A2607/A260701/26027071/",
+            "title": "店铺营业与预约资料"
+          }
+        ],
+        "summary": "营业时间与用餐详情"
+      }
+    },
+    {
+      "time": "12:15–12:50",
+      "title": "中村藤吉本店 · 抹茶甜点与伴手礼（候选）",
+      "type": "餐饮",
+      "status": "待定",
+      "detail": "午餐后步行约 10–15 分钟，回 JR 宇治站前顺路去；排队长就买外带。",
+      "place": "中村藤吉本店 宇治壱番10",
+      "hidePlaces": true,
+      "visitInfo": {
+        "summary": "营业、候位与路线",
+        "paragraphs": [
+          "本店咖啡厅 10:00–17:30（LO 16:30，受付至 16:00），不接受座位预约；会排队。",
+          "不提前排开门队。堂食仅在候位短、时间够时安排；可选外带甜点或茶叶，12:50 前往车站。"
+        ],
+        "links": [
+          {
+            "title": "中村藤吉本店 · 官网",
+            "url": "https://tokichi.jp/pages/honten-store-page"
+          },
+          {
+            "title": "午餐 → 中村藤吉 → JR 宇治站",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=%E7%94%B0%E4%B8%AD%E4%B9%9D%E5%95%86%E5%BA%97+%E5%B9%B3%E7%AD%89%E9%99%A2%E5%BA%97+%E5%AE%87%E6%B2%BB%E8%93%AE%E8%8F%AF9-1&destination=JR+Uji+Station+Kyoto&travelmode=walking&waypoints=%E4%B8%AD%E6%9D%91%E8%97%A4%E5%90%89%E6%9C%AC%E5%BA%97+%E5%AE%87%E6%B2%BB%E5%A3%B1%E7%95%AA10"
+          }
+        ]
+      }
+    },
+    {
+      "time": "12:50–约 13:45",
+      "title": "宇治 → JR 奈良站 · JR 奈良线",
+      "type": "交通",
+      "status": "预计",
+      "detail": "步行去宇治站，JR 快速直达奈良，车程约 30–40 分钟。",
+      "origin": "JR Uji Station Kyoto",
+      "place": "JR Nara Station",
+      "travelMode": "transit",
+      "hidePlaces": true,
+      "routeInsideSteps": true,
+      "steps": [
+        "12:50 左右到 JR 宇治站候车；目标约 13:00–13:10 乘奈良方向みやこ路快速，车程约 30–40 分钟。从中村藤吉本店到车站步行约 2–3 分钟。"
+      ]
+    },
+    {
+      "time": "约 13:45–17:30",
+      "title": "奈良 · 春日大社 → 若草山 → 东大寺 → 奈良公园",
+      "type": "游逛",
+      "status": "预计",
+      "detail": "按图走山脚路线，顺路看鹿与拍照；若草山不登山、不等日落。",
+      "routeStops": [
+        {
+          "time": "13:45–14:40",
+          "title": "JR 奈良站 → 春日大社 · 步行",
+          "detail": "约 13:35–13:50 到 JR 奈良站，走东口；沿三条通 → 兴福寺外侧 → 奈良公园 → 春日大社参道步行。公园边缘约 20 分钟，本殿前约 50–60 分钟。",
+          "place": "Kasuga Taisha Nara",
+          "visitInfo": {
+            "summary": "步行导航与公交备选",
+            "paragraphs": [
+              "从 JR 奈良站东口步行去春日大社，约 50–60 分钟；累了可改乘往春日大社本殿的公交。"
+            ],
+            "links": [
+              {
+                "title": "JR 奈良站 → 春日大社 · 步行",
+                "url": "https://www.google.com/maps/dir/?api=1&origin=JR+Nara+Station&destination=Kasuga+Taisha+Nara&travelmode=walking&waypoints=Kofukuji+Nara"
+              }
+            ]
+          }
+        },
+        {
+          "time": "14:40–15:15",
+          "title": "春日大社",
+          "detail": "先逛石灯笼参道与本殿，约 35 分钟；特别参拜看排队情况决定。",
+          "place": "Kasuga Taisha Nara",
+          "visitInfo": {
+            "paragraphs": [
+              "10 月境内一般参拜 06:30–17:30，免费；特别参拜 09:00–16:00，¥700／人，现场购票。"
+            ],
+            "links": [
+              {
+                "url": "https://www.kasugataisha.or.jp/about/basic/",
+                "title": "官方开放时间与门票"
+              },
+              {
+                "title": "春日大社 · 参拜费用",
+                "url": "https://www.kasugataisha.or.jp/news/2024/14235/"
+              }
+            ]
+          }
+        },
+        {
+          "time": "15:15–15:30",
+          "title": "春日大社 → 若草山山脚",
+          "detail": "沿水谷茶屋一带向北走，步行约 10–15 分钟到若草山休憩所。",
+          "place": "若草山休憩所 奈良公園"
+        },
+        {
+          "time": "15:30–15:50",
+          "title": "若草山山脚 · 休憩所",
+          "detail": "在山脚休息、看鹿、拍草坡；只走入山闸口外的山麓道路。",
+          "place": "若草山休憩所 奈良公園",
+          "visitInfo": {
+            "summary": "山脚位置与地图",
+            "paragraphs": [
+              "导航到「若草山休憩所」，位于山麓；不导航到若草山山顶或一重目。",
+              "本次不进入收费登山步道，无需买入山票。"
+            ],
+            "links": [
+              {
+                "url": "https://www.pref.nara.lg.jp/site/park/1009.html",
+                "title": "奈良公园官网 · 若草山休憩所"
+              }
+            ]
+          }
+        },
+        {
+          "time": "15:50–16:10",
+          "title": "若草山山脚 → 东大寺",
+          "detail": "向西沿山脚道路去东大寺，步行约 15–20 分钟。",
+          "place": "Todai-ji Great Buddha Hall Nara"
+        },
+        {
+          "time": "16:10–17:00",
+          "title": "东大寺 · 大佛殿",
+          "detail": "大佛殿与南大门，参观约 50 分钟；从东大寺往南出，接奈良公园。",
+          "place": "Todai-ji Great Buddha Hall Nara",
+          "visitInfo": {
+            "paragraphs": [
+              "10 月大佛殿 07:30–17:30；成人 ¥800，现场现金购票，无需预约。"
+            ],
+            "links": [
+              {
+                "url": "https://www.todaiji.or.jp/information/haikan/",
+                "title": "官方开放时间与门票"
+              }
+            ]
+          }
+        },
+        {
+          "time": "17:00–17:30",
+          "title": "奈良公园 · 看鹿与散步",
+          "detail": "从东大寺南大门出来，去浮云园地一带看鹿、拍照，再沿登大路方向往近铁奈良站走。",
+          "place": "浮雲園地 奈良公園"
+        }
+      ],
+      "guides": [
+        {
+          "title": "奈良 · 顺路散步攻略图",
+          "path": "assets/guides/uji-nara/nara-loop-user.jpg",
+          "alt": "用户提供的春日大社、若草山休憩所、东大寺、奈良公园至近铁奈良站路线图"
+        },
+        {
+          "title": "奈良 · 步行时间示意图",
+          "path": "assets/guides/uji-nara/nara-route.svg",
+          "alt": "JR 奈良站出发，春日大社、若草山山脚、东大寺、奈良公园、近铁奈良站的顺序与估算时间"
+        }
+      ],
+      "visitInfo": {
+        "summary": "奈良步行导航",
+        "paragraphs": [],
+        "links": [
+          {
+            "title": "春日大社 → 若草山休憩所 → 东大寺",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Kasuga+Taisha+Nara&destination=Todai-ji+Great+Buddha+Hall+Nara&travelmode=walking&waypoints=%E8%8B%A5%E8%8D%89%E5%B1%B1%E4%BC%91%E6%86%A9%E6%89%80%20%E5%A5%88%E8%89%AF%E5%85%AC%E5%9C%92"
+          },
+          {
+            "title": "东大寺 → 奈良公园 → 近铁奈良站",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Todai-ji+Great+Buddha+Hall+Nara&destination=Kintetsu+Nara+Station&travelmode=walking&waypoints=%E6%B5%AE%E9%9B%B2%E5%9C%92%E5%9C%B0%20%E5%A5%88%E8%89%AF%E5%85%AC%E5%9C%92"
+          }
+        ]
+      }
+    },
+    {
+      "time": "17:30–17:50",
+      "title": "奈良公园 → 近铁奈良站 · 步行",
+      "type": "交通",
+      "status": "预计",
+      "detail": "沿登大路往西，步行约 15–20 分钟到近铁奈良站。",
+      "origin": "浮雲園地 奈良公園",
+      "place": "Kintetsu Nara Station",
+      "travelMode": "walking",
+      "hidePlaces": true,
+      "routeInsideSteps": true,
+      "steps": [
+        "奈良公园拍照结束后沿登大路往西，走向近铁奈良站 / 东向商店街。",
+        "返程从近铁奈良站乘车，不回 JR 奈良站。"
+      ]
+    },
+    {
+      "time": "17:50–18:40",
+      "title": "晚餐 · 随当天心情选",
+      "type": "餐饮",
+      "status": "待定",
+      "detail": "近铁奈良站 / 东向商店街附近找饭，不预约；也可直接回京都再吃。",
+      "place": "Higashimuki Shopping Street Nara"
+    },
+    {
+      "time": "18:40–约 20:00",
+      "title": "奈良 → 京都酒店",
+      "type": "交通",
+      "status": "预计",
+      "detail": "近铁回京都，优先选直通乌丸御池的急行；含候车、列车及步行约 70–90 分钟。",
+      "origin": "Kintetsu Nara Station",
+      "place": "Mitsui Garden Hotel Kyoto Sanjo PREMIER 京都市中京区菱屋町45-1",
+      "travelMode": "transit",
+      "hidePlaces": true,
+      "routeInsideSteps": true,
+      "steps": [
+        "晚餐后到「近鉄奈良駅」进站；若不在奈良吃饭，可约 17:50 起提前返程。",
+        "优先选择「急行 国際会館行き」，经大和西大寺、竹田直通乌丸御池，全程约 1 小时；途中无需下车，可刷 Suica，无需特急券。",
+        "若当时没有直通急行，选择京都方向列车；需要时在大和西大寺换车，到近铁京都站后换地铁乌丸线往国际会馆方向，3 站到乌丸御池。",
+        "乌丸御池北改札口出站后步行约 5–8 分钟回酒店。"
+      ],
+      "visitInfo": {
+        "summary": "返程路线与打车备选",
+        "paragraphs": [
+          "返程时间为规划估算，按当时站内电子屏选择班次。",
+          "奈良 → 京都可提前安排跨城出租车；送京都三条酒店需向公司询价。"
+        ],
+        "links": [
+          {
+            "title": "近铁奈良 → 京都酒店 · 公共交通导航",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Kintetsu+Nara+Station&destination=Mitsui%20Garden%20Hotel%20Kyoto%20Sanjo%20PREMIER%20%E4%BA%AC%E9%83%BD%E5%B8%82%E4%B8%AD%E4%BA%AC%E5%8C%BA%E8%8F%B1%E5%B1%8B%E7%94%BA45-1&travelmode=transit"
+          },
+          {
+            "title": "奈良近铁出租车 · 京都直送",
+            "url": "https://www.narakintaxi.co.jp/sightseeing/fixed_course.html"
+          }
+        ]
+      }
+    }
+  ],
+  "meals": {
+    "breakfast": "酒店 / 附近简餐",
+    "lunch": "11:30 宇治抹茶拉面；饭后抹茶甜点待定",
+    "dinner": "奈良现场选店 / 回京都吃 · 不预约"
+  },
+  "todo": []
+},
     {
   "date": "2026-10-16",
   "city": "大阪",
